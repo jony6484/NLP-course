@@ -1,0 +1,3 @@
+This is a happy text	positive
+This is a sad text	negative
+This too is a happy text	positive
