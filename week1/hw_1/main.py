@@ -1,10 +1,27 @@
 import dataloading
 # from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
+from os import path
+
+
+def write_pred(file, pred):
+    pred_i = 0
+    org_path = path.join('.', 'data', f'{file}.txt')
+    pred_path = path.join('.', 'data', 'competitive.txt')
+    with open(org_path, 'r') as org_file:
+        with open(pred_path, 'w') as pred_file:
+            for i, line in enumerate(org_file.readlines()):
+                if line != '\n':
+                    pred_file.write(line.strip() + ' ' + str(pred[pred_i]) + '\n')
+                    pred_i += 1
+                else:
+                    pred_file.write(line)
+
 
 def main():
     sentences_train = dataloading.load_raw_dataset('train')
     sentences_eval = dataloading.load_raw_dataset('eval')
+    sentences_test = dataloading.load_raw_dataset('test', test=True)
 
     feature_maps = [lambda sentence: [word[0].isupper() for word in sentence[0]],
                     lambda sentence: [True if ii == 0 else False for ii in range(len(sentence[0]))],
@@ -16,12 +33,17 @@ def main():
                     ]
     X_train, y_train = dataloading.convert_raw_to_features(sentences_train, feature_maps)
     X_eval, y_eval = dataloading.convert_raw_to_features(sentences_eval, feature_maps)
+    X_test = dataloading.convert_raw_to_features(sentences_test, feature_maps, test=True)
 
     model = RandomForestClassifier()
     model.fit(X_train, y_train)
     score = model.score(X_eval, y_eval)
+    pred = model.predict(X_test)
     print(score)
     print(model.feature_importances_)
+
+    write_pred('test', pred)
+
     return
 
 

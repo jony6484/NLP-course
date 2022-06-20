@@ -3,7 +3,8 @@ from scipy.sparse import csr_matrix
 from os import path
 import numpy as np
 
-def load_raw_dataset(split):
+
+def load_raw_dataset(split, test=False):
     file_path = path.join('.','data',f'{split}.txt')
     with open(file_path, 'r') as file:
         raw_lines = [line.rstrip().split() for line in file.readlines()]
@@ -13,28 +14,37 @@ def load_raw_dataset(split):
         if len(line) > 0:
             words.append(line[0])
             pos.append(line[1])
-            labels.append(int(line[2] == 'I'))
+            if not test:
+                #labels.append(int(line[2] == 'I'))
+                labels.append(line[-1])
         else:
             last_pos = pos[:-1]
             last_pos.insert(0, 'XX')
             next_pos = pos[1:]
             next_pos.append('XX')
-            sentences.append([words, pos, last_pos, next_pos, labels])
+            if not test:
+                sentences.append([words, pos, last_pos, next_pos, labels])
+            else:
+                sentences.append([words, pos, last_pos, next_pos])
             words, pos, labels = [], [], []
     return sentences
 
 
-def convert_raw_to_features(sentences, feature_maps):
+def convert_raw_to_features(sentences, feature_maps, test=False):
     y = []
     X = []
     m = len(feature_maps)
     for sentence in sentences:
         X_i = [feature(sentence) for feature in feature_maps]
         X += list(zip(*X_i))
-        y += sentence[-1]
+        if not test:
+            y += sentence[-1]
     X = np.array(X).astype(float)
-    y = np.array(y)
-    return X, y
+    if not test:
+        y = np.array(y)
+        return X, y
+    else:
+        return X
 
 
 def get_dataset():
