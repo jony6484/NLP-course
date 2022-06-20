@@ -12,7 +12,10 @@ def main():
                     lambda sentence: [True if pos in ('NN', 'CD', 'IN', 'DT') else False for pos in sentence[1]],
                     lambda sentence: [True if last_pos == 'NNP' else False for last_pos in sentence[2]],
                     lambda sentence: [True if next_pos == 'NNP' else False for next_pos in sentence[3]],
-                    lambda sentence: [len(word) > 3 for word in sentence[0]]
+                    lambda sentence: [len(word) for word in sentence[0]],
+                    lambda sentence: [len(sentence[0]) for word in sentence[0]],
+                    lambda sentence: [word[0].lower() in 't,f.o' for word in sentence[0]],
+                    lambda sentence: [word[0].lower() in 'jkyzv' for word in sentence[0]]
                     ]
     X_train, y_train = dataloading.convert_raw_to_features(sentences_train, feature_maps)
     X_eval, y_eval = dataloading.convert_raw_to_features(sentences_eval, feature_maps)
