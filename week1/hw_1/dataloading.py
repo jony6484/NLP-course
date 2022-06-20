@@ -3,6 +3,7 @@ from scipy.sparse import csr_matrix
 from os import path
 import numpy as np
 
+# fix test- without labels
 def load_raw_dataset(split):
     file_path = path.join('.','data',f'{split}.txt')
     with open(file_path, 'r') as file:
@@ -32,7 +33,7 @@ def convert_raw_to_features(sentences, feature_maps):
         X_i = [feature(sentence) for feature in feature_maps]
         X += list(zip(*X_i))
         y += sentence[-1]
-    X = np.array(X).astype(float)
+    X = np.array(X)#.astype(float)
     y = np.array(y)
     return X, y
 
