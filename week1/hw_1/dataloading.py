@@ -5,6 +5,12 @@ import numpy as np
 
 
 def load_raw_dataset(split, test=False):
+    """
+    The function is getting  file name, reading the file and returns as dataset
+    :param split: name of the file
+    :param test: if the file is a test file
+    :return: raw dataset as list of lists - each sub list represent sentence
+    """
     file_path = path.join('.','data',f'{split}.txt')
     with open(file_path, 'r') as file:
         raw_lines = [line.rstrip().split() for line in file.readlines()]
@@ -15,7 +21,6 @@ def load_raw_dataset(split, test=False):
             words.append(line[0])
             pos.append(line[1])
             if not test:
-                #labels.append(int(line[2] == 'I'))
                 labels.append(line[-1])
         else:
             last_pos = pos[:-1]
@@ -31,6 +36,13 @@ def load_raw_dataset(split, test=False):
 
 
 def convert_raw_to_features(sentences, feature_maps, test=False):
+    """
+    The function is getting the raw dataset and creates features for each sentence.
+    :param sentences: The raw dataset
+    :param feature_maps: list of function for creating the features
+    :param test: if the file is a test file
+    :return: X- Features, y- labels
+    """
     y = []
     X = []
     m = len(feature_maps)

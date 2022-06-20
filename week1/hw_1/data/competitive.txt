@@ -40,11 +40,11 @@ Syria NNP I
 in IN O
 a DT O
 Group NNP I
-C NNP I
+C NNP O
 championship NN O
 match NN O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 But CC O
@@ -73,7 +73,7 @@ newcomers NNS O
 Uzbekistan NNP I
 . . O
 
-China NNP I
+China NNP O
 controlled VBD O
 most JJS O
 of IN O
@@ -206,7 +206,7 @@ against IN O
 Syria NNP I
 . . O
 
-Takuya NNP I
+Takuya NNP O
 Takagi NNP I
 scored VBD O
 the DT O
@@ -220,7 +220,7 @@ rising VBG O
 to TO O
 head VB O
 a DT O
-Hiroshige NNP I
+Hiroshige NNP O
 Yanagimoto NNP I
 cross VB O
 towards IN O
@@ -407,7 +407,7 @@ title NN O
 here RB O
 . . O
 
-Hosts NNPS O
+Hosts NNPS I
 UAE NNP I
 play NN O
 Kuwait NNP I
@@ -421,7 +421,7 @@ on IN O
 Saturday NNP I
 in IN O
 Group NNP I
-A NNP I
+A NNP O
 matches VBZ O
 . . O
 
@@ -440,7 +440,7 @@ game NN O
 . . O
 
 RUGBY NNP I
-UNION NN O
+UNION NN I
 - : O
 CUTTITTA NNP I
 BACK NNP I
@@ -451,7 +451,7 @@ A NNP O
 YEAR NNP I
 . . O
 
-ROME VB O
+ROME VB I
 1996-12-06 CD O
 
 Italy NNP I
@@ -460,7 +460,7 @@ Marcello NNP I
 Cuttitta NNP I
 
 on IN O
-Friday NNP I
+Friday NNP O
 for IN O
 their PRP$ O
 friendly JJ O
@@ -609,7 +609,7 @@ ended VBD O
 the DT O
 World NNP I
 Cup NNP I
-on IN O
+on IN I
 the DT O
 wrong JJ O
 note NN O
@@ -695,7 +695,7 @@ Walter NNP I
 Cristofoletto NNP I
 , , O
 Franco NNP I
-Properzi NNP I
+Properzi NNP O
 Curti NNP I
 , , O
 Carlo NNP I
@@ -722,9 +722,9 @@ Castellani NNP I
 
 SOCCER NN O
 - : O
-LATE JJ I
-GOALS NNS I
-GIVE VBP I
+LATE JJ O
+GOALS NNS O
+GIVE VBP O
 JAPAN NNP I
 WIN NNP I
 OVER IN O
@@ -757,7 +757,7 @@ victory NN O
 over IN O
 Syria NNP I
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 Takuya NNP I
@@ -919,7 +919,7 @@ and CC O
 then RB O
 blocked VBN O
 a DT O
-Takagi NNP I
+Takagi NNP O
 follow-up JJ O
 shot NN O
 . . O
@@ -1047,7 +1047,7 @@ Okano NNP I
 ) ) O
 . . O
 
-Syria NNP I
+Syria NNP O
 : : O
 24 CD O
 - : O
@@ -1124,7 +1124,7 @@ FREESTYLE NNP I
 SKIING-WORLD NNP I
 CUP NNP O
 MOGUL NNP I
-RESULTS NNS I
+RESULTS NNS O
 . . O
 
 TIGNES NNP I
@@ -1198,7 +1198,7 @@ France NNP I
 23.87 CD O
 
 7. NNP O
-Jim NNP O
+Jim NNP I
 Moran NNP I
 ( ( O
 U.S. NNP I
@@ -1206,7 +1206,7 @@ U.S. NNP I
 23.25 CD O
 
 8. NNP O
-Dominick NNP I
+Dominick NNP O
 Gauthier NNP I
 ( ( O
 Canada NNP I
@@ -1229,7 +1229,7 @@ U.S. NNP I
 ) ) O
 22.56 CD O
 
-Women NNS O
+Women NNS I
 
 1. CD O
 Tatjana NNP I
@@ -1264,7 +1264,7 @@ Japan NNP I
 23.75 CD O
 
 5. NNP O
-Ann NNP O
+Ann NNP I
 Battellle NNP I
 ( ( O
 U.S. NNP I
@@ -1280,7 +1280,7 @@ U.S. NNP I
 22.48 CD O
 
 7. NNP O
-Liz NNP O
+Liz NNP I
 McIntyre NNP I
 ( ( O
 U.S. NNP I
@@ -1316,8 +1316,8 @@ SOCCER NN O
 ASIAN NNP I
 CUP NNP O
 GROUP NNP I
-C NNP I
-RESULTS NNS I
+C NNP O
+RESULTS NNS O
 . . O
 
 AL-AIN NNP I
@@ -1336,7 +1336,7 @@ C NNP I
 matches NNS O
 played VBN O
 on IN O
-Friday NNP I
+Friday NNP O
 : : O
 
 Japan NNP I
@@ -1360,14 +1360,14 @@ own JJ O
 goal NN O
 , , O
 Takuya NNP I
-Takagi NNP I
+Takagi NNP O
 88 CD O
 . . O
 
 Syria NNP I
 - : O
 Nader NNP I
-Jokhadar NNP I
+Jokhadar NNP O
 7 CD O
 
 Attendance NN O
@@ -1457,13 +1457,13 @@ China NNP I
 2 CD O
 0 CD O
 
-CRICKET NNP I
+CRICKET NNP O
 - : O
 PAKISTAN NNP I
 V NNP I
-NEW JJ O
+NEW JJ I
 ZEALAND NNP I
-ONE-DAY JJ I
+ONE-DAY JJ O
 SCOREBOARD NNP I
 . . O
 
@@ -1478,7 +1478,7 @@ SIALKOT NNP I
 Pakistan NNP I
 1996-12-06 CD O
 
-Scoreboard RB O
+Scoreboard RB I
 in IN O
 the DT O
 second JJ O
@@ -1493,7 +1493,7 @@ New NNP I
 Zealand NNP I
 
 on IN O
-Friday NNP I
+Friday NNP O
 : : O
 
 Pakistan NNP I
@@ -1539,13 +1539,13 @@ Astle NNP I
 Wasim NNP I
 Akram NNP I
 b SYM O
-Harris NNP I
+Harris NNP O
 4 CD O
 
 Shahid NNP I
 Afridi NNP I
 b SYM O
-Harris NNP I
+Harris NNP O
 2 CD O
 
 Moin NNP I
@@ -1567,7 +1567,7 @@ Harris NNP I
 Saqlain NNP I
 Mushtaq NNP I
 b SYM O
-Harris NNP I
+Harris NNP O
 2 CD O
 
 Mushtaq NNP I
@@ -1667,7 +1667,7 @@ B. NNP I
 Young NNP I
 c SYM O
 Moin NNP I
-Khan NNP I
+Khan NNP O
 b SYM O
 Waqar NNP I
 5 CD O
@@ -1676,7 +1676,7 @@ C. NNP I
 Spearman NNP I
 c SYM O
 Moin NNP I
-Khan NNP I
+Khan NNP O
 b SYM O
 Wasim NNP I
 0 CD O
@@ -1725,14 +1725,14 @@ L. NNP I
 Germon NNP I
 lbw NN O
 b SYM O
-Afridi NNP I
+Afridi NNP O
 2 CD O
 
 J. NNP I
 Vaughan NNP I
 c SYM O
 Moin NNP I
-Khan NNP I
+Khan NNP O
 b SYM O
 Wasim NN I
 13 CD O
@@ -1755,7 +1755,7 @@ not RB O
 out IN O
 7 CD O
 
-Extras NNS O
+Extras NNS I
 ( ( O
 b-9 CD O
 lb-3 CD O
@@ -1790,7 +1790,7 @@ wickets NN O
 9-216 CD O
 . . O
 
-Bowling NNP I
+Bowling NNP O
 : : O
 Wasim NNP I
 Akram NNP I
@@ -1832,7 +1832,7 @@ Malik NNP I
 2.5-0-8-1 CD O
 , , O
 
-Ijaz NNP I
+Ijaz NNP O
 Ahmad NNP I
 0.1-0-0-0 NNS O
 . . O
@@ -1860,8 +1860,8 @@ Karachi NNP I
 SOCCER NN O
 - : O
 ENGLISH NNP I
-F.A. NNP I
-CUP NNP O
+F.A. NNP O
+CUP NNP I
 SECOND NNP I
 ROUND NNP I
 RESULT NNP I
@@ -1877,7 +1877,7 @@ English NNP I
 F.A. NNP I
 Challenge NNP I
 
-Cup NNP I
+Cup NNP O
 second JJ O
 round JJ O
 match NN O
@@ -1885,7 +1885,7 @@ on IN O
 Friday NNP I
 : : O
 
-Plymouth NN O
+Plymouth NN I
 4 CD O
 Exeter NNP I
 1 CD O
@@ -1912,14 +1912,14 @@ lifted VBN O
 by IN O
 FIFA NNP I
 on IN O
-Friday NNP I
+Friday NNP O
 and CC O
 was VBD O
 set VBN O
 to TO O
 make VB O
 his PRP$ O
-Sheffield NNP I
+Sheffield NNP O
 Wednesday NNP I
 comeback NN O
 against IN O
@@ -1928,7 +1928,7 @@ on IN O
 Saturday NNP I
 . . O
 
-Blinker NN O
+Blinker NN I
 missed VBD O
 his PRP$ O
 club NN O
@@ -1951,7 +1951,7 @@ sign VB O
 contracts NNS O
 for IN O
 both DT O
-Wednesday NNP I
+Wednesday NNP O
 and CC O
 Udinese NNP I
 while IN O
@@ -2015,7 +2015,7 @@ under IN O
 contract NN O
 . . O
 
-Blinker NN O
+Blinker NN I
 was VBD O
 fined VBN O
 75,000 CD O
@@ -2049,7 +2049,7 @@ FINED VBD I
 FOR IN O
 PART NNP I
 IN IN O
-FAST-FOOD NN I
+FAST-FOOD NN O
 FRACAS NNS I
 . . O
 
@@ -2072,7 +2072,7 @@ $ $ O
 7,400 CD O
 ) ) O
 on IN O
-Friday NNP I
+Friday NNP O
 for IN O
 hurling VBG O
 chairs NNS O
@@ -2145,7 +2145,7 @@ east JJ O
 London NNP I
 restaurant NN O
 in IN O
-October NNP I
+October NNP O
 . . O
 
 Leeds NNS O
@@ -2227,7 +2227,7 @@ EuroLeague NN I
 basketball NN O
 championship NN O
 after IN O
-Thursday NNP I
+Thursday NNP O
 's POS O
 matches NNS O
 ( ( O
@@ -2245,7 +2245,7 @@ points VBZ O
 : : O
 
 Group NNP I
-A NNP I
+A NNP O
 
 CSKA NNP I
 Moscow NNP I
@@ -2287,7 +2287,7 @@ Turkey NNP I
 5 CD O
 13 CD O
 
-Limoges NNS O
+Limoges NNS I
 ( ( O
 France NNP I
 ) ) O
@@ -2296,7 +2296,7 @@ France NNP I
 6 CD O
 12 CD O
 
-Panionios NNS O
+Panionios NNS I
 ( ( O
 Greece NNP I
 ) ) O
@@ -2306,7 +2306,7 @@ Greece NNP I
 12 CD O
 
 Group NNP I
-B NNP I
+B NNP O
 
 Teamsystem NNP I
 Bologna NNP I
@@ -2367,7 +2367,7 @@ Belgium NNP I
 9 CD O
 
 Group NNP I
-C NNP I
+C NNP O
 
 Panathinaikos NNP I
 ( ( O
@@ -2405,7 +2405,7 @@ Spain NNP I
 5 CD O
 13 CD O
 
-Split NN O
+Split NN I
 ( ( O
 Croatia NNP I
 ) ) O
@@ -2425,7 +2425,7 @@ Germany NNP I
 9 CD O
 
 Group NNP I
-D NNP I
+D NNP O
 
 Efes NNP I
 Pilsen NNP I
@@ -2486,12 +2486,12 @@ Russia NNP I
 11 CD O
 
 RUGBY NNP I
-UNION NN O
+UNION NN I
 - : O
 LITTLE NNP I
 TO TO O
 MISS NNP I
-CAMPESE NNP I
+CAMPESE NNP O
 FAREWELL NNP I
 . . O
 
@@ -2662,7 +2662,7 @@ of IN O
 magic NN O
 . . O
 
-Campese NNS O
+Campese NNS I
 will MD O
 be VB O
 up RP O
@@ -2743,7 +2743,7 @@ appearance NN O
 On IN O
 tour NN O
 , , O
-Australia NNP I
+Australia NNP O
 have VBP O
 won VBN O
 all DT O
@@ -2799,7 +2799,7 @@ Tony NNP I
 Underwood NNP I
 , , O
 plus CC O
-All DT O
+All DT I
 Black NNP I
 forwards RB O
 Ian NNP I
@@ -2843,7 +2843,7 @@ Wales NNP I
 Gregor NNP I
 Townsend NNP I
 ( ( O
-Scotland NNP I
+Scotland NNP O
 ) ) O
 , , O
 11 CD O
@@ -3027,7 +3027,7 @@ ROUND NNP I
 SCORES NNP I
 . . O
 
-HARARE VB O
+HARARE VB I
 1996-12-06 CD O
 
 Leading JJ O
@@ -3045,7 +3045,7 @@ Chapman NNP I
 Golf NNP I
 Club NNP I
 on IN O
-Friday NNP I
+Friday NNP O
 ( ( O
 South NNP I
 African NNP I
@@ -3119,7 +3119,7 @@ Park NNP I
 67 CD O
 140 CD O
 Schalk NNP I
-van NNP O
+van NNP I
 der FW O
 Merwe NNP I
 ( ( O
@@ -3157,7 +3157,7 @@ Baiocchi NNP I
 141 CD O
 Adilson NNP I
 da NN O
-Silva NN I
+Silva NN O
 ( ( O
 Brazil NNP I
 ) ) O
@@ -3206,13 +3206,13 @@ SOCCER NN O
 - : O
 UNCAPPED NNP I
 PLAYERS NNP I
-CALLED VBN I
+CALLED VBN O
 TO TO O
 FACE JJ I
 MACEDONIA NN I
 . . O
 
-BUCHAREST RB O
+BUCHAREST RB I
 1996-12-06 CD O
 
 Romania NNP I
@@ -3225,7 +3225,7 @@ three CD O
 uncapped JJ O
 players NNS O
 on IN O
-Friday NNP I
+Friday NNP O
 in IN O
 his PRP$ O
 squad NN O
@@ -3268,13 +3268,13 @@ group NN O
 eight CD O
 clash NN O
 in IN O
-Macedonia NNP I
+Macedonia NNP O
 on IN O
 December NNP I
 14 CD O
 . . O
 
-Iordanescu NN O
+Iordanescu NN I
 said VBD O
 he PRP O
 had VBD O
@@ -3371,10 +3371,10 @@ yellow-card NN O
 offences NNS O
 . . O
 
-Squad VB O
+Squad VB I
 : : O
 
-Goalkeepers NNS O
+Goalkeepers NNS I
 - : O
 Bogdan NNP I
 Stelea NNP I
@@ -3451,8 +3451,8 @@ REUTER NNP I
 SOCCER NN O
 - : O
 BRAZILIAN NNP I
-CHAMPIONSHIP NNP I
-RESULTS NNS I
+CHAMPIONSHIP NNP O
+RESULTS NNS O
 . . O
 
 RIO NNP I
@@ -3472,7 +3472,7 @@ first JJ O
 leg NN O
 matches NNS O
 on IN O
-Thursday NNP I
+Thursday NNP O
 . . O
 
 Goias FW O
@@ -3491,8 +3491,8 @@ CRICKET NNP I
 LARA NNP I
 ENDURES NNP I
 ANOTHER NNP I
-MISERABLE NNP I
-DAY NNP I
+MISERABLE NNP O
+DAY NNP O
 . . O
 
 Robert NNP I
@@ -3527,7 +3527,7 @@ limited JJ O
 overs NNS O
 match VBP O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 Lara NNP I
@@ -3536,7 +3536,7 @@ disciplined VBD O
 for IN O
 misconduct NN O
 on IN O
-Wednesday NNP I
+Wednesday NNP O
 , , O
 was VBD O
 dismissed VBN O
@@ -3591,7 +3591,7 @@ one-day JJ O
 defeats NNS O
 . . O
 
-All-rounder JJ O
+All-rounder JJ I
 Greg NNP I
 Blewett NNP I
 steered VBD O
@@ -3702,7 +3702,7 @@ Lara NNP I
 's POS O
 behaviour NNS O
 on IN O
-Tuesday NNP I
+Tuesday NNP O
 . . O
 
 He PRP O
@@ -3779,7 +3779,7 @@ injured JJ O
 groin NN O
 . . O
 
-Chanderpaul NN O
+Chanderpaul NN I
 was VBD O
 forced VBN O
 to TO O
@@ -3814,7 +3814,7 @@ Pakistan NNP I
 who WP O
 arrive VBP O
 in IN O
-Australia NNP I
+Australia NNP O
 later JJ O
 this DT O
 month NN O
@@ -3831,21 +3831,21 @@ Series NNP I
 tournament NN O
 . . O
 
-CRICKET NNP I
+CRICKET NNP O
 - : O
 AUSTRALIA NNP I
 V NNP O
 WEST NNP I
 INDIES NNP I
-WORLD NN O
+WORLD NN I
 SERIES NNS I
-SCOREBOARD VBN I
+SCOREBOARD VBN O
 . . O
 
 MELBOURNE NNP I
 1996-12-06 CD O
 
-Scoreboard RB O
+Scoreboard RB I
 in IN O
 the DT O
 World NNP I
@@ -3859,8 +3859,8 @@ Australia NNP I
 and CC O
 West NNP I
 Indies NNP I
-on IN O
-Friday NNP I
+on IN I
+Friday NNP O
 : : O
 
 West NNP I
@@ -3978,7 +3978,7 @@ wickets NN O
 9-153 CD O
 . . O
 
-Bowling NNP I
+Bowling NNP O
 : : O
 Reiffel NNP I
 10-2-26-0 NNP O
@@ -4013,7 +4013,7 @@ Australia NNP I
 M. NNP I
 Taylor NNP I
 b SYM O
-McLean NNP I
+McLean NNP O
 29 CD O
 
 M. NNP I
@@ -4027,7 +4027,7 @@ Benjamin NNP I
 R. NNP I
 Ponting NNP I
 lbw VBD O
-McLean NNP I
+McLean NNP O
 5 CD O
 
 G. NNP I
@@ -4047,7 +4047,7 @@ Hooper NNP I
 S. NNP I
 Law NNP I
 b SYM O
-Hooper NNP I
+Hooper NNP O
 21 CD O
 
 T. NNP I
@@ -4149,7 +4149,7 @@ five CD O
 wickets NNS O
 . . O
 
-CRICKET NNP I
+CRICKET NNP O
 - : O
 AUSTRALIA NNP I
 BEAT NN O
@@ -4202,7 +4202,7 @@ Chanderpaul NNP I
 54 CD O
 ) ) O
 ; : O
-Australia NNP I
+Australia NNP O
 173-5 CD O
 in IN O
 48.4 CD O
@@ -4216,7 +4216,7 @@ out RP O
 ) ) O
 . . O
 
-CRICKET NNP I
+CRICKET NNP O
 - : O
 WEST NNP I
 INDIES NNP I
@@ -4225,8 +4225,8 @@ ALL NNP I
 OUT NNP I
 IN IN O
 49.2 CD O
-OVERS NNS I
-V NNP I
+OVERS NNS O
+V NNP O
 AUSTRALIA NNP I
 . . O
 
@@ -4251,7 +4251,7 @@ limited JJ O
 overs NNS O
 match VB O
 against IN O
-Australia NNP I
+Australia NNP O
 on IN O
 Friday NNP I
 . . O
@@ -4280,14 +4280,14 @@ Sheffield NNP I
 Shield NNP I
 match VB O
 between IN O
-Tasmania NNP I
+Tasmania NNP O
 and CC O
 Victoria NNP I
 at IN O
-Bellerive NNP I
-Oval JJ I
+Bellerive NNP O
+Oval JJ O
 on IN O
-Friday NNP I
+Friday NNP O
 : : O
 
 Tasmania NNP I
@@ -4315,12 +4315,12 @@ v FW O
 Victoria NNP I
 . . O
 
-CRICKET NNP I
+CRICKET NNP O
 - : O
 LARA NNP I
 SUFFERS NNP I
-MORE JJR I
-AUSTRALIAN IN I
+MORE JJR O
+AUSTRALIAN IN O
 TOUR JJ I
 MISERY NN I
 . . O
@@ -4382,7 +4382,7 @@ an DT O
 angry JJ O
 outburst NN O
 against IN O
-Australia NNP I
+Australia NNP O
 wicketkeeper NN O
 Ian NNP I
 Healy NNP I
@@ -4526,7 +4526,7 @@ manager NN O
 Clive NNP I
 Lloyd NNP I
 on IN O
-Wednesday NNP I
+Wednesday NNP O
 apologised VBD O
 for IN O
 Lara NNP I
@@ -4534,7 +4534,7 @@ Lara NNP I
 behaviour NN O
 in IN O
 confronting VBG O
-Australia NNP I
+Australia NNP O
 coach NN O
 Geoff NNP I
 Marsh NNP I
@@ -4553,7 +4553,7 @@ the DT O
 second JJ O
 test NN O
 on IN O
-Tuesday NNP I
+Tuesday NNP O
 . . O
 
 Lloyd NNP I
@@ -4660,7 +4660,7 @@ Both DT O
 West NNP I
 Indies NNPS I
 and CC O
-Australia NNP I
+Australia NNP O
 team NN O
 management NN O
 have VBP O
@@ -4702,7 +4702,7 @@ Series NNP I
 tournament NN O
 . . O
 
-CRICKET NNP I
+CRICKET NNP O
 - : O
 WEST NNP I
 INDIES NNP I
@@ -4741,14 +4741,14 @@ limited JJ O
 overs NNS O
 competition NN O
 against IN O
-Australia NNP I
+Australia NNP O
 at IN O
 the DT O
 Melbourne NNP I
 Cricket NNP I
 Ground NNP I
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 Teams NNS O
@@ -4845,10 +4845,10 @@ man NN O
 
 BADMINTON NNP I
 - : O
-WORLD NN I
+WORLD NN O
 GRAND NNP I
 PRIX NNP I
-RESULTS NNS I
+RESULTS NNS O
 . . O
 
 BALI NNP I
@@ -4877,7 +4877,7 @@ Men NN O
 singles NNS O
 
 Group NNP I
-B NNP I
+B NNP O
 
 Chen NNP I
 Gang NN O
@@ -4886,7 +4886,7 @@ China NNP I
 ) ) O
 beat VB O
 Martin NNP I
-Londgaard NNP I
+Londgaard NNP O
 Hansen NNP I
 ( ( O
 Denmark NNP I
@@ -4915,7 +4915,7 @@ Indonesia NNP I
 ) ) O
 beat VB O
 Ong NNP I
-Ewe NNP O
+Ewe NNP I
 Hock NNP I
 ( ( O
 Malaysia NNP I
@@ -4925,7 +4925,7 @@ Malaysia NNP I
 15-11 CD O
 
 Group NNP I
-C NNP I
+C NNP O
 
 Sun NNP I
 Jun NNP I
@@ -4948,7 +4948,7 @@ Indonesia NNP I
 ) ) O
 beat VB O
 Soren NNP I
-B. NNP O
+B. NNP I
 Nielsen NNP I
 ( ( O
 Denmark NNP I
@@ -4957,7 +4957,7 @@ Denmark NNP I
 15-2 CD O
 
 Group NNP I
-D NNP I
+D NNP O
 
 Allan NNP I
 Budi NNP I
@@ -5026,7 +5026,7 @@ Women NNS O
 singles NNS O
 
 Group NNP I
-A NNP I
+A NNP O
 
 Gong NNP I
 Zhichao NNP I
@@ -5043,7 +5043,7 @@ Indonesia NNP I
 12-10 JJ O
 
 Group NNP I
-B NNP I
+B NNP O
 
 Ye NNP I
 Zhaoying NNP I
@@ -5059,7 +5059,7 @@ Indonesia NNP I
 12-10 JJ O
 
 Group NNP I
-C NNP I
+C NNP O
 
 Camilla NNP I
 Martin NNP I
@@ -5076,7 +5076,7 @@ China NNP I
 12-10 JJ O
 
 Group NNP I
-D NNP I
+D NNP O
 
 Susi NNP I
 Susanti NNP I
@@ -5093,7 +5093,7 @@ China NNP I
 11-4 NNP O
 . . O
 
-Semifinals NNS O
+Semifinals NNS I
 ( ( O
 on IN O
 Saturday NNP I
@@ -5102,7 +5102,7 @@ Saturday NNP I
 Susi NNP I
 Susanti NNP I
 ( ( O
-Indonesia NNP I
+Indonesia NNP O
 ) ) O
 v IN O
 Camilla NNP I
@@ -5128,12 +5128,12 @@ SOCCER NN O
 - : O
 ARAB NNP I
 CONTRACTORS NNP I
-WIN NNP O
+WIN NNP I
 AFRICAN NNP I
 CUP NNP I
 WINNERS NNS I
 ' POS O
-CUP NNPS O
+CUP NNPS I
 . . O
 
 CAIRO NNP I
@@ -5157,7 +5157,7 @@ the DT O
 National NNP I
 stadium NN O
 on IN O
-Friday NNP I
+Friday NNP O
 : : O
 Arab JJ I
 Contractors NNS I
@@ -5203,17 +5203,17 @@ ICE NNP O
 HOCKEY NNP I
 - : O
 STANDINGS NNP I
-AFTER NNP I
+AFTER NNP O
 THURSDAY NNP I
 'S POS O
-GAMES NNS I
+GAMES NNS O
 . . O
 
 NEW NNP I
 YORK NNP I
 1996-12-06 CD O
 
-Standings NNS O
+Standings NNS I
 of IN O
 National NNP I
 Hockey NNP I
@@ -5224,7 +5224,7 @@ after IN O
 games NNS O
 played VBN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 ( ( O
 tabulate NN O
 under IN O
@@ -5248,14 +5248,14 @@ points VBZ O
 EASTERN NNP I
 CONFERENCE NNP I
 
-NORTHEAST NN O
+NORTHEAST NN I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
-GF NNP O
-GA NNP O
+GF NNP I
+GA NNP I
 PTS NNP I
 
 HARTFORD NNP I
@@ -5306,14 +5306,14 @@ OTTAWA NNP I
 72 CD O
 20 CD O
 
-ATLANTIC NN O
+ATLANTIC NN I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
-GF NNP O
-GA NNP O
+GF NNP I
+GA NNP I
 PTS NNP I
 
 FLORIDA NNP I
@@ -5359,7 +5359,7 @@ RANGERS NNS I
 25 CD O
 
 NY DT O
-ISLANDERS NNS I
+ISLANDERS NNS O
 7 CD O
 11 CD O
 8 CD O
@@ -5368,7 +5368,7 @@ ISLANDERS NNS I
 22 CD O
 
 TAMPA NNP I
-BAY NNP I
+BAY NNP O
 8 CD O
 15 CD O
 2 CD O
@@ -5382,11 +5382,11 @@ CONFERENCE NNP I
 CENTRAL NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
-GF NNP O
-GA NNP O
+GF NNP I
+GA NNP I
 PTS NNP I
 
 DETROIT VBG O
@@ -5441,11 +5441,11 @@ PHOENIX NNS O
 PACIFIC NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
-GF NNP O
-GA NNP O
+GF NNP I
+GA NNP I
 PTS NNP I
 
 COLORADO NNP I
@@ -5482,7 +5482,7 @@ ANGELES NNP I
 25 CD O
 
 SAN NNP I
-JOSE NNP I
+JOSE NNP O
 10 CD O
 13 CD O
 4 CD O
@@ -5508,14 +5508,14 @@ ANAHEIM NNP I
 
 FRIDAY NNP I
 , , O
-DECEMBER NN I
+DECEMBER NN O
 6 CD O
 
 ANAHEIM NNP I
 AT NNP O
 BUFFALO NNP I
 
-TORONTO TO O
+TORONTO TO I
 AT VB O
 NY NNP I
 RANGERS NNS I
@@ -5524,7 +5524,7 @@ PITTSBURGH NNP I
 AT NNP O
 WASHINGTON NNP I
 
-MONTREAL NNP I
+MONTREAL NNP O
 AT NNP O
 CHICAGO NNP I
 
@@ -5592,7 +5592,7 @@ Hockey NNP I
 League NNP I
 games NNS O
 on IN O
-Thursday NNP I
+Thursday NNP O
 ( ( O
 home NN O
 team NN O
@@ -5639,8 +5639,8 @@ EAGLES NNP I
 TO TO O
 STAY NNP I
 IN IN O
-PLAYOFF NN I
-HUNT NN I
+PLAYOFF NN O
+HUNT NN O
 . . O
 
 INDIANAPOLIS NNP I
@@ -5654,7 +5654,7 @@ lost VBD O
 another DT O
 quarterback NN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 but CC O
 last JJ O
 year NN O
@@ -5769,7 +5769,7 @@ Cincinnati NNP I
 . . O
 
 The DT O
-Eagles NNPS I
+Eagles NNPS O
 were VBD O
 held VBN O
 without IN O
@@ -5916,7 +5916,7 @@ not RB O
 return NN O
 . . O
 
-Third-stringer JJ O
+Third-stringer JJ I
 Kerwin NNP I
 Bell NNP I
 , , O
@@ -6075,13 +6075,13 @@ behind IN O
 EASTERN NNP I
 CONFERENCE NNP I
 
-ATLANTIC NN O
+ATLANTIC NN I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 PCT NNP O
-GB NNP I
+GB NNP O
 
 MIAMI NNP I
 14 CD O
@@ -6132,10 +6132,10 @@ JERSEY NNP I
 CENTRAL NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 PCT NNP O
-GB NNP I
+GB NNP O
 
 CHICAGO NNP I
 17 CD O
@@ -6161,7 +6161,7 @@ ATLANTA NNP I
 .556 CD O
 7 CD O
 
-CHARLOTTE JJ O
+CHARLOTTE JJ I
 8 CD O
 8 CD O
 .500 CD O
@@ -6173,7 +6173,7 @@ MILWAUKEE NNP I
 .500 CD O
 8 CD O
 
-INDIANA VBG O
+INDIANA VBG I
 7 CD O
 8 CD O
 .467 CD O
@@ -6193,10 +6193,10 @@ CONFERENCE NNP I
 MIDWEST JJS O
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 PCT NNP O
-GB NNP I
+GB NNP O
 
 HOUSTON NNP I
 16 CD O
@@ -6247,10 +6247,10 @@ VANCOUVER NNP I
 PACIFIC NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 PCT NNP O
-GB NNP I
+GB NNP O
 
 SEATTLE NNP I
 15 CD O
@@ -6300,7 +6300,7 @@ PHOENIX NNS O
 
 FRIDAY NNP I
 , , O
-DECEMBER NN I
+DECEMBER NN O
 6 CD O
 
 NEW NNP I
@@ -6341,7 +6341,7 @@ STATE NNP I
 
 ORLANDO NNP I
 AT NNP O
-LA NNP I
+LA NNP O
 LAKERS NNS I
 
 NFL NNP I
@@ -6357,13 +6357,13 @@ NEW NNP I
 YORK NNP I
 1996-12-05 CD O
 
-National NNP I
-Football NNP I
+National NNP O
+Football NNP O
 League NNP I
 
 standings NNS O
 after IN O
-Thursday NNP I
+Thursday NNP O
 's POS O
 game NN O
 ( ( O
@@ -6384,18 +6384,18 @@ against IN O
 ) ) O
 : : O
 
-AMERICAN NNP I
-FOOTBALL NNP I
+AMERICAN NNP O
+FOOTBALL NNP O
 CONFERENCE NNP I
 
 EASTERN NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
 PF NNP O
-PA NNP I
+PA NNP O
 
 NEW NNP I
 ENGLAND NNP I
@@ -6437,13 +6437,13 @@ JETS NNS I
 CENTRAL NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
 PF NNP O
-PA NNP I
+PA NNP O
 
-PITTSBURGH NNS O
+PITTSBURGH NNS I
 9 CD O
 4 CD O
 0 CD O
@@ -6457,7 +6457,7 @@ HOUSTON NNP I
 291 CD O
 254 CD O
 
-JACKSONVILLE JJ O
+JACKSONVILLE JJ I
 6 CD O
 7 CD O
 0 CD O
@@ -6481,11 +6481,11 @@ BALTIMORE VB O
 WESTERN NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
 PF NNP O
-PA NNP I
+PA NNP O
 
 X-DENVER NNP I
 12 CD O
@@ -6524,18 +6524,18 @@ SEATTLE NNP I
 250 CD O
 317 CD O
 
-NATIONAL NNP I
-FOOTBALL NNP I
+NATIONAL NNP O
+FOOTBALL NNP O
 CONFERENCE NNP I
 
 EASTERN NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
 PF NNP O
-PA NNP I
+PA NNP O
 
 DALLAS NNP I
 8 CD O
@@ -6558,7 +6558,7 @@ PHILADELPHIA NNP I
 313 CD O
 302 CD O
 
-ARIZONA VBG O
+ARIZONA VBG I
 6 CD O
 7 CD O
 0 CD O
@@ -6576,14 +6576,14 @@ GIANTS NNS I
 CENTRAL NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
 PF NNP O
-PA NNP I
+PA NNP O
 
 Y-GREEN NNP I
-BAY NNP I
+BAY NNP O
 10 CD O
 3 CD O
 0 CD O
@@ -6604,7 +6604,7 @@ CHICAGO NNP I
 202 CD O
 248 CD O
 
-DETROIT VBG O
+DETROIT VBG I
 5 CD O
 8 CD O
 0 CD O
@@ -6612,7 +6612,7 @@ DETROIT VBG O
 289 CD O
 
 TAMPA NNP I
-BAY NNP I
+BAY NNP O
 4 CD O
 9 CD O
 0 CD O
@@ -6622,11 +6622,11 @@ BAY NNP I
 WESTERN NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
 PF NNP O
-PA NNP I
+PA NNP O
 
 SAN NNP I
 FRANCISCO NNP I
@@ -6636,7 +6636,7 @@ FRANCISCO NNP I
 325 CD O
 198 CD O
 
-CAROLINA VBG O
+CAROLINA VBG I
 9 CD O
 4 CD O
 0 CD O
@@ -6672,15 +6672,15 @@ CLINCHED VBN I
 DIVISION NNP I
 TITLE NNP I
 
-Y NNP I
--- : O
+Y NNP O
+-- : I
 CLINCHED NNP I
 PLAYOFF NNP I
 BERTH NNP I
 
 SUNDAY NNP I
 , , O
-DECEMBER NN I
+DECEMBER NN O
 8 CD O
 
 ST NNP I
@@ -6707,7 +6707,7 @@ AT NNP O
 MIAMI NNP I
 
 ATLANTA NNP I
-AT NNP I
+AT NNP O
 NEW JJ O
 ORLEANS NNS I
 
@@ -6718,24 +6718,24 @@ PITTSBURGH NNP I
 
 WASHINGTON NNP I
 AT NNP O
-TAMPA NNP I
+TAMPA NNP O
 BAY NNP I
 
-DALLAS NNP I
+DALLAS NNP O
 AT NNP O
 ARIZONA NNP I
 
 NY NNP I
 JETS NNP I
-AT NNP I
-NEW JJ O
+AT NNP O
+NEW JJ I
 ENGLAND NNP I
 
 BUFFALO NNP I
 AT NNP O
 SEATTLE NNP I
 
-CAROLINA NNP I
+CAROLINA NNP O
 AT NNP O
 SAN NNP I
 FRANCISCO NNPS I
@@ -6746,19 +6746,19 @@ DETROIT NNP I
 
 MONDAY NNP I
 , , O
-DECEMBER NN I
+DECEMBER NN O
 9 CD O
 
 KANSAS NNP I
 CITY NNP I
 AT NNP O
-OAKLAND NNP I
+OAKLAND NNP O
 
 NFL NNP I
-AMERICAN NNP I
+AMERICAN NNP O
 FOOTBALL-THURSDAY NNP I
-'S POS O
-RESULT NNP I
+'S POS I
+RESULT NNP O
 . . O
 
 NEW NNP I
@@ -6773,7 +6773,7 @@ Football NNP I
 League NN O
 game NN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 ( ( O
 home NN O
 team NN O
@@ -6793,9 +6793,9 @@ FOOTBALL-OHIO NNP I
 STATE NNP I
 'S POS O
 PACE NNP I
-FIRST NNP I
+FIRST NNP O
 REPEAT NNP I
-LOMBARDI NNPS I
+LOMBARDI NNPS O
 AWARD NNP I
 WINNER NNP I
 . . O
@@ -6824,7 +6824,7 @@ when WRB O
 the DT O
 Rotary NNP I
 Club NNP I
-of IN O
+of IN I
 Houston NNP I
 again RB O
 honoured VBN O
@@ -6972,14 +6972,14 @@ Packers NNPS I
 SOCCER NN O
 - : O
 DUTCH VB I
-FIRST NNP I
+FIRST NNP O
 DIVISION NNP I
-RESULTS NNS I
+RESULTS NNS O
 / SYM O
-STANDINGS NNS I
+STANDINGS NNS O
 . . O
 
-AMSTERDAM NN O
+AMSTERDAM NN I
 1996-12-06 CD O
 
 Result NN O
@@ -6999,7 +6999,7 @@ RKC NNP I
 Waalwijk NNP I
 1 CD O
 Willem NNP I
-II NNP O
+II NNP I
 Tilburg NNP I
 2 CD O
 
@@ -7046,7 +7046,7 @@ Feyenoord NNP I
 36 CD O
 
 Twente NNP I
-Enschede NN O
+Enschede NN I
 18 CD O
 10 CD O
 4 CD O
@@ -7095,7 +7095,7 @@ Heerenveen NNP I
 28 CD O
 
 Roda NNP I
-JC NNP O
+JC NNP I
 Kerkrade NNP I
 17 CD O
 7 CD O
@@ -7144,7 +7144,7 @@ Breda NNP I
 21 CD O
 
 Willem NNP I
-II NNP O
+II NNP I
 Tilburg NNP I
 18 CD O
 5 CD O
@@ -7206,14 +7206,14 @@ Waalwijk NNP I
 SOCCER NN O
 - : O
 GERMAN NNP I
-FIRST NNP I
+FIRST NNP O
 DIVISION NNP I
-RESULTS NNS I
+RESULTS NNS O
 / SYM O
-STANDINGS NNS I
+STANDINGS NNS O
 . . O
 
-BONN NN O
+BONN NN I
 1996-12-06 CD O
 
 Results NNS O
@@ -7238,8 +7238,8 @@ Leverkusen NNP I
 Werder NNP I
 Bremen NNP I
 1 CD O
-1860 CD O
-Munich NNP I
+1860 CD I
+Munich NNP O
 1 CD O
 
 Karlsruhe NNP I
@@ -7427,7 +7427,7 @@ Bielefeld NNP I
 16 CD O
 
 FC NNP I
-Hansa NNP I
+Hansa NNP O
 Rostock NNP I
 17 CD O
 4 CD O
@@ -7467,7 +7467,7 @@ SUMMARIES NNP I
 PARIS NNP I
 1996-12-06 CD O
 
-Summaries NNS O
+Summaries NNS I
 of IN O
 French JJ I
 first JJ O
@@ -7513,7 +7513,7 @@ Attendance NNP I
 . . O
 
 Paris NNP I
-St NNP O
+St NNP I
 Germain NNP I
 1 CD O
 ( ( O
@@ -7544,12 +7544,12 @@ Gray NNP I
 SOCCER NN O
 - : O
 DUTCH VB I
-FIRST NNP I
-DIVISION NNP I
+FIRST NNP O
+DIVISION NNP O
 SUMMARIES NNP I
 . . O
 
-AMSTERDAM NN O
+AMSTERDAM NN I
 1996-12-06 CD O
 
 Summary NNS O
@@ -7573,7 +7573,7 @@ Starbuck NNP I
 76 CD O
 ) ) O
 Willem NNP I
-II NNP O
+II NNP I
 Tilburg NNP I
 2 CD O
 ( ( O
@@ -7581,9 +7581,9 @@ Konterman NNP I
 45 CD O
 , , O
 
-Van NNP I
+Van NNP O
 der FW O
-Vegt NNP I
+Vegt NNP O
 77 CD O
 ) ) O
 . . O
@@ -7592,7 +7592,7 @@ Halftime VB O
 0-1 NNP O
 . . O
 
-Attendance NNP I
+Attendance NNP O
 5,300 CD O
 . . O
 
@@ -7606,7 +7606,7 @@ STANDINGS NNP I
 PARIS NNP I
 1996-12-06 CD O
 
-Standings NNS O
+Standings NNS I
 in IN O
 the DT O
 French JJ I
@@ -7614,7 +7614,7 @@ first JJ O
 
 division NN O
 after IN O
-Friday NNP I
+Friday NNP O
 's POS O
 matches NNS O
 ( ( O
@@ -7693,7 +7693,7 @@ Auxerre NNP I
 12 CD O
 32 CD O
 
-Metz NNS O
+Metz NNS I
 20 CD O
 8 CD O
 7 CD O
@@ -7702,7 +7702,7 @@ Metz NNS O
 16 CD O
 31 CD O
 
-Nantes NNS O
+Nantes NNS I
 21 CD O
 7 CD O
 9 CD O
@@ -7711,7 +7711,7 @@ Nantes NNS O
 25 CD O
 30 CD O
 
-Guingamp NN O
+Guingamp NN I
 20 CD O
 7 CD O
 7 CD O
@@ -7729,7 +7729,7 @@ Lille NNP I
 28 CD O
 28 CD O
 
-Marseille JJ O
+Marseille JJ I
 20 CD O
 6 CD O
 8 CD O
@@ -7747,7 +7747,7 @@ Lyon NNP I
 31 CD O
 26 CD O
 
-Rennes NNS O
+Rennes NNS I
 20 CD O
 7 CD O
 4 CD O
@@ -7765,7 +7765,7 @@ Lens NNP I
 34 CD O
 25 CD O
 
-Le FW O
+Le FW I
 Havre NNP I
 20 CD O
 5 CD O
@@ -7811,7 +7811,7 @@ Nancy NNP I
 26 CD O
 16 CD O
 
-Nice JJ O
+Nice JJ I
 20 CD O
 3 CD O
 4 CD O
@@ -7823,8 +7823,8 @@ Nice JJ O
 SOCCER NN O
 - : O
 FRENCH VB I
-LEAGUE NNP I
-RESULTS NNS I
+LEAGUE NNP O
+RESULTS NNS O
 . . O
 
 PARIS NNP I
@@ -7847,7 +7847,7 @@ Nantes NNS I
 4 CD O
 
 Paris NNP I
-St NNP O
+St NNP I
 Germain NNP I
 1 CD O
 Nancy NNP I
@@ -7856,31 +7856,31 @@ Nancy NNP I
 SOCCER NN O
 - : O
 GERMAN NNP I
-FIRST NNP I
-DIVISION NNP I
+FIRST NNP O
+DIVISION NNP O
 SUMMARIES NNP I
 . . O
 
-BONN NN O
+BONN NN I
 1996-12-06 CD O
 
-Summaries NNS O
+Summaries NNS I
 of IN O
 matches NNS O
 played VBN O
 in IN O
 the DT O
-German JJ I
+German JJ O
 first JJ O
 division NN O
 on IN O
-Friday NNP I
+Friday NNP O
 : : O
 
 Bochum NNP I
 2 CD O
 ( ( O
-Stickroth NNP I
+Stickroth NNP O
 30th JJ O
 pen NN O
 , , O
@@ -7903,7 +7903,7 @@ Halftime VB O
 1-1 NNP O
 . . O
 
-Attendance NNP I
+Attendance NNP O
 : : O
 24,602 CD O
 
@@ -7942,7 +7942,7 @@ Carl NNP I
 Dundee NNP I
 69th JJ O
 ) ) O
-Freiburg NNP I
+Freiburg NNP O
 0 CD O
 . . O
 
@@ -7973,13 +7973,13 @@ Halftime NNP I
 Attendance NNP I
 29,300 CD O
 
-TENNIS NNS O
+TENNIS NNS I
 - : O
 GRAND NNP I
 SLAM NNP I
 CUP NNP O
 QUARTER-FINAL NNP I
-RESULTS NNS I
+RESULTS NNS O
 . . O
 
 MUNICH WDT O
@@ -7987,7 +7987,7 @@ MUNICH WDT O
 Germany NNP I
 1996-12-06 CD O
 
-Quarter-final JJ O
+Quarter-final JJ I
 results NNS O
 at IN O
 the DT O
@@ -7997,10 +7997,10 @@ million CD O
 Grand NNP I
 Slam NNP I
 Cup NNP I
-tennis NN O
+tennis NN I
 tournament NN O
 on IN O
-Friday NNP I
+Friday NNP O
 : : O
 Goran NNP I
 Ivanisevic NNP I
@@ -8036,7 +8036,7 @@ SOCCER NN O
 WEAH NNP I
 HEAD-BUTT NNP I
 DEPRIVES NNP I
-PORTUGAL JJ I
+PORTUGAL JJ O
 OF IN O
 COSTA NNP I
 . . O
@@ -8105,7 +8105,7 @@ after IN O
 a DT O
 bad-tempered JJ O
 European JJ I
-Champions NNP I
+Champions NNP O
 ' POS O
 League NNP I
 game NN O
@@ -8153,7 +8153,7 @@ December NNP I
 14 CD O
 . . O
 
-Squad VB O
+Squad VB I
 : : O
 
 Goalkeepers NNS O
@@ -8173,9 +8173,9 @@ Braga NNP I
 ) ) O
 : : O
 
-Defenders NNS O
+Defenders NNS I
 - : O
-Paulinho NNP I
+Paulinho NNP O
 Santos NNPS I
 ( ( O
 Porto NNP I
@@ -8197,7 +8197,7 @@ Porto NNP I
 Oceano NNP I
 Cruz NNP I
 ( ( O
-Sporting NNP I
+Sporting NNP O
 ) ) O
 , , O
 Fernando NNP I
@@ -8209,7 +8209,7 @@ Barcelona NNP I
 Helder NNP I
 Cristovao NNP I
 ( ( O
-Deportivo NNP I
+Deportivo NNP O
 Coruna NNP I
 , , O
 Spain NNP I
@@ -8227,7 +8227,7 @@ Carlos NNP I
 Secretario NNP I
 ( ( O
 Real JJ I
-Madrid NNP I
+Madrid NNP O
 , , O
 Spain NNP I
 ) ) O
@@ -8313,8 +8313,8 @@ SOCCER NNP I
 SHOWCASE-BETTING NNP I
 ON NNP O
 REAL NNP I
-MADRID VB I
-V NNP I
+MADRID VB O
+V NNP O
 BARCELONA NNP I
 . . O
 
@@ -8349,7 +8349,7 @@ Madrid NNP I
 7-4 NNP O
 Barcelona NNP I
 
-Draw NN O
+Draw NN I
 : : O
 9-4 CD O
 
@@ -8410,7 +8410,7 @@ win VB O
 4-2 JJ O
 80-1 CD O
 
-Draw NN O
+Draw NN I
 : : O
 
 0-0 CD O
@@ -8433,20 +8433,20 @@ half-time NN O
 full-time RB O
 
 5-2 CD O
-Real JJ I
+Real JJ O
 Madrid NNP I
 Real NNP I
 Madrid NNP I
 
 14-1 CD O
-Real JJ I
+Real JJ O
 Madrid NNP I
-Draw NNP I
+Draw NNP O
 
 28-1 CD O
-Real JJ I
+Real JJ O
 Madrid NNP I
-Barcelona NNP I
+Barcelona NNP O
 
 5-1 CD O
 Draw NNP I
@@ -8481,7 +8481,7 @@ match NN O
 : : O
 
 Real JJ O
-Madrid NNP I
+Madrid NNP O
 Barcelona NNP I
 
 9-2 CD O
@@ -8499,13 +8499,13 @@ Figo NNP I
 
 7-1 JJ O
 Raul NNP I
-Gonzalez NNP I
+Gonzalez NNP O
 7-1 NNP I
 Juan NNP I
 Pizzi NNP I
 
 12-1 NNP O
-Fernando NNP I
+Fernando NNP O
 Redondo NNP I
 9-1 NNP I
 Giovanni NNP I
@@ -8520,7 +8520,7 @@ Amor NNP I
 
 16-1 NNP O
 Jose NNP I
-Amavisca NNP I
+Amavisca NNP O
 14-1 NNP O
 Roger NNP I
 Garcia NNP I
@@ -8540,8 +8540,8 @@ Carlos NNP I
 
 JosepGuardiola NN O
 
-20-1 CD O
-Fernando NNP I
+20-1 CD I
+Fernando NNP O
 Hierro NNP I
 20-1 NNP O
 Ivan NNP I
@@ -8558,7 +8558,7 @@ Luis NNP I
 Enrique NNP I
 
 33-1 NNP O
-Fernando NNP I
+Fernando NNP O
 Sanz NNP I
 25-1 NNP O
 
@@ -8592,13 +8592,13 @@ Laurent NNP I
 Blanc NNP I
 
 SOCCER NNP I
-SHOWCASE-FANS NNP I
-FACE NNP I
+SHOWCASE-FANS NNP O
+FACE NNP O
 BREATHALYSER NNP I
-TESTS NNS I
+TESTS NNS O
 , , O
-PAPER NN I
-SAYS NNS I
+PAPER NN O
+SAYS NNS O
 . . O
 
 MADRID NNP I
@@ -8661,7 +8661,7 @@ sports NNS O
 events NNS O
 . . O
 
-Tickets NNS O
+Tickets NNS I
 for IN O
 the DT O
 game NN O
@@ -8686,15 +8686,15 @@ alcohol NN O
 SOCCER NN O
 - : O
 SPANISH NNP I
-FIRST NNP I
-DIVISION NNP I
+FIRST NNP O
+DIVISION NNP O
 STANDINGS NNP I
 . . O
 
 MADRID NNP I
 1996-12-06 CD O
 
-Standings NNS O
+Standings NNS I
 in IN O
 the DT O
 Spanish JJ I
@@ -8848,7 +8848,7 @@ Vigo NNP I
 17 CD O
 20 CD O
 
-Tenerife NNP I
+Tenerife NNP O
 15 CD O
 5 CD O
 4 CD O
@@ -8857,7 +8857,7 @@ Tenerife NNP I
 17 CD O
 19 CD O
 
-Espanyol NN O
+Espanyol NN I
 15 CD O
 4 CD O
 4 CD O
@@ -8885,7 +8885,7 @@ Gijon NNP I
 22 CD O
 16 CD O
 
-Logrones NNS O
+Logrones NNS I
 15 CD O
 4 CD O
 3 CD O
@@ -8912,7 +8912,7 @@ Sevilla NNP I
 20 CD O
 14 CD O
 
-Compostela RB O
+Compostela RB I
 15 CD O
 3 CD O
 4 CD O
@@ -8942,11 +8942,11 @@ Extremadura NNP I
 SOCCER NN O
 - : O
 SPAIN VB I
-PICK NN I
+PICK NN O
 UNCAPPED NNP I
 ARMANDO NNP I
 FOR IN O
-WORLD NN I
+WORLD NN O
 CUP RP O
 CLASH NNP I
 . . O
@@ -9015,12 +9015,12 @@ SOCCER NN O
 FIFA NNP I
 BOSS NNP I
 HAVELANGE NNP I
-STANDS NNPS I
+STANDS NNPS O
 BY VB O
-WEAH PRP I
+WEAH PRP O
 . . O
 
-ROME VB O
+ROME VB I
 1996-12-06 CD O
 
 FIFA JJ O
@@ -9029,7 +9029,7 @@ Joao NNP I
 Havelange NNP I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 he PRP O
 would MD O
 personally RB O
@@ -9099,7 +9099,7 @@ for IN O
 its PRP$ O
 1996 CD O
 Fair NNP I
-Play NN O
+Play NN I
 award NN O
 and CC O
 it PRP O
@@ -9112,7 +9112,7 @@ its PRP$ O
 decision NN O
 , , O
 " " O
-Havelange NNP I
+Havelange NNP O
 said VBD O
 . . O
 
@@ -9393,7 +9393,7 @@ play NN O
 Rapid NNP I
 Vienna NNP I
 last JJ O
-Wednesday NNP I
+Wednesday NNP O
 , , O
 may MD O
 have VB O
@@ -9419,19 +9419,19 @@ won VBD O
 SOCCER NN O
 - : O
 ITALIAN NNP I
-FIRST NNP I
-DIVISION NNP I
-MATCHES NNP I
-THIS NNP I
+FIRST NNP O
+DIVISION NNP O
+MATCHES NNP O
+THIS NNP O
 WEEKEND NNP I
 . . O
 
-ROME VB O
+ROME VB I
 1996-12-06 CD O
 
 Italian NNP I
 Serie NNP I
-A NNP I
+A NNP O
 games NNS O
 to TO O
 be VB O
@@ -9452,7 +9452,7 @@ GMT NNP I
 ) ) O
 : : O
 
-Bologna NNP I
+Bologna NNP O
 ( ( O
 4 CD O
 ) ) O
@@ -9519,7 +9519,7 @@ last JJ O
 Sunday NNP I
 . . O
 
-Cagliari NNP I
+Cagliari NNP O
 ( ( O
 16 CD O
 ) ) O
@@ -9663,7 +9663,7 @@ the DT O
 Italian JJ I
 and CC O
 UEFA NNP I
-Cups NNPS I
+Cups NNPS O
 . . O
 
 Lazio NNP I
@@ -9672,7 +9672,7 @@ injury NN O
 doubts VBZ O
 about IN O
 striker NN O
-Pierluigi NNP I
+Pierluigi NNP O
 Casiraghi NNP I
 , , O
 Czech JJ I
@@ -9735,7 +9735,7 @@ elimination NN O
 by IN O
 Norwegian JJ I
 side NN O
-Rosenborg NNP I
+Rosenborg NNP O
 , , O
 a DT O
 morale-boosting JJ O
@@ -9922,7 +9922,7 @@ eight CD O
 goals NNS O
 . . O
 
-Sampdoria NNP I
+Sampdoria NNP O
 ( ( O
 6 CD O
 ) ) O
@@ -9933,7 +9933,7 @@ Juventus NNS I
 ) ) O
 1330 CD O
 
-All-conquering VBG O
+All-conquering VBG I
 Juventus NNP I
 field NN O
 their PRP$ O
@@ -9947,7 +9947,7 @@ Dimas NNP I
 , , O
 while IN O
 Alessandro NNP I
-Del NNP O
+Del NNP I
 Piero NNP I
 and CC O
 Croat NNP I
@@ -9969,7 +9969,7 @@ too RB O
 strong JJ O
 for IN O
 a DT O
-Sampdoria NNP I
+Sampdoria NNP O
 side NN O
 led VBN O
 by IN O
@@ -10016,7 +10016,7 @@ Vicenza NN I
 , , O
 led VBN O
 by IN O
-Uruguayan NNP I
+Uruguayan NNP O
 Marcelo NNP I
 Otero NNP I
 , , O
@@ -10078,11 +10078,11 @@ EuroLeague NNP I
 basketball NN O
 match VB O
 on IN O
-Thursday NNP I
+Thursday NNP O
 : : O
 
 Group NNP I
-B NNP I
+B NNP O
 
 In IN O
 Charleroi NNP I
@@ -10110,7 +10110,7 @@ scorers NNS O
 Charleroi NNP I
 - : O
 Eric NNP I
-Cleymans NNPS I
+Cleymans NNPS O
 18 CD O
 , , O
 Ron NNP I
@@ -10136,7 +10136,7 @@ Aisa NNP I
 14 CD O
 
 Group NNP I
-D NNP I
+D NNP O
 
 In IN O
 Belgrade NNP I
@@ -10181,10 +10181,10 @@ EYLES NNP I
 WITHIN NNP I
 SIGHT VBP I
 OF IN O
-FIFTH IN I
-TITLE DT I
-OF IN O
-YEAR NNP I
+FIFTH IN O
+TITLE DT O
+OF IN I
+YEAR NNP O
 . . O
 
 BOMBAY NNP I
@@ -10208,7 +10208,7 @@ of IN O
 the DT O
 year NN O
 on IN O
-Friday NNP I
+Friday NNP O
 when WRB O
 he PRP O
 hurried VBD O
@@ -10242,7 +10242,7 @@ brushed VBD O
 aside RB O
 unseeded VBN O
 Englishman NNP I
-Mark NNP I
+Mark NNP O
 Cairns NNP I
 15-7 CD O
 15-6 CD O
@@ -10307,7 +10307,7 @@ SQUASH NNP I
 MAHINDRA NNP I
 INTERNATIONAL NNP I
 SEMIFINAL NNP I
-RESULTS NNS I
+RESULTS NNS O
 . . O
 
 BOMBAY NNP I
@@ -10325,7 +10325,7 @@ International NNP I
 squash NN O
 tournament NN O
 on IN O
-Friday NNP I
+Friday NNP O
 : : O
 
 Peter NNP I
@@ -10345,7 +10345,7 @@ England NNP I
 Rodney NNP I
 Eyles NNPS I
 ( ( O
-Australia NNP I
+Australia NNP O
 ) ) O
 beat VB O
 Mark NNP I
@@ -10402,13 +10402,13 @@ South NNP I
 Africa NNP I
 's POS O
 volatile JJ O
-Zulu NNP I
+Zulu NNP O
 heartland NN O
 , , O
 police NN O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 A DT O
@@ -10422,7 +10422,7 @@ to TO O
 be VB O
 supporters NNS O
 of IN O
-President NNP I
+President NNP O
 Nelson NNP I
 Mandela NNP I
 's POS O
@@ -10447,13 +10447,13 @@ settlement NN O
 of IN O
 Izingolweni NNP I
 on IN O
-KwaZulu-Natal JJ I
+KwaZulu-Natal JJ O
 province NN O
 's POS O
 south RB O
 coast NN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 night NN O
 . . O
 
@@ -10491,7 +10491,7 @@ province NN O
 south RB O
 coast NN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 night NN O
 , , O
 two CD O
@@ -10561,7 +10561,7 @@ people NNS O
 were VBD O
 massacred VBN O
 last JJ O
-Christmas NNP I
+Christmas NNP O
 as IN O
 one CD O
 of IN O
@@ -10636,7 +10636,7 @@ Mangosuthu NNP I
 Buthelezi NNP I
 's POS O
 Inkatha NNP I
-Freedom NNP I
+Freedom NNP O
 Party NNP I
 in IN O
 the DT O
@@ -10644,11 +10644,11 @@ province NN O
 . . O
 
 HAVEL NNP I
-PRAISES NNPS I
+PRAISES NNPS O
 CZECH VB I
 NATIVE CD I
-ALBRIGHT NN I
-AS NNP I
+ALBRIGHT NN O
+AS NNP O
 FRIEND VBD I
 . . O
 
@@ -10659,11 +10659,11 @@ PRAGUE NNP I
 1996-12-06 CD O
 
 Czech NNP I
-President NNP I
+President NNP O
 Vaclav NNP I
 Havel NNP I
 on IN O
-Friday NNP I
+Friday NNP O
 welcomed VBD O
 the DT O
 appointment NN O
@@ -10684,7 +10684,7 @@ States NNP I
 ' POS O
 first JJ O
 woman NN O
-Secretary NNP I
+Secretary NNP O
 of IN O
 State NNP I
 . . O
@@ -10751,7 +10751,7 @@ hold VB O
 the DT O
 position NN O
 of IN O
-Secretary NNP I
+Secretary NNP O
 of IN O
 State NNP I
 . . O
@@ -10771,7 +10771,7 @@ to TO O
 Reuters NNP I
 . . O
 
-Havel NNP I
+Havel NNP O
 , , O
 who WP O
 helped VBD O
@@ -10833,14 +10833,14 @@ in IN O
 hospital NN O
 . . O
 
-Albright NN O
+Albright NN I
 , , O
 born VBN O
 Marie NNP I
 Korbelova NNP I
 to TO O
 a DT O
-Czechoslovak JJ I
+Czechoslovak JJ O
 diplomat NN O
 in IN O
 1937 CD O
@@ -10890,7 +10890,7 @@ United NNP I
 Nations NNPS I
 . . O
 
-Czech JJ O
+Czech JJ I
 diplomats NNS O
 , , O
 seeking VBG O
@@ -11042,14 +11042,14 @@ Czechs NNPS I
 
 RADIO NNP I
 ROMANIA NNP I
-AFTERNOON NNP I
+AFTERNOON NNP O
 HEALINES NNP I
-AT NNP I
+AT NNP O
 4 CD O
-PM NNP I
+PM NNP O
 . . O
 
-BUCHAREST RB O
+BUCHAREST RB I
 1996-12-06 CD O
 
 Radio NNP I
@@ -11059,7 +11059,7 @@ headlines NNS O
 : : O
 
 * SYM O
-The DT O
+The DT I
 Democratic NNP I
 Convention NNP I
 signed VBD O
@@ -11201,7 +11201,7 @@ Civic NNP I
 Democratic NNP I
 Party NNP I
 ( ( O
-ODS NNP I
+ODS NNP O
 ) ) O
 will MD O
 discuss VB O
@@ -11216,7 +11216,7 @@ transparent JJ O
 Foreign NNP I
 Minister NNP I
 and CC O
-ODS NNP I
+ODS NNP O
 vice-chairman NN O
 Josef NNP I
 Zieleniec NNP I
@@ -11269,7 +11269,7 @@ Reuters NNP I
 He PRP O
 said VBD O
 after IN O
-June NNP I
+June NNP O
 general JJ O
 elections NNS O
 in IN O
@@ -11334,7 +11334,7 @@ said VBD O
 . . O
 
 The DT O
-ODS NNP I
+ODS NNP O
 , , O
 a DT O
 party NN O
@@ -11370,7 +11370,7 @@ in IN O
 1992 CD O
 . . O
 
-Zieleniec VBN O
+Zieleniec VBN I
 in IN O
 the DT O
 summer NN O
@@ -11467,7 +11467,7 @@ majority NN O
 in IN O
 parliament NN O
 in IN O
-June NNP I
+June NNP O
 lower RBR O
 house NN O
 elections NNS O
@@ -11500,7 +11500,7 @@ MONEY NNP I
 FROM NNP I
 POST-WAR NNP I
 SWISS NNP I
-ACCOUNTS NNS I
+ACCOUNTS NNS O
 . . O
 
 Marcin NNP I
@@ -11512,7 +11512,7 @@ WARSAW NNP I
 Poland NNP I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 that IN O
 Swiss JJ I
 bank NN O
@@ -11545,11 +11545,11 @@ after IN O
 the DT O
 World NNP I
 War NNP I
-Two CD O
+Two CD I
 . . O
 
 Foreign NNP I
-Minister NNP I
+Minister NNP O
 Dariusz NNP I
 Rosati NNP I
 , , O
@@ -11619,7 +11619,7 @@ news NN O
 conference NN O
 . . O
 
-Switzerland NNP I
+Switzerland NNP O
 stands VBZ O
 accused VBN O
 by IN O
@@ -11731,7 +11731,7 @@ authorities NNS O
 after IN O
 World NNP I
 War NNP I
-Two CD O
+Two CD I
 . . O
 
 " " O
@@ -11816,7 +11816,7 @@ compensation NN O
 . . O
 
 " " O
-About IN I
+About IN O
 16,000 CD O
 francs NNS O
 were VBD O
@@ -11959,7 +11959,7 @@ work VB O
 INTERVIEW-ZYWIEC NNP I
 SEES NNP I
 NO DT O
-BIG NNP I
+BIG NNP O
 97 CD O
 NET NNP I
 RISE NNP I
@@ -12013,8 +12013,8 @@ executive NN O
 said VBD O
 . . O
 
-Company NNP I
-President NNP I
+Company NNP O
+President NNP O
 Jean NNP I
 van NNP I
 Boxmeer NNP I
@@ -12024,7 +12024,7 @@ in IN O
 an DT O
 interview NN O
 on IN O
-Friday NNP I
+Friday NNP O
 that IN O
 the DT O
 firm NN O
@@ -12171,7 +12171,7 @@ certainly RB O
 reachable JJ O
 , , O
 " " O
-van NNP O
+van NNP I
 Boxmeer NNP I
 said VBD O
 on IN O
@@ -12286,9 +12286,9 @@ year NN O
 South NNP I
 African NNP I
 Breweries NNPS I
-Ltd NNP I
+Ltd NNP O
 ( ( O
-SAB NNP I
+SAB NNP O
 ) ) O
 bought VBD O
 strategic JJ O
@@ -12328,7 +12328,7 @@ larges NNS O
 t NN O
 brewery NN O
 , , O
-Elbrewery NNP I
+Elbrewery NNP O
 Company NNP I
 Ltd. NNP I
 ( ( O
@@ -12531,7 +12531,7 @@ it PRP O
 would MD O
 start VB O
 producing VBG O
-Carlsberg NNP I
+Carlsberg NNP O
 beer NN O
 next JJ O
 year NN O
@@ -12590,7 +12590,7 @@ brand NN O
 . . O
 
 " " O
-You PRP O
+You PRP I
 will MD O
 not RB O
 win VB O
@@ -12607,7 +12607,7 @@ international JJ O
 brands NNS O
 , , O
 " " O
-van NNP O
+van NNP I
 Boxmeer NNP I
 said VBD O
 , , O
@@ -12678,7 +12678,7 @@ HAS VBZ O
 TRAECHEOTOMY NNP I
 AFTER NNP I
 CONDITIONS NNP I
-WORSENS NNPS I
+WORSENS NNPS O
 . . O
 
 PRAGUE NNP I
@@ -12710,7 +12710,7 @@ a DT O
 spokesman NN O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 He PRP O
@@ -12733,7 +12733,7 @@ his PRP$ O
 breathing NN O
 worsened VBN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 , , O
 had VBD O
 helped VBN O
@@ -12748,7 +12748,7 @@ improved VBD O
 . . O
 
 " " O
-A DT O
+A DT I
 worsening VBG O
 in IN O
 the DT O
@@ -12772,7 +12772,7 @@ statement NN O
 . . O
 
 " " O
-A DT O
+A DT I
 tracheotomy NN O
 was VBD O
 performed VBN O
@@ -12861,7 +12861,7 @@ His PRP$ O
 spokesman NN O
 said VBD O
 on IN O
-Thursday NNP I
+Thursday NNP O
 that IN O
 Havel NNP I
 , , O
@@ -12906,7 +12906,7 @@ Department NNP I
 of IN O
 Transport NNP I
 on IN O
-Friday NNP I
+Friday NNP O
 said VBD O
 that IN O
 the DT O
@@ -12994,7 +12994,7 @@ talks NNS O
 . . O
 " " O
 
-Tambang VBG O
+Tambang VBG I
 Timah NNP I
 at IN O
 $ $ O
@@ -13006,7 +13006,7 @@ London NNP I
 LONDON NNP I
 1996-12-07 CD O
 
-PT PRP O
+PT PRP I
 Tambang NNP I
 Timah NNP I
 closed VBD O
@@ -13014,7 +13014,7 @@ at IN O
 $ $ O
 15.575 CD O
 per IN O
-GDR NNP I
+GDR NNP O
 in IN O
 London NNP I
 on IN O
@@ -13051,7 +13051,7 @@ Thursday NNP I
 
 One CD O
 Global NNP I
-Depository NNP I
+Depository NNP O
 Receipt NNP I
 represents VBZ O
 10 CD O
@@ -13076,7 +13076,7 @@ London NNP I
 LONDON NNP I
 1996-12-07 CD O
 
-PT PRP O
+PT PRP I
 Telekomunikasi NNP I
 Indonesia NNP I
 ( ( O
@@ -13115,14 +13115,14 @@ Its PRP$ O
 previous JJ O
 close NN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 as IN O
 $ $ O
 35.63 CD O
 . . O
 
 One CD O
-ADS NNS O
+ADS NNS I
 represents VBZ O
 20 CD O
 ordinary JJ O
@@ -13134,7 +13134,7 @@ newsroom NN O
 384-6364 RB O
 . . O
 
-Woman NN O
+Woman NN I
 charged VBN O
 over IN O
 N. NNP I
@@ -13151,7 +13151,7 @@ woman NN O
 was VBD O
 charged VBN O
 on IN O
-Friday NNP I
+Friday NNP O
 with IN O
 terrorist JJ O
 offences NNS O
@@ -13326,8 +13326,8 @@ conditions NNS O
 Trade NNP I
 and CC O
 Industry NNP I
-Secretary NNP I
-Ian NNP O
+Secretary NNP O
+Ian NNP I
 Lang NNP I
 added VBD O
 that IN O
@@ -13473,7 +13473,7 @@ deal NN O
 signed VBD O
 . . O
 
-Industry NN O
+Industry NN I
 sources NNS O
 said VBD O
 there EX O
@@ -13694,7 +13694,7 @@ route NN O
 . . O
 
 The DT O
-Office NNP I
+Office NNP O
 of IN O
 Fair NNP I
 Trade NNP I
@@ -13740,7 +13740,7 @@ of IN O
 Fair NNP I
 Trading NNP I
 by IN O
-Jan. NNP I
+Jan. NNP O
 10 CD O
 , , O
 1997 CD O
@@ -13752,7 +13752,7 @@ products NNS O
 mostly RB O
 lower RBR O
 as IN O
-Elf NNP I
+Elf NNP O
 strike NN O
 ends NNS O
 . . O
@@ -13760,7 +13760,7 @@ ends NNS O
 LONDON NNP I
 1996-12-06 CD O
 
-Mediterranean JJ O
+Mediterranean JJ I
 oil NN O
 products NNS O
 were VBD O
@@ -13769,7 +13769,7 @@ to TO O
 mostly RB O
 lower RBR O
 on IN O
-Friday NNP I
+Friday NNP O
 after IN O
 Elf NNP I
 refinery NN O
@@ -13785,7 +13785,7 @@ strike NN O
 Gas NNP I
 oil NN O
 erased VBD O
-Thursday NNP I
+Thursday NNP O
 's POS O
 gains NNS O
 , , O
@@ -13801,7 +13801,7 @@ the DT O
 screen NN O
 . . O
 
-Volume NN O
+Volume NN I
 was VBD O
 very RB O
 thin JJ O
@@ -13842,7 +13842,7 @@ trader NN O
 said VBD O
 . . O
 
-Trades NNS O
+Trades NNS I
 were VBD O
 discussed VBN O
 in IN O
@@ -13864,7 +13864,7 @@ were VBD O
 fresh JJ O
 inquiries NNS O
 from IN O
-France NNP I
+France NNP O
 and CC O
 Spain NNP I
 for IN O
@@ -13873,7 +13873,7 @@ sulphur NN O
 diesel NN O
 . . O
 
-Interest NN O
+Interest NN I
 remains VBZ O
 focussed VBN O
 on IN O
@@ -13995,7 +13995,7 @@ U.S. NNP I
 to TO O
 Europe NNP I
 open JJ O
-Rotterdam NNP I
+Rotterdam NNP O
 is VBZ O
 a DT O
 prime JJ O
@@ -14348,19 +14348,19 @@ LONDON NNP I
 
 British NNP I
 Prime NNP I
-Minister NNP I
+Minister NNP O
 John NNP I
 Major NNP I
 's POS O
 office NN O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 that WDT O
 rebel NN O
 Conservative JJ I
 MP NNP I
-Sir NNP O
+Sir NNP I
 John NNP I
 Gorst NNP I
 had VBD O
@@ -14392,7 +14392,7 @@ parliament NN O
 " " O
 He PRP O
 ( ( O
-Gorst NN I
+Gorst NN O
 ) ) O
 isreserving VBG O
 the DT O
@@ -14488,7 +14488,7 @@ now RB O
 . . O
 " " O
 
-Before IN O
+Before IN I
 Gorst NNP I
 's POS O
 statement NN O
@@ -14582,7 +14582,7 @@ contract NN O
 LONDON NNP I
 1996-12-06 CD O
 
-Information NN O
+Information NN I
 technology NN O
 firm NN O
 Electronic NNP I
@@ -14590,7 +14590,7 @@ Data NNP I
 Systems NNP I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 it PRP O
 had VBD O
 bagged VBN O
@@ -14653,9 +14653,9 @@ west NN O
 Scotland NNP I
 for IN O
 National NNP I
-Air NNP O
-Traffic NNP I
-Services NNP I
+Air NNP I
+Traffic NNP O
+Services NNP O
 Ltd NNP I
 ( ( O
 NATS NNP I
@@ -14665,7 +14665,7 @@ subsidiary NN O
 of IN O
 the DT O
 Civil NNP I
-Aviation NNP I
+Aviation NNP O
 Authority NNP I
 . . O
 
@@ -14716,7 +14716,7 @@ RTRS NNS O
 - : O
 Cricket NNP I
 - : O
-Play NN I
+Play NN O
 restarts VBZ O
 in IN O
 Australia-West NNP I
@@ -14750,7 +14750,7 @@ of IN O
 50 CD O
 minutes NNS O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 West NNP I
@@ -14792,7 +14792,7 @@ Newsroom NNP I
 61-2 NN O
 9373-1800 CD O
 
-Cricket NNP I
+Cricket NNP O
 - : O
 Pakistan NNP I
 beat VBD O
@@ -14816,7 +14816,7 @@ by IN O
 46 CD O
 runs NNS O
 on IN O
-Friday NNP I
+Friday NNP O
 to TO O
 take VB O
 an DT O
@@ -14830,7 +14830,7 @@ one-day JJ O
 series NN O
 . . O
 
-Scores NNS O
+Scores NNS I
 : : O
 Pakistan NNP I
 277-9 CD O
@@ -14846,11 +14846,11 @@ contract NN O
 PM NNP I
 prices NNS O
 - : O
-Dec NNP I
+Dec NNP O
 6 CD O
 . . O
 
-WINNIPEG VBG O
+WINNIPEG VBG I
 1996-12-06 CD O
 
 Manitoba NNP I
@@ -14889,11 +14889,11 @@ RANGE NNP I
 DATE NNP I
 PM NNP O
 CLOSE NNP I
-FIXED NNP I
+FIXED NNP O
 MINIMUM NNP I
-AT NNP I
+AT NNP O
 1230 CD O
-CST NNP I
+CST NNP O
 
 Feb NN O
 97 CD O
@@ -14902,21 +14902,21 @@ Feb NN O
 75.55 CD O
 77.01-81.80 CD O
 
-Mar NNP I
+Mar NNP O
 97 CD O
 76.37 CD O
 76.12 CD O
 72.02 CD O
 73.47-78.24 CD O
 
-Apr NNP I
+Apr NNP O
 97 CD O
 74.13 CD O
 74.69 CD O
 70.59 CD O
 72.04-76.81 CD O
 
-May NNP I
+May NNP O
 97 CD O
 76.51 CD O
 77.07 CD O
@@ -14930,7 +14930,7 @@ Jun NN O
 73.17 CD O
 74.62-79.35 CD O
 
-Jul JJ O
+Jul JJ I
 97 CD O
 74.45 CD O
 74.01 CD O
@@ -14951,14 +14951,14 @@ Sep NN O
 65.17 CD O
 66.61-71.34 CD O
 
-Oct NNP I
+Oct NNP O
 97 CD O
 68.00 CD O
 68.05 CD O
 63.98 CD O
 65.43-70.16 CD O
 
-Nov NNP I
+Nov NNP O
 97 CD O
 68.00 CD O
 68.05 CD O
@@ -14978,11 +14978,11 @@ cwt NN O
 ) ) O
 - : O
 
-Dec NNP I
+Dec NNP O
 4 CD O
 87.16 CD O
 
-Manitoba NNP I
+Manitoba NNP O
 's POS O
 Hog NNP I
 Price NNP I
@@ -14996,8 +14996,8 @@ CAN NNP I
 / SYM O
 U.S. NNP I
 DOLLAR NN O
-EXCHANGE NN I
-RATE NN I
+EXCHANGE NN O
+RATE NN O
 : : O
 1.3570 CD O
 
@@ -15021,10 +15021,10 @@ Coast NNP I
 Vessel NNP I
 Loadings NNP I
 - : O
-CWB NNP I
+CWB NNP O
 . . O
 
-WINNIPEG VBG O
+WINNIPEG VBG I
 1996-12-06 CD O
 
 The DT O
@@ -15115,7 +15115,7 @@ Rupert NNP I
 ( ( O
 ( ( O
 Gilbert NNP I
-Le NNP O
+Le NNP I
 Gras NNP I
 204 CD O
 947 CD O
@@ -15124,11 +15124,11 @@ Gras NNP I
 ) ) O
 
 New NNP I
-York NNP I
-timecharter NN O
+York NNP O
+timecharter NN I
 fixtures NNS O
 - : O
-Dec NNP I
+Dec NNP O
 6 CD O
 . . O
 
@@ -15142,7 +15142,7 @@ fixtures NNS O
 reported VBD O
 from IN O
 New NNP I
-York NNP I
+York NNP O
 . . O
 
 -- : O
@@ -15209,14 +15209,14 @@ and CC O
 enquiries NNS O
 - : O
 2321 CD O
-GMT RB O
+GMT RB I
 . . O
 
 NEW NNP I
 YORK NNP I
 1996-12-06 CD O
 
-FIXTURES NNP I
+FIXTURES NNP O
 - : O
 
 WESTERN NNP I
@@ -15229,7 +15229,7 @@ Danila NNP I
 Caribs NNP I
 / SYM O
 up RP O
-W224 NNS I
+W224 NNS O
 Mobil NNP I
 . . O
 
@@ -15241,14 +15241,14 @@ Desk NNP I
 , , O
 212-859-1640 CD O
 
-Dirty JJ O
+Dirty JJ I
 tanker NN O
 fixtures NNS O
 and CC O
 enquiries NNS O
 - : O
 2317 CD O
-GMT RB O
+GMT RB I
 . . O
 
 NEW NNP I
@@ -15257,7 +15257,7 @@ YORK NNP I
 
 MIDEAST NNP I
 / SYM O
-RED VBN O
+RED VBN I
 SEA NNP I
 - : O
 
@@ -15266,10 +15266,10 @@ Resource NNP I
 264 CD O
 31/12 CD O
 Ras NNP I
-Tanura NNP I
+Tanura NNP O
 / SYM O
 Red NNP I
-Sea NNP O
+Sea NNP I
 W46.50 NNP I
 Mobil NNP I
 . . O
@@ -15282,7 +15282,7 @@ I PRP O
 85 CD O
 25/12 CD O
 Sidi NNP I
-Kreir NN O
+Kreir NN I
 / SYM O
 Augusta NNP I
 W100 NN O
@@ -15293,19 +15293,19 @@ Spetses NN O
 139 CD O
 17/12 CD O
 Sidi NNP I
-Kreir NN O
+Kreir NN I
 / SYM O
 Augusta NNP I
 W97.50 NNP I
 Exxon NNP I
 . . O
 
-Mesipia NNP I
+Mesipia NNP O
 77.5 CD O
 17/12 CD O
 Bajaia NNP I
 / SYM O
-Fos NNP I
+Fos NNP O
 W105 NNP I
 Exxon NNP I
 . . O
@@ -15339,7 +15339,7 @@ New NNP I
 York NNP I
 City NNP I
 on IN O
-Friday NNP I
+Friday NNP O
 said VBD O
 that IN O
 it PRP O
@@ -15452,7 +15452,7 @@ The DT O
 city NN O
 in IN O
 late JJ O
-June NNP I
+June NNP O
 sold VBD O
 its PRP$ O
 first JJ O
@@ -15593,7 +15593,7 @@ typical JJ O
 slaughter NN O
 steer NN O
 for IN O
-Friday NNP I
+Friday NNP O
 was VBD O
 estimated VBN O
 at IN O
@@ -15608,7 +15608,7 @@ dn JJ O
 when WRB O
 compared VBN O
 to TO O
-Thursday NNP I
+Thursday NNP O
 's POS O
 value NN O
 . . O
@@ -15617,7 +15617,7 @@ value NN O
 USDA NNP I
 
 Wall NNP I
-St NNP I
+St NNP O
 speculates VBZ O
 about IN O
 Santa NNP I
@@ -15632,7 +15632,7 @@ NEW NNP I
 YORK NNP I
 1996-12-06 CD O
 
-Homestake NNP I
+Homestake NNP O
 Mining NNP I
 Co NNP I
 tops VBZ O
@@ -15649,7 +15649,7 @@ knight NN O
 buyer NN O
 for IN O
 Santa NNP I
-Fe NNP O
+Fe NNP I
 Pacific NNP I
 Gold NNP I
 Corp NNP I
@@ -15664,7 +15664,7 @@ Mining NNP I
 Corp NNP I
 . . O
 
-Santa NNP I
+Santa NNP O
 Fe NNP I
 is VBZ O
 so RB O
@@ -15685,7 +15685,7 @@ from IN O
 Newmont NNP I
 , , O
 announced VBD O
-Thursday NNP I
+Thursday NNP O
 . . O
 
 Wall NNP I
@@ -15746,7 +15746,7 @@ the DT O
 encounters NNS O
 . . O
 
-Analysts NNS O
+Analysts NNS I
 predict VBP O
 Santa NNP I
 Fe NNP I
@@ -15864,7 +15864,7 @@ they PRP O
 said VBD O
 . . O
 
-Analysts NNS O
+Analysts NNS I
 and CC O
 arbitrageurs VBZ O
 immediately RB O
@@ -15890,7 +15890,7 @@ negotiations NNS O
 over IN O
 their PRP$ O
 splitting NN O
-Indonesia NNP I
+Indonesia NNP O
 's POS O
 Busang NNP I
 vast JJ O
@@ -15966,7 +15966,7 @@ the DT O
 United NNP I
 States NNP I
 , , O
-Australia NNP I
+Australia NNP O
 , , O
 Chile NNP I
 and CC O
@@ -16054,7 +16054,7 @@ and CC O
 Ghana NNP I
 . . O
 
-PaineWebber NNP I
+PaineWebber NNP O
 analyst NN O
 Marc NNP I
 Cohen NNP I
@@ -16098,7 +16098,7 @@ accretion NN O
 " " O
 I PRP O
 think VBP O
-Homestake NNP I
+Homestake NNP O
 could MD O
 come VB O
 in IN O
@@ -16222,7 +16222,7 @@ shares NNS O
 
 In IN O
 Friday NNP I
-New NNP O
+New NNP I
 York NNP I
 Stock NNP I
 Exchange NNP I
@@ -16354,7 +16354,7 @@ Co NNP I
 Inc NNP I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 that IN O
 A. NNP I
 Curts NNP I
@@ -16368,7 +16368,7 @@ chief NN O
 operating VBG O
 officer NN O
 effective JJ O
-July NNP I
+July NNP O
 1 CD O
 , , O
 1997 CD O
@@ -16383,7 +16383,7 @@ to TO O
 the DT O
 company NN O
 through IN O
-July NNP I
+July NNP O
 1 CD O
 , , O
 1998 CD O
@@ -16411,7 +16411,7 @@ convicted VBN O
 murderer NN O
 . . O
 
-HARARE VB O
+HARARE VB I
 1996-12-06 CD O
 
 Zimbabwe NNP I
@@ -16449,7 +16449,7 @@ at IN O
 dawn NN O
 . . O
 
-President NNP I
+President NNP O
 Robert NNP I
 Mugabe NNP I
 's POS O
@@ -16471,7 +16471,7 @@ death NN O
 sentence NN O
 . . O
 
-Multinational JJ O
+Multinational JJ I
 commander NN O
 going VBG O
 back RB O
@@ -16739,14 +16739,14 @@ local JJ O
 supporters NNS O
 . . O
 
-Canadian JJ O
+Canadian JJ I
 Defence NN I
 Minister NNP I
 Doug NNP I
 Young NNP I
 said VBD O
 on IN O
-Thursday NNP I
+Thursday NNP O
 that IN O
 the DT O
 multinational JJ O
@@ -16935,7 +16935,7 @@ he PRP O
 said VBD O
 . . O
 
-Asked VBN O
+Asked VBN I
 if IN O
 he PRP O
 would MD O
@@ -17138,7 +17138,7 @@ is VBZ O
 . . O
 " " O
 
-Baril NNP I
+Baril NNP O
 said VBD O
 that IN O
 apart RB O
@@ -17251,7 +17251,7 @@ been VBN O
 checking NN O
 . . O
 
-Mauritius NN O
+Mauritius NN I
 put VBN O
 on IN O
 cyclone NN O
@@ -17325,7 +17325,7 @@ knots NNS O
 Although IN O
 not RB O
 threatening VBG O
-Mauritius NNP I
+Mauritius NNP O
 directly RB O
 , , O
 it PRP O
@@ -17344,7 +17344,7 @@ it PRP O
 added VBD O
 . . O
 
-Winds NNS O
+Winds NNS I
 up IN O
 to TO O
 75 CD O
@@ -17358,12 +17358,12 @@ knots NNS O
 could MD O
 blow VB O
 over RP O
-Mauritius NNP I
+Mauritius NNP O
 during IN O
 the DT O
 night NN O
 of IN O
-Friday NNP I
+Friday NNP O
 to TO O
 Saturday NNP I
 , , O
@@ -17429,7 +17429,7 @@ Central NNP I
 African NNP I
 Republic NNP I
 on IN O
-Friday NNP I
+Friday NNP O
 because IN O
 of IN O
 mounting VBG O
@@ -17478,7 +17478,7 @@ Ivory NNP I
 Coast NNP I
 . . O
 
-Senegal JJ O
+Senegal JJ I
 proposes VBZ O
 foreign JJ O
 minister NN O
@@ -17487,12 +17487,12 @@ U.N. NNP I
 post NN O
 . . O
 
-DAKAR RB O
+DAKAR RB I
 1996-12-06 CD O
 
 Senegal JJ O
 's POS O
-President NNP I
+President NNP O
 Abdou NNP I
 Diouf NNP I
 said VBD O
@@ -17504,7 +17504,7 @@ proposing VBG O
 his PRP$ O
 foreign JJ O
 minister NN O
-Moustapha NNP I
+Moustapha NNP O
 Niasse NNP I
 for IN O
 the DT O
@@ -17536,7 +17536,7 @@ an DT O
 African NNP I
 successor NN O
 to TO O
-Secretary-General NNP I
+Secretary-General NNP O
 Boutros NNP I
 Boutros-Ghali NNP I
 was VBD O
@@ -17566,7 +17566,7 @@ candidate NN O
 . . O
 
 " " O
-If IN O
+If IN I
 Africa NNP I
 does VBZ O
 not RB O
@@ -17601,7 +17601,7 @@ I PRP O
 would MD O
 n't RB O
 nominate VB O
-Moustapha NNP I
+Moustapha NNP O
 Niasse NNP I
 . . O
 
@@ -17685,7 +17685,7 @@ out IN O
 of IN O
 control NN O
 , , O
-France NNP I
+France NNP O
 voiced VBD O
 backing VBG O
 for IN O
@@ -17715,7 +17715,7 @@ mutineers NNS O
 . . O
 
 " " O
-France NNP I
+France NNP O
 cannot MD O
 be VB O
 involved JJ O
@@ -17824,7 +17824,7 @@ Patasse NNP I
 at IN O
 dawn NN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 when WRB O
 they PRP O
 clashed VBD O
@@ -17917,7 +17917,7 @@ bodies NNS O
 were VBD O
 found VBN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 in IN O
 an DT O
 open JJ O
@@ -17970,7 +17970,7 @@ slightly RB O
 damaged JJ O
 . . O
 
-Yakomas NNS O
+Yakomas NNS I
 are VBP O
 hounded VBD O
 in IN O
@@ -18016,7 +18016,7 @@ is VBZ O
 deserted VBN O
 . . O
 
-Shops NNS O
+Shops NNS I
 and CC O
 businesses NNS O
 have VBP O
@@ -18054,7 +18054,7 @@ Chirac NNP I
 said VBD O
 Burkina NNP I
 Faso NNP I
-President NNP I
+President NNP O
 Blaise NNP I
 Compaore NNP I
 would MD O
@@ -18127,7 +18127,7 @@ to TO O
 resign VB O
 . . O
 
-Church-led JJ O
+Church-led JJ I
 meadiation NN O
 attempts NNS O
 hit VBP O
@@ -18140,7 +18140,7 @@ his PRP$ O
 departure NN O
 . . O
 
-Soldiers NNS O
+Soldiers NNS I
 staged VBD O
 mutinies NNS O
 in IN O
@@ -18225,7 +18225,7 @@ as IN O
 Codos NNP I
 . . O
 
-Hospital NN O
+Hospital NN I
 sources NNS O
 and CC O
 witnesses NNS O
@@ -18253,7 +18253,7 @@ two CD O
 rebels NNS O
 killed VBN O
 in IN O
-Thursday NNP I
+Thursday NNP O
 's POS O
 clashes NNS O
 . . O
@@ -18281,7 +18281,7 @@ groups NNS O
 . . O
 
 In IN O
-Thursday NNP I
+Thursday NNP O
 's POS O
 fighting NN O
 , , O
@@ -18317,7 +18317,7 @@ hits NNS O
 pickup NN O
 . . O
 
-JOHANNESBURG NN O
+JOHANNESBURG NN I
 1996-12-06 CD O
 
 Five CD O
@@ -18349,7 +18349,7 @@ state NN O
 radio NN O
 reported VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 The DT O
@@ -18359,7 +18359,7 @@ occurred VBD O
 in IN O
 Mafikeng NNP I
 on IN O
-Thursday NNP I
+Thursday NNP O
 . . O
 
 The DT O
@@ -18382,16 +18382,16 @@ killed VBN O
 
 WEATHER NN O
 - : O
-Conditions NNPS I
+Conditions NNPS O
 at IN O
-CIS NNP I
+CIS NNP O
 airports NNS O
 - : O
-Dec NNP I
+Dec NNP O
 6 CD O
 . . O
 
-MOSCOW RB O
+MOSCOW RB I
 1996-12-06 CD O
 
 No DT O
@@ -18453,7 +18453,7 @@ the DT O
 city NN O
 centre NN O
 on IN O
-Friday NNP I
+Friday NNP O
 , , O
 but CC O
 he PRP O
@@ -18495,7 +18495,7 @@ said VBD O
 . . O
 
 " " O
-All DT O
+All DT I
 four CD O
 attackers NNS O
 were VBD O
@@ -18579,7 +18579,7 @@ TIRANA NNP I
 1996-12-06 CD O
 
 An DT O
-Albanian NN I
+Albanian NN O
 court NN O
 on IN O
 Friday NNP I
@@ -18593,7 +18593,7 @@ blow VB O
 himself PRP O
 up RP O
 outside RB O
-President NNP I
+President NNP O
 Sali NNP I
 Berisha NNP I
 's POS O
@@ -18642,7 +18642,7 @@ the DT O
 time NN O
 meeting NN O
 Italian NNP I
-President NNP I
+President NNP O
 Oscar NNP I
 Luigi NNP I
 Scalfaro NNP I
@@ -18690,7 +18690,7 @@ years NNS O
 ) ) O
 , , O
 " " O
-Tirana NNP I
+Tirana NNP O
 judge NN O
 Qazim NNP I
 Gjonaj NNP I
@@ -18785,7 +18785,7 @@ foreign JJ O
 minister NN O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 " " O
@@ -18795,7 +18795,7 @@ plans VBZ O
 to TO O
 visit VB O
 Italy NNP I
-on IN O
+on IN I
 a DT O
 invitation NN O
 from IN O
@@ -18975,11 +18975,11 @@ it PRP O
 Lynnley NNP I
 Browning NNP I
 
-MOSCOW RB O
+MOSCOW RB I
 1996-12-06 CD O
 
 Russian NNP I
-Finance NNP I
+Finance NNP O
 Minister NNP I
 Alexander NNP I
 Livshits NNP I
@@ -19067,7 +19067,7 @@ company NN O
 
 The DT O
 official JJ O
-Itar-Tass NNP I
+Itar-Tass NNP O
 news NN O
 agency NN O
 quoted VBN O
@@ -19078,7 +19078,7 @@ parliamentary JJ O
 deputies NNS O
 that IN O
 RAO NNP I
-Norilsky NNP I
+Norilsky NNP O
 Nikel NNP I
 0#NKEL.RUO CD O
 had VBD O
@@ -19135,7 +19135,7 @@ Moscow NNP I
 . . O
 
 " " O
-But CC O
+But CC I
 if IN O
 it PRP O
 was VBD O
@@ -19175,7 +19175,7 @@ pressure NN O
 from IN O
 the DT O
 International NNP I
-Monetary NNP I
+Monetary NNP O
 Fund NNP I
 to TO O
 boost VB O
@@ -19311,14 +19311,14 @@ Norilsk NNP I
 debts NNS O
 . . O
 
-Norilsk JJ O
+Norilsk JJ I
 officials NNS O
 declined VBD O
 to TO O
 comment VB O
 . . O
 
-Analysts NNS O
+Analysts NNS I
 said VBD O
 the DT O
 government NN O
@@ -19556,7 +19556,7 @@ source NN O
 Norilsk NNP I
 said VBD O
 in IN O
-September NNP I
+September NNP O
 that IN O
 it PRP O
 total JJ O
@@ -19623,7 +19623,7 @@ mln JJ O
 kroons NNS O
 . . O
 
-TALLINN NNP I
+TALLINN NNP O
 1996-12-06 CD O
 
 Tallinna NNP I
@@ -19652,7 +19652,7 @@ the DT O
 bank NN O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 It PRP O
@@ -19691,7 +19691,7 @@ year NN O
 . . O
 
 Tallinna NNP I
-Pank NNPS I
+Pank NNPS O
 said VBD O
 its PRP$ O
 assets NNS O
@@ -19705,7 +19705,7 @@ billion CD O
 kroons NNS O
 . . O
 
-Demand NN O
+Demand NN I
 deposits NNS O
 rose VBD O
 to TO O
@@ -19747,26 +19747,26 @@ with IN O
 Albright NNP I
 . . O
 
-MOSCOW RB O
+MOSCOW RB I
 1996-12-06 CD O
 
 Russia NNP I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 it PRP O
 expected VBD O
 a DT O
 constructive JJ O
 relationship NN O
 with IN O
-Madeleine NNP I
+Madeleine NNP O
 Albright NNP I
 , , O
 nominated VBN O
 by IN O
 U.S. NNP I
-President NNP I
+President NNP O
 Bill NNP I
 Clinton NNP I
 to TO O
@@ -19776,14 +19776,14 @@ of IN O
 State NNP I
 . . O
 
-Interfax JJ O
+Interfax JJ I
 news NN O
 agency NN O
 quoted VBD O
 First NNP I
 Deputy NNP I
-Foreign NNP I
-Minister NNP I
+Foreign NNP O
+Minister NNP O
 Igor NNP I
 Ivanov NNP I
 as IN O
@@ -19839,7 +19839,7 @@ re-elected VBN O
 . . O
 
 " " O
-Our PRP$ O
+Our PRP$ I
 countries NNS O
 ' POS O
 leaders NNS O
@@ -19958,17 +19958,17 @@ return VBP O
 to TO O
 Kremlin NNP I
 for IN O
-Dec NNP I
+Dec NNP O
 25 CD O
 - : O
 speaker NN O
 . . O
 
-MOSCOW RB O
+MOSCOW RB I
 1996-12-06 CD O
 
 Russian NNP I
-President NNP I
+President NNP O
 Boris NNP I
 Yeltsin NNP I
 , , O
@@ -20003,7 +20003,7 @@ Interfax NN I
 news NN O
 agency NN O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 " " O
@@ -20034,7 +20034,7 @@ Yeltsin NNP I
 65 CD O
 , , O
 on IN O
-Friday NNP I
+Friday NNP O
 at IN O
 a DT O
 country NN O
@@ -20179,7 +20179,7 @@ his PRP$ O
 residence NN O
 . . O
 
-Bomb VB O
+Bomb VB I
 explodes VBZ O
 outside IN O
 home NN O
@@ -20288,7 +20288,7 @@ his PRP$ O
 parliamentary JJ O
 mandate NN O
 on IN O
-Wednesday NNP I
+Wednesday NNP O
 after IN O
 leaving VBG O
 the DT O
@@ -20327,7 +20327,7 @@ move NN O
 . . O
 
 " " O
-This DT I
+This DT O
 was VBD O
 an DT O
 act NN O
@@ -20394,7 +20394,7 @@ the DT O
 blast NN O
 . . O
 
-Bomb VB O
+Bomb VB I
 explodes VBZ O
 at IN O
 mosque NN O
@@ -20410,7 +20410,7 @@ A DT O
 bomb NN O
 exploded VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 at IN O
 a DT O
 mosque NN O
@@ -20433,7 +20433,7 @@ radio NN O
 said VBD O
 . . O
 
-Violent JJ O
+Violent JJ I
 crime NN O
 has VBZ O
 soared VBN O
@@ -20488,7 +20488,7 @@ converted VBD O
 to TO O
 Islam NNP I
 during IN O
-Ottoman NNP I
+Ottoman NNP O
 Turkish JJ I
 rule NN O
 . . O
@@ -20520,7 +20520,7 @@ the DT O
 mosque JJ O
 . . O
 
-Hungary NNP I
+Hungary NNP O
 o IN O
 / SYM O
 n RB O
@@ -20534,7 +20534,7 @@ tax NN O
 payment NN O
 . . O
 
-BUDAPEST RB O
+BUDAPEST RB I
 1996-12-06 CD O
 
 Hungarian JJ O
@@ -20544,7 +20544,7 @@ rates NNS O
 closed VBD O
 higher RBR O
 on IN O
-Friday NNP I
+Friday NNP O
 as IN O
 market NN O
 liquidity NN O
@@ -20586,7 +20586,7 @@ Tolonics NNPS I
 . . O
 " " O
 
-They PRP O
+They PRP I
 expect VBP O
 a DT O
 larger-than-average JJ O
@@ -20636,7 +20636,7 @@ money NN O
 . . O
 
 On IN O
-Thursday NNP I
+Thursday NNP O
 , , O
 overnight JJ O
 rates NNS O
@@ -20647,7 +20647,7 @@ and CC O
 22.125 CD O
 . . O
 
-Dealers NNS O
+Dealers NNS I
 said VBD O
 liquidity NN O
 could MD O
@@ -20753,7 +20753,7 @@ referring VBG O
 to TO O
 Federal NNP I
 Reserve NNP I
-Chairman NNP I
+Chairman NNP O
 Alan NNP I
 Greenspan NNP I
 , , O
@@ -20799,7 +20799,7 @@ shares NNS O
 traded VBN O
 . . O
 
-Mexican JJ O
+Mexican JJ I
 stocks NNS O
 were VBD O
 also RB O
@@ -20815,7 +20815,7 @@ begun VBN O
 to TO O
 rise VB O
 before IN O
-Greenspan NNP I
+Greenspan NNP O
 's POS O
 comments NNS O
 and CC O
@@ -20832,11 +20832,11 @@ in IN O
 Mexico NNP I
 . . O
 
-Yields NNS O
+Yields NNS I
 on IN O
 U.S. NNP I
 30-year JJ O
-Treasury NNP I
+Treasury NNP O
 bonds NNS O
 were VBD O
 6.51 CD O
@@ -20850,7 +20850,7 @@ Mexico NNP I
 , , O
 unchanged JJ O
 from IN O
-Thursday NNP I
+Thursday NNP O
 . . O
 
 On IN O
@@ -20945,7 +20945,7 @@ also RB O
 remarked VBD O
 that IN O
 Mexican NNP I
-ADRs NNPS I
+ADRs NNPS O
 suffered VBD O
 in IN O
 New NNP I
@@ -20955,7 +20955,7 @@ York NNP I
 Heavyweights NNS O
 Telmex NN I
 and CC O
-Televisa NNP I
+Televisa NNP O
 ended VBD O
 off RB O
 25 CD O
@@ -20975,7 +20975,7 @@ $ $ O
 . . O
 
 " " O
-Falling NNP I
+Falling NNP O
 share NN O
 prices NNS O
 in IN O
@@ -21016,7 +21016,7 @@ Ponce NNP I
 research NN O
 director NN O
 at IN O
-Santander NNP I
+Santander NNP O
 . . O
 
 Traders NNS O
@@ -21036,7 +21036,7 @@ was VBD O
 . . O
 
 " " O
-Some DT I
+Some DT O
 buyers NNS O
 stepped VBD O
 in RB O
@@ -21114,7 +21114,7 @@ in IN O
 Brazil NNP I
 . . O
 
-Simona NNP I
+Simona NNP O
 de NNP I
 Logu NNP I
 
@@ -21123,7 +21123,7 @@ DE NNP O
 JANEIRO NNP I
 1996-12-06 CD O
 
-Plastic NN O
+Plastic NN I
 surgery NN O
 is VBZ O
 booming JJ O
@@ -21159,7 +21159,7 @@ conference NN O
 that WDT O
 opened VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 The DT O
@@ -21186,7 +21186,7 @@ plan NN O
 was VBD O
 introduced VBN O
 in IN O
-July NNP I
+July NNP O
 1994 CD O
 , , O
 Farid NNP I
@@ -21398,7 +21398,7 @@ the DT O
 SBCP NNP I
 . . O
 
-Every DT O
+Every DT I
 year NN O
 , , O
 500 CD O
@@ -21422,7 +21422,7 @@ study VB O
 there RB O
 . . O
 
-Hakme VB O
+Hakme VB I
 attributes NNS O
 Brazil NNP I
 's POS O
@@ -21615,7 +21615,7 @@ for IN O
 a DT O
 liposuction NN O
 in IN O
-October NNP I
+October NNP O
 are VBP O
 not RB O
 much RB O
@@ -21677,13 +21677,13 @@ unq JJ O
 unq NN O
 unq JJ O
 
-Wheat NN O
+Wheat NN I
 121 CD O
 130 CD O
 121.3 CD O
 121 CD O
 
-Maize NN O
+Maize NN I
 ( ( O
 Flint NNP I
 ) ) O
@@ -21692,7 +21692,7 @@ Flint NNP I
 113.7 CD O
 112 CD O
 
-Maize NN O
+Maize NN I
 ( ( O
 Dent NNP I
 ) ) O
@@ -21739,11 +21739,11 @@ port NN O
 shipping VBG O
 update NN O
 for IN O
-Dec NNP I
+Dec NNP O
 6 CD O
 . . O
 
-MEXICO NNP I
+MEXICO NNP O
 CITY NNP I
 1996-12-06 CD O
 
@@ -21822,7 +21822,7 @@ Gulf NNP I
 of IN O
 Mexico NNP I
 , , O
-Caribbean NNP I
+Caribbean NNP O
 and CC O
 Pacific NNP I
 Coast NNP I
@@ -21921,7 +21921,7 @@ feet NNS O
 - : O
 Gulf NNP I
 of IN O
-Mexico NNP I
+Mexico NNP O
 : : O
 
 Cold JJ O
@@ -22061,7 +22061,7 @@ a DT O
 newspaper NN O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 Rio NNP I
@@ -22096,7 +22096,7 @@ receive VB O
 correct JJ O
 answers NNS O
 , , O
-O UH O
+O UH I
 Globo NNP I
 said VBD O
 . . O
@@ -22111,7 +22111,7 @@ watches NNS O
 and CC O
 disqualified VBN O
 , , O
-O UH O
+O UH I
 Globo NNP I
 said VBD O
 . . O
@@ -22151,7 +22151,7 @@ and CC O
 investments NNS O
 , , O
 Finance NNP I
-Minister NNP I
+Minister NNP O
 Eduardo NNP I
 Aninat NNP I
 said VBD O
@@ -22346,7 +22346,7 @@ said VBD O
 Roger NNP I
 Atwood NNP I
 , , O
-Santiago NN I
+Santiago NN O
 newsroom NN O
 +56-2-699-5595 NN O
 x211 CD O
@@ -22370,14 +22370,14 @@ Timor NNP I
 East NNP I
 Timorese JJ I
 Roman NNP I
-Catholic NNP I
+Catholic NNP O
 Bishop NNP I
 Carlos NNP I
 Belo NNP I
 left VBD O
 Dili NNP I
 on IN O
-Friday NNP I
+Friday NNP O
 on IN O
 his PRP$ O
 way NN O
@@ -22397,7 +22397,7 @@ Peace NNP I
 Prize NNP I
 . . O
 
-Witnesses NNS O
+Witnesses NNS I
 said VBD O
 Belo NNP I
 left VBD O
@@ -22425,7 +22425,7 @@ he PRP O
 would MD O
 arrive VB O
 in IN O
-Oslo NN I
+Oslo NN O
 . . O
 
 The DT O
@@ -22437,7 +22437,7 @@ the DT O
 Nobel NNP I
 award NN O
 next IN O
-Tuesday NNP I
+Tuesday NNP O
 with IN O
 East NNP I
 Timorese-born NNP I
@@ -22470,8 +22470,8 @@ award NN O
 , , O
 and CC O
 Foreign NNP I
-Minister NNP I
-Ali NNP O
+Minister NNP O
+Ali NNP I
 Alatas NNP I
 said VBD O
 on IN O
@@ -22585,7 +22585,7 @@ the DT O
 territory NN O
 . . O
 
-Belo NNP I
+Belo NNP O
 and CC O
 Ramos NNP I
 Horta NNP I
@@ -22660,7 +22660,7 @@ to TO O
 Belo NNP I
 . . O
 
-Asked VBN O
+Asked VBN I
 if IN O
 the DT O
 Indonesian JJ I
@@ -22696,17 +22696,17 @@ question NN O
 . . O
 " " O
 
-Alatas NNS O
+Alatas NNS I
 said VBD O
 on IN O
-Tuesday NNP I
+Tuesday NNP O
 that IN O
 on IN O
 his PRP$ O
 way NN O
 back RB O
 from IN O
-Oslo NN I
+Oslo NN O
 , , O
 Belo NNP I
 would MD O
@@ -22807,7 +22807,7 @@ news NN O
 agency NN O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 Xinhua NNP I
@@ -22828,7 +22828,7 @@ foreign JJ O
 vessels NNS O
 . . O
 
-Wenchang NN O
+Wenchang NN I
 has VBZ O
 built VBN O
 a DT O
@@ -22860,7 +22860,7 @@ Xinhua NNP I
 said VBD O
 . . O
 
-It PRP O
+It PRP I
 gave VBD O
 no DT O
 further JJ O
@@ -22886,7 +22886,7 @@ cannons NNS O
 RANGOON NNP I
 1996-12-07 CD O
 
-Burmese NN O
+Burmese NN I
 troops NNS O
 and CC O
 riot NN O
@@ -23080,7 +23080,7 @@ the DT O
 capital NN O
 . . O
 
-Burmese NN O
+Burmese NN I
 students NNS O
 march VBP O
 briefly NN O
@@ -23111,7 +23111,7 @@ in IN O
 northern JJ O
 Rangoon NN I
 on IN O
-Friday NNP I
+Friday NNP O
 towards IN O
 the DT O
 University NNP I
@@ -23165,7 +23165,7 @@ clashes NNS O
 . . O
 
 " " O
-They PRP I
+They PRP O
 are VBP O
 now RB O
 back VB O
@@ -23228,7 +23228,7 @@ witnesses NNS O
 said VBD O
 . . O
 
-They PRP O
+They PRP I
 were VBD O
 singing VBG O
 peacefully RB O
@@ -23237,7 +23237,7 @@ peacefully RB O
 On IN O
 Monday NNP I
 and CC O
-Tuesday NNP I
+Tuesday NNP O
 , , O
 students NNS O
 from IN O
@@ -23269,19 +23269,19 @@ and CC O
 restaurant NN O
 owners NNS O
 in IN O
-October NNP I
+October NNP O
 . . O
 
 On IN O
-Tuesday NNP I
+Tuesday NNP O
 and CC O
-Wednesday NNP I
+Wednesday NNP O
 , , O
 opposition NN O
 leader NN O
 Aung NNP I
-San NNP O
-Suu NNP O
+San NNP I
+Suu NNP I
 Kyi NNP I
 was VBD O
 restricted VBN O
@@ -23310,7 +23310,7 @@ to TO O
 move VB O
 freely RB O
 on IN O
-Thursday NNP I
+Thursday NNP O
 . . O
 
 The DT O
@@ -23319,7 +23319,7 @@ culminated VBN O
 at IN O
 dawn NN O
 on IN O
-Tuesday NNP I
+Tuesday NNP O
 with IN O
 several JJ O
 hundred CD O
@@ -23367,9 +23367,9 @@ or CC O
 imprisoned VBN O
 . . O
 
-Earlier RBR O
+Earlier RBR I
 on IN O
-Friday NNP I
+Friday NNP O
 some DT O
 of IN O
 the DT O
@@ -23480,7 +23480,7 @@ Kyi NNP I
 National NNP I
 League NNP I
 for IN O
-Democracy NN I
+Democracy NN O
 ( ( O
 NLD NNP I
 ) ) O
@@ -23568,7 +23568,7 @@ the DT O
 Yangon JJ I
 institute NN O
 in IN O
-October NNP I
+October NNP O
 . . O
 
 The DT O
@@ -23628,22 +23628,22 @@ Union NNP I
 leaders NNS O
 outraged JJ O
 by IN O
-WTO NNP I
+WTO NNP O
 snub NNS O
 to TO O
-ILO NNP I
+ILO NNP O
 head NN O
 . . O
 
-SINGAPORE JJR O
+SINGAPORE JJR I
 1996-12-06 CD O
 
-International NN O
+International NN I
 trade NN O
 union NN O
 leaders NNS O
 on IN O
-Friday NNP I
+Friday NNP O
 expressed VBD O
 outrage NN O
 that IN O
@@ -23669,7 +23669,7 @@ week NN O
 WTO NNP I
 meeting NN O
 in IN O
-Singapore NNP I
+Singapore NNP O
 . . O
 
 Bill NNP I
@@ -23697,10 +23697,10 @@ the DT O
 withdrawal NN O
 of IN O
 a DT O
-WTO NNP I
+WTO NNP O
 invitation NN O
 to TO O
-ILO NN O
+ILO NN I
 director NN O
 general NN O
 Michel NNP I
@@ -23748,7 +23748,7 @@ World NNP I
 Trade NNP I
 Organisation NNP I
 ( ( O
-WTO NN O
+WTO NN I
 ) ) O
 officials NNS O
 to TO O
@@ -23913,7 +23913,7 @@ withdrawn VBN O
 . . O
 
 " " O
-Some DT I
+Some DT O
 governments NNS O
 are VBP O
 very RB O
@@ -23952,7 +23952,7 @@ particularly RB O
 hostile JJ O
 to TO O
 the DT O
-ILO JJ O
+ILO JJ I
 agenda NN O
 . . O
 
@@ -23969,7 +23969,7 @@ Philippines NNPS I
 , , O
 Singapore NNP I
 , , O
-Thailand NNP I
+Thailand NNP O
 and CC O
 Vietnam NNP I
 . . O
@@ -24011,7 +24011,7 @@ ministerial-level JJ O
 gathering NN O
 . . O
 
-Speaking VBG O
+Speaking VBG I
 to TO O
 ICFTU JJ I
 delegates NNS O
@@ -24081,10 +24081,10 @@ outstripping VBG O
 production NN O
 . . O
 
-SINGAPORE JJR O
+SINGAPORE JJR I
 1996-12-06 CD O
 
-Indian JJ O
+Indian JJ I
 rubber NN O
 demand NN O
 is VBZ O
@@ -24120,7 +24120,7 @@ of IN O
 India NNP I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 K.J. NNP I
@@ -24351,7 +24351,7 @@ India NNP I
 . . O
 
 " " O
-The DT O
+The DT I
 development NN O
 objective NN O
 for IN O
@@ -24408,7 +24408,7 @@ Nishiyama NNP I
 TOKYO TO O
 1996-12-06 CD O
 
-Comments NNS O
+Comments NNS I
 by IN O
 Japan NNP I
 's POS O
@@ -24500,7 +24500,7 @@ television NN O
 appearance NN O
 late JJ O
 on IN O
-Thursday NNP I
+Thursday NNP O
 by IN O
 Eisuke NNP I
 Sakakibara NNP I
@@ -24692,7 +24692,7 @@ president NN O
 at IN O
 Union NNP I
 Bank NNP I
-of IN O
+of IN I
 Switzerland NNP I
 in IN O
 Tokyo NNP I
@@ -24734,7 +24734,7 @@ yen NN O
 . . O
 " " O
 
-Market NN O
+Market NN I
 participants NNS O
 have VBP O
 kept VBN O
@@ -24986,7 +24986,7 @@ economy NN O
 . . O
 
 " " O
-There EX I
+There EX O
 was VBD O
 concern NN O
 that IN O
@@ -25037,7 +25037,7 @@ Tokyo NNP I
 . . O
 
 Senior NNP I
-BOJ NN O
+BOJ NN I
 officials NNS O
 have VBP O
 separately RB O
@@ -25131,7 +25131,7 @@ death NN O
 Haitham NNP I
 Haddadin NNP I
 
-BEIRUT IN O
+BEIRUT IN I
 1996-12-06 CD O
 
 A DT O
@@ -25139,7 +25139,7 @@ Lebanese JJ I
 military JJ O
 court NN O
 on IN O
-Friday NNP I
+Friday NNP O
 sentenced VBD O
 to TO O
 death NN O
@@ -25201,7 +25201,7 @@ major-general JJ O
 , , O
 heads NNS O
 the DT O
-3,000-strong JJ O
+3,000-strong JJ I
 SLA NNP I
 militia NN O
 which WDT O
@@ -25235,7 +25235,7 @@ the DT O
 trial NN O
 began VBD O
 on IN O
-February NNP I
+February NNP O
 16 CD O
 that IN O
 Lebanese JJ I
@@ -25462,7 +25462,7 @@ Lahd NNP I
 Former JJ O
 Israeli JJ I
 Prime NNP I
-Minister NNP I
+Minister NNP O
 Shimon NNP I
 Peres NNP I
 , , O
@@ -25554,8 +25554,8 @@ head NN O
 of IN O
 the DT O
 pro-Israeli JJ O
-Guardians NNP I
-of IN O
+Guardians NNP O
+of IN I
 the DT O
 Cedars NNPS I
 , , O
@@ -25600,7 +25600,7 @@ Lebanon NNP I
 " " O
 . . O
 
-Texas NNP I
+Texas NNP O
 / SYM O
 w IN O
 Okla NNP I
@@ -25625,7 +25625,7 @@ in IN O
 the DT O
 Panhandle NNP I
 area NN O
-Friday NNP I
+Friday NNP O
 , , O
 USDA NNP I
 said VBD O
@@ -25643,13 +25643,13 @@ cwt NN O
 lower RBR O
 . . O
 
-Feedlots NNS O
+Feedlots NNS I
 reporting VBG O
 moderate JJ O
 inquiry NN O
 . . O
 
-Sales NNS O
+Sales NNS I
 reported VBD O
 on RP O
 8,200 CD O
@@ -25717,11 +25717,11 @@ Confirmed JJ O
 Week NNP I
 Ago NNP I
 - : O
-None NN I
-Year NN I
-Ago NNP I
+None NN O
+Year NN O
+Ago NNP O
 - : O
-None NN I
+None NN O
 
 ( ( O
 ( ( O
@@ -25740,7 +25740,7 @@ and CC O
 hog NN O
 slaughter NN O
 - : O
-Dec NNP I
+Dec NNP O
 6 CD O
 . . O
 
@@ -25754,11 +25754,11 @@ inspection NN O
 - : O
 USDA NNP I
 
-CATTLE NNP I
+CATTLE NNP O
 CALVES NNP I
 HOGS NNP I
 
-Friday NNP I
+Friday NNP O
 12/06/96 NNP O
 ( ( O
 est FW O
@@ -25776,7 +25776,7 @@ est FW O
 6,000 CD O
 346,000 CD O
 
-Year NN O
+Year NN I
 ago RB O
 ( ( O
 act NN O
@@ -25806,7 +25806,7 @@ est FW O
 
 Same JJ O
 Period NNP I
-Last JJ I
+Last JJ O
 Week NNP I
 ( ( O
 est FW O
@@ -25817,7 +25817,7 @@ est FW O
 
 Same JJ O
 Period NNP I
-Last JJ I
+Last JJ O
 Year* NN I
 ( ( O
 act NN O
@@ -25827,7 +25827,7 @@ act NN O
 1,914,000 CD O
 
 1996 CD O
-Year NN I
+Year NN O
 to TO O
 date NN O
 33,549,000 CD O
@@ -25835,14 +25835,14 @@ date NN O
 84,894,000 CD O
 
 1995 CD O
-Year NN I
+Year NN O
 to TO O
 date* VB O
 32,970,000 CD O
 1,305,000 CD O
 88,800,000 CD O
 
-Percent NN O
+Percent NN I
 change NN O
 1.8 CD O
 % NN O
@@ -25885,7 +25885,7 @@ Cow NNP I
 and CC O
 Bull NNP I
 
-Thursday NNP I
+Thursday NNP O
 100,000 CD O
 33,000 CD O
 
@@ -25902,13 +25902,13 @@ $ $ O
 mln NNS O
 . . O
 
-CITY NN O
+CITY NN I
 OF IN O
-HARTFORD NNP I
+HARTFORD NNP O
 , , O
 CONNECTICUT NNP I
 
-RE NNP I
+RE NNP O
 : : O
 $ $ O
 25,000,000 CD O
@@ -25920,27 +25920,27 @@ BONDS NNS I
 MOODY NNP I
 'S POS O
 : : O
-Aaa JJ O
+Aaa JJ I
 / SYM O
 A1 NNP I
 S&P NNP I
 : : O
-AAA NNP I
+AAA NNP O
 / SYM O
-AA- PRP O
+AA- PRP I
 
-Delivery NNP I
-Date NNP I
+Delivery NNP O
+Date NNP O
 : : O
 12/16/1996 CD O
 
 FSA NNP I
-INSURED VBN I
+INSURED VBN O
 
-Maturity NNP I
+Maturity NNP O
 Balance NNP I
 Coupon NN O
-List VB I
+List VB O
 
 12/15/2000 CD O
 1,250M CD O
@@ -26023,7 +26023,7 @@ and CC O
 Trust NNP I
 Company NNP I
 
-Prudential NNP I
+Prudential NNP O
 Securities NNPS I
 Incorporated NNP I
 
@@ -26036,7 +26036,7 @@ Capital NNP I
 Markets NNP I
 Corp. NNP I
 - : O
-NJ NNP I
+NJ NNP O
 
 -- : O
 U.S. NNP I
@@ -26091,7 +26091,7 @@ put VBN O
 to TO O
 death NN O
 in IN O
-Florida NNP I
+Florida NNP O
 's POS O
 electric JJ O
 chair NN O
@@ -26104,7 +26104,7 @@ Lawhon NNP I
 , , O
 a DT O
 rural JJ O
-Florida NNP I
+Florida NNP O
 minister NN O
 who WP O
 is VBZ O
@@ -26136,7 +26136,7 @@ Lester NNP I
 Lawhon NNP I
 . . O
 
-Speaking VBG O
+Speaking VBG I
 in IN O
 Arabic NNP I
 , , O
@@ -26230,7 +26230,7 @@ said VBD O
 that IN O
 , , O
 on IN O
-May NNP I
+May NNP O
 14 CD O
 , , O
 1991 CD O
@@ -26244,7 +26244,7 @@ new JJ O
 name NN O
 , , O
 Yuhanna NNP I
-Abdullah NNP I
+Abdullah NNP O
 Muhammed NNP I
 , , O
 be VB O
@@ -26274,7 +26274,7 @@ person NN O
 to TO O
 die VB O
 in IN O
-Florida NNP I
+Florida NNP O
 's POS O
 electric JJ O
 chair NN O
@@ -26351,13 +26351,13 @@ temporarily RB O
 postponed VBN O
 by IN O
 the DT O
-Florida NNP I
+Florida NNP O
 Supreme NNP I
 Court NNP I
 . . O
 
 On IN O
-Thursday NNP I
+Thursday NNP O
 , , O
 the DT O
 11th JJ O
@@ -26454,7 +26454,7 @@ grain NN O
 freight NN O
 fixtures NNS O
 - : O
-Dec NNP I
+Dec NNP O
 5 CD O
 . . O
 
@@ -26512,7 +26512,7 @@ tested VBN O
 , , O
 compared VBN O
 with IN O
-Thursday NNP I
+Thursday NNP O
 's POS O
 close NN O
 , , O
@@ -26520,7 +26520,7 @@ USDA NNP I
 said VBD O
 . . O
 
-Trade NNP I
+Trade NNP O
 slow VB O
 . . O
 
@@ -26531,7 +26531,7 @@ interest NN O
 light NN O
 . . O
 
-Offerings NNS O
+Offerings NNS I
 light NN O
 . . O
 
@@ -26633,9 +26633,9 @@ sales NNS O
 
 Confirmed VBN O
 - : O
-None NN I
-Week NN I
-Ago NNP I
+None NN O
+Week NN O
+Ago NNP O
 - : O
 800 CD O
 Year NNP I
@@ -26647,8 +26647,8 @@ Wk VB O
 to TO O
 Date NNP I
 - : O
-None NN I
-Week NN I
+None NN O
+Week NN O
 Ago NNP I
 - : O
 800 CD O
@@ -26679,7 +26679,7 @@ years NNS O
 
 APPLETON NNP I
 , , O
-Wis NNP I
+Wis NNP O
 . . O
 
 1996-12-06 CD O
@@ -26730,7 +26730,7 @@ a DT O
 prison NN O
 term NN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 , , O
 Outagmie NNP I
 County NNP I
@@ -26751,7 +26751,7 @@ habit NN O
 " " O
 
 " " O
-You PRP O
+You PRP I
 are VBP O
 self-indulgent JJ O
 . . O
@@ -26888,7 +26888,7 @@ Canadian JJ I
 Grain NNP I
 Commission NNP I
 
-Visible JJ O
+Visible JJ I
 Supplies NNS I
 Farmers NNPS I
 Deliveries NNP I
@@ -26896,13 +26896,13 @@ Deliveries NNP I
 Curr NNP I
 Wk NN O
 Yr NNP I
-Ago NNP O
+Ago NNP I
 Curr NNP I
 Wk NN O
-Yr NNP I
+Yr NNP O
 to TO O
 Date NNP I
-Yr NNP O
+Yr NNP I
 Ago NNP I
 
 Wheat NN O
@@ -26933,7 +26933,7 @@ Barley NNP I
 2531.4 CD O
 1897.1 CD O
 
-Rye NNP I
+Rye NNP O
 44.6 CD O
 86.3 CD O
 2.3 CD O
@@ -26969,7 +26969,7 @@ Total JJ O
 11979.6 CD O
 
 Exports NNS O
-Domestic JJ I
+Domestic JJ O
 Disappearance NN I
 
 Curr NNP I
@@ -26983,7 +26983,7 @@ YTD TO O
 Yr NNP I
 Ago NNP I
 
-Wheat NN O
+Wheat NN I
 387.4 CD O
 4677.8 CD O
 4553.6 CD O
@@ -26991,7 +26991,7 @@ Wheat NN O
 1039.7 CD O
 846.1 CD O
 
-Durum NN O
+Durum NN I
 129.0 CD O
 1515.9 CD O
 1220.6 CD O
@@ -26999,7 +26999,7 @@ Durum NN O
 75.8 CD O
 73.3 CD O
 
-Oats NNP I
+Oats NNP O
 40.0 CD O
 561.0 CD O
 391.9 CD O
@@ -27015,7 +27015,7 @@ Barley NNP I
 941.0 CD O
 786.6 CD O
 
-Rye NNP I
+Rye NNP O
 4.1 CD O
 60.7 CD O
 57.9 CD O
@@ -27023,7 +27023,7 @@ Rye NNP I
 10.7 CD O
 18.9 CD O
 
-Flax RB O
+Flax RB I
 7.2 CD O
 154.1 CD O
 235.7 CD O
@@ -27070,7 +27070,7 @@ U.S. NNP I
 between IN O
 August NNP I
 and CC O
-September NNP I
+September NNP O
 1996 CD O
 , , O
 in IN O
@@ -27078,20 +27078,20 @@ tonnes NNS O
 : : O
 
 Oats NNP I
-Rye NNP O
-Flaxseed NNP I
+Rye NNP I
+Flaxseed NNP O
 Canola NNP I
 Corn NNP I
 
-Exports NNS O
+Exports NNS I
 29,200 CD O
 17,200 CD O
 7,700 CD O
 100 CD O
 59,400 CD O
 
-Year NNP I
-Ago NNP I
+Year NNP O
+Ago NNP O
 47,000 CD O
 24,300 CD O
 8,700 CD O
@@ -27370,7 +27370,7 @@ traded VBD O
 , , O
 down RB O
 from IN O
-Thursday NNP I
+Thursday NNP O
 's POS O
 revised JJ O
 tally NN O
@@ -27395,10 +27395,10 @@ off RB O
 10 CD O
 cents NNS O
 from IN O
-Thursday NNP I
+Thursday NNP O
 . . O
 
-Physical JJ O
+Physical JJ I
 prices NNS O
 for IN O
 the DT O
@@ -27479,7 +27479,7 @@ $ $ O
 
 On IN O
 the DT O
-KCBT NNP I
+KCBT NNP O
 , , O
 January NNP I
 finished VBD O
@@ -27541,7 +27541,7 @@ premium NN O
 ) ) O
 . . O
 
-Physical JJ O
+Physical JJ I
 prices NNS O
 at IN O
 Waha NNP I
@@ -27568,7 +27568,7 @@ Southwest NNP I
 . . O
 
 -- : O
-H NNP I
+H NNP O
 McCulloch NNP I
 , , O
 New NNP I
@@ -27586,7 +27586,7 @@ call NN O
 session NN O
 . . O
 
-ST. NNP I
+ST. NNP O
 LOUIS NNPS I
 1996-12-06 CD O
 
@@ -27601,7 +27601,7 @@ on IN O
 the DT O
 St. NNP I
 Louis NNP I
-Merchants NNP I
+Merchants NNP O
 Exchange NNP I
 call NN O
 session NN O
@@ -27685,7 +27685,7 @@ percent NN O
 . . O
 
 - : O
-Five CD I
+Five CD O
 barges NNS O
 , , O
 30-day JJ O
@@ -27810,10 +27810,10 @@ of IN O
 Trade NNP I
 - : O
 
-Receipts NNPS O
+Receipts NNPS I
 Shipments NNS I
 
-Wheat NN O
+Wheat NN I
 
 Chicago NNP I
 0 CD O
@@ -27828,7 +27828,7 @@ Toledo NNP I
 61,514 CD O
 0 CD O
 
-Corn NN O
+Corn NN I
 
 Chicago NNP I
 78,056 CD O
@@ -27913,7 +27913,7 @@ the DT O
 White NNP I
 House NNP I
 said VBD O
-Friday NNP I
+Friday NNP O
 . . O
 
 The DT O
@@ -28031,7 +28031,7 @@ Performance NNP I
 Cos NNPS O
 Inc NNP I
 said VBD O
-Friday NNP I
+Friday NNP O
 it PRP O
 has VBZ O
 agreed VBN O
@@ -28154,7 +28154,7 @@ fellow JJ O
 animal NN O
 doctors NNS O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 The DT O
@@ -28269,7 +28269,7 @@ he PRP O
 said VBD O
 . . O
 
-Cornwell NN O
+Cornwell NN I
 said VBD O
 50 CD O
 percent NN O
@@ -28403,7 +28403,7 @@ something NN O
 unique JJ O
 . . O
 
-Speaking VBG O
+Speaking VBG I
 strictly RB O
 of IN O
 dogs NNS O
@@ -28482,7 +28482,7 @@ DES NNP I
 MOINES NNP I
 1996-12-06 CD O
 
-Steers NNS O
+Steers NNS I
 and CC O
 heifers NNS O
 were VBD O
@@ -28491,7 +28491,7 @@ tested VBN O
 , , O
 compared VBN O
 with IN O
-Thursday NNP I
+Thursday NNP O
 's POS O
 close NN O
 , , O
@@ -28499,7 +28499,7 @@ USDA NNP I
 said VBD O
 . . O
 
-Reported VBN O
+Reported VBN I
 sales NNS O
 for IN O
 Fri- NNP I
@@ -28510,7 +28510,7 @@ Week NN O
 to TO O
 Date NNP I
 - : O
-None NN I
+None NN O
 . . O
 
 ( ( O
@@ -28529,7 +28529,7 @@ roundup VBP O
 USDA NNP I
 . . O
 
-OMAHA NNP I
+OMAHA NNP O
 1996-12-06 CD O
 
 Slaughter NNP I
@@ -28539,7 +28539,7 @@ heifers VBZ O
 were VBD O
 not RB O
 established VBD O
-Thursday NNP I
+Thursday NNP O
 . . O
 
 Demand NN O
@@ -28556,12 +28556,12 @@ USDA NNP I
 
 Thursday NNP I
 200 CD O
-Last JJ I
+Last JJ O
 Week NNP I
 Holiday NNP I
-Last JJ I
+Last JJ O
 Year NNP I
-N NNP I
+N NNP O
 / SYM O
 A DT O
 
@@ -28578,7 +28578,7 @@ Sm NNP I
 Pd NNP I
 Lst VBD O
 Yr NNP I
-N NNP I
+N NNP O
 / SYM O
 A DT O
 
@@ -28594,7 +28594,7 @@ Dressed VBD O
 Basis NNP I
 Steers NNP I
 : : O
-Few JJ O
+Few JJ I
 Select NNP I
 and CC O
 Choice NNP I
@@ -28613,7 +28613,7 @@ Dressed VBD O
 Basis NNP I
 Heifers NNP I
 : : O
-Few JJ O
+Few JJ I
 Select NNP I
 and CC O
 Choice NNP I
@@ -28657,7 +28657,7 @@ of IN O
 U.N. NNP I
 secretary-general NN O
 on IN O
-Friday NNP I
+Friday NNP O
 now RB O
 that IN O
 Boutros NNP I
@@ -28824,9 +28824,9 @@ his PRP$ O
 country NN O
 . . O
 
-Boutros-Ghali JJ O
+Boutros-Ghali JJ I
 on IN O
-Wednesday NNP I
+Wednesday NNP O
 opened VBD O
 the DT O
 door NN O
@@ -28979,11 +28979,11 @@ five CD O
 MADRID NNP I
 1996-12-06 CD O
 
-Spanish JJ O
+Spanish JJ I
 police NNS O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 they PRP O
 had VBD O
 arrested VBN O
@@ -29088,10 +29088,10 @@ far-right JJ O
 party NN O
 . . O
 
-ROME VB O
+ROME VB I
 1996-12-06 CD O
 
-Alessandra NNP I
+Alessandra NNP O
 Mussolini NNP I
 , , O
 the DT O
@@ -29106,7 +29106,7 @@ Mussolini NNP I
 , , O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 she PRP O
 had VBD O
 rejoined VBN O
@@ -29204,7 +29204,7 @@ leader NN O
 in IN O
 the DT O
 Chamber NNP I
-of IN O
+of IN I
 Deputies NNPS I
 ( ( O
 lower JJR O
@@ -29335,7 +29335,7 @@ a DT O
 German JJ I
 bank NN O
 on IN O
-Friday NNP I
+Friday NNP O
 nearly RB O
 ended VBD O
 up RP O
@@ -29390,7 +29390,7 @@ was VBD O
 genuine JJ O
 . . O
 
-Italy NN O
+Italy NN I
 commission NN O
 concludes VBZ O
 1997 CD O
@@ -29398,7 +29398,7 @@ budget NN O
 examination NN O
 . . O
 
-ROME VB O
+ROME VB I
 1996-12-06 CD O
 
 The DT O
@@ -29430,7 +29430,7 @@ Saturday NNP I
 . . O
 
 From IN O
-Tuesday NNP I
+Tuesday NNP O
 , , O
 the DT O
 full JJ O
@@ -29509,8 +29509,8 @@ gasoil JJ O
 products NNS O
 introduced VBN O
 on IN O
-January NNP I
-1 CD O
+January NNP O
+1 CD I
 , , O
 1996 CD O
 , , O
@@ -29679,7 +29679,7 @@ house NN O
 of IN O
 parliament NN O
 on IN O
-Friday NNP I
+Friday NNP O
 , , O
 in IN O
 protest NN O
@@ -29706,7 +29706,7 @@ in IN O
 1992 CD O
 . . O
 
-Members NNS O
+Members NNS I
 of IN O
 the DT O
 Hindu NNP I
@@ -29805,7 +29805,7 @@ were VBD O
 killed VBN O
 . . O
 
-Indian JJ O
+Indian JJ I
 officials NNS O
 blame VBP O
 revenge-minded JJ O
@@ -29922,14 +29922,14 @@ the DT O
 government NN O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 STEEL NNP I
-OUTPUT NNP I
+OUTPUT NNP O
 Sept NNP I
 Sept NNP I
-Apr-Sept NN O
+Apr-Sept NN I
 Apr-Sept JJ I
 
 1996 CD O
@@ -29966,8 +29966,8 @@ preliminary JJ O
 LUXEMBOURG NNP I
 CHRISTMAS NNP I
 MARKET NNP I
-GOES NNS I
-ON IN O
+GOES NNS O
+ON IN I
 WORLD NN I
 WIDE NNP I
 WEB NNP I
@@ -30038,7 +30038,7 @@ Newsroom NNP I
 287 CD O
 6810 CD O
 , , O
-Fax NNP I
+Fax NNP O
 +32 CD O
 2 CD O
 230 CD O
@@ -30065,7 +30065,7 @@ coal NN O
 Hay NNP I
 Point NNP I
 or CC O
-Newcastle NNP I
+Newcastle NNP O
 / SYM O
 Kaohsiung NNP I
 20-30/1 CD O
@@ -30090,7 +30090,7 @@ Clipper NNP I
 77,000 CD O
 tonnes VBZ O
 coal NN O
-Maracaibo NNP I
+Maracaibo NNP O
 / SYM O
 Fos NNS O
 19/12-2/1 NNP O
@@ -30130,7 +30130,7 @@ China NNP I
 Steel NNP I
 . . O
 
-UK NNP I
+UK NNP O
 bookmakers NNS O
 lengthen VBP O
 Conservative JJ I
@@ -30147,7 +30147,7 @@ William NNP I
 Hill NNP I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 they PRP O
 have VBP O
 lengthened VBN O
@@ -30202,7 +30202,7 @@ must MD O
 be VB O
 held VBN O
 by IN O
-May NNP I
+May NNP O
 . . O
 
 -- : O
@@ -30226,7 +30226,7 @@ Salomon NNP I
 LONDON NNP I
 1996-12-06 CD O
 
-High-flying VBG O
+High-flying VBG I
 Italy NNP I
 topped VBD O
 the DT O
@@ -30245,7 +30245,7 @@ Salomon NNP I
 Brothers NNPS I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 In IN O
@@ -30265,7 +30265,7 @@ the DT O
 week NN O
 ended VBD O
 on IN O
-Thursday NNP I
+Thursday NNP O
 , , O
 with IN O
 fellow NN O
@@ -30382,7 +30382,7 @@ paltry JJ O
 percent NN O
 . . O
 
-German NNP I
+German NNP O
 Bunds NNP I
 were VBD O
 not RB O
@@ -30406,7 +30406,7 @@ percent NN O
 gain NN O
 . . O
 
-Spanish JJ O
+Spanish JJ I
 bonds NNS O
 , , O
 which WDT O
@@ -30559,13 +30559,13 @@ interest NN O
 Stephen NNP I
 Nisbet NNP I
 , , O
-International NNP I
+International NNP O
 Bonds NNP I
 +44 CD O
 171 CD O
 6320 CD O
 
-OPEC NNP I
+OPEC NNP O
 basket NN O
 price NN O
 $ $ O
@@ -30593,16 +30593,16 @@ $ $ O
 a DT O
 barrel NN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 , , O
 against IN O
 $ $ O
 23.47 CD O
 on IN O
-Wednesday NNP I
+Wednesday NNP O
 , , O
 the DT O
-OPECNA NNP I
+OPECNA NNP O
 news NN O
 agency NN O
 said VBD O
@@ -30610,7 +30610,7 @@ said VBD O
 quoting VBG O
 the DT O
 OPEC NNP I
-secretariat NN O
+secretariat NN I
 . . O
 
 The DT O
@@ -30682,7 +30682,7 @@ Kenneth NNP I
 Clarke NNP I
 and CC O
 Prime NNP I
-Minister NNP I
+Minister NNP O
 John NNP I
 Major NNP I
 are VBP O
@@ -30705,7 +30705,7 @@ Major NNP I
 office NN O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 Asked VBN O
@@ -30724,7 +30724,7 @@ good JJ O
 . . O
 " " O
 
-Asked VBN O
+Asked VBN I
 about IN O
 Major NNP I
 's POS O
@@ -30790,7 +30790,7 @@ business NN O
 managers NNS O
 . . O
 
-Both DT O
+Both DT I
 Major NNP I
 and CC O
 Clarke NNP I
@@ -30799,7 +30799,7 @@ in IN O
 their PRP$ O
 constituencies NNS O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 Two CD O
@@ -30812,7 +30812,7 @@ in IN O
 Newfoundland NNP I
 . . O
 
-STEPHENVILLE RB O
+STEPHENVILLE RB I
 , , O
 Newfoundland NNP I
 1996-12-06 CD O
@@ -30843,7 +30843,7 @@ Stephenville NNP I
 Newfoundland NNP I
 , , O
 on IN O
-Friday NNP I
+Friday NNP O
 , , O
 authorities NNS O
 said VBD O
@@ -31018,7 +31018,7 @@ yet RB O
 known VBN O
 . . O
 
-Investigators NNS O
+Investigators NNS I
 were VBD O
 due JJ O
 to TO O
@@ -31027,10 +31027,10 @@ to TO O
 Stephenville NNP I
 later RB O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
-PLO NNP I
+PLO NNP O
 says VBZ O
 Arafat NNP I
 , , O
@@ -31040,7 +31040,7 @@ meet VB O
 Saturday NNP I
 . . O
 
-JERUSALEM VBN O
+JERUSALEM VBN I
 1996-12-06 CD O
 
 PLO NNP I
@@ -31097,7 +31097,7 @@ Netanyahu NNP I
 will MD O
 meet VB O
 in IN O
-Cairo NN I
+Cairo NN O
 on IN O
 Saturday NNP I
 . . O
@@ -31112,7 +31112,7 @@ a DT O
 meeting NN O
 hosted VBD O
 by IN O
-President NNP I
+President NNP O
 Mubarak NNP I
 , , O
 " " O
@@ -31149,14 +31149,14 @@ said VBD O
 : : O
 
 " " O
-President NNP I
+President NNP O
 Arafat NNP I
 is VBZ O
 ready JJ O
 to TO O
 meet VB O
 Prime NNP I
-Minister NNP I
+Minister NNP O
 Netanyahu NNP I
 but CC O
 no DT O
@@ -31174,7 +31174,7 @@ yet RB O
 . . O
 
 " " O
-President NNP I
+President NNP O
 Arafat NNP I
 's POS O
 position NN O
@@ -31237,7 +31237,7 @@ with IN O
 Mubarak NNP I
 . . O
 
-Both DT O
+Both DT I
 Arafat NNP I
 and CC O
 Netanyahu NNP I
@@ -31288,7 +31288,7 @@ Jerusalem NNP I
 
 The DT O
 Palestine NNP I
-Liberation NNP I
+Liberation NNP O
 Organisation NNP I
 ( ( O
 PLO NNP I
@@ -31334,7 +31334,7 @@ Osama NNP I
 el-Baz NN O
 said VBD O
 on IN O
-Thursday NNP I
+Thursday NNP O
 there EX O
 were VBD O
 efforts NNS O
@@ -31350,7 +31350,7 @@ Palestinian JJ I
 leaders NNS O
 . . O
 
-Palestinian NNP I
+Palestinian NNP O
 Authority NNP I
 Secretary NNP I
 General NNP I
@@ -31358,7 +31358,7 @@ Ahmed NNP I
 Abdel-Rahman NNP I
 said VBD O
 on IN O
-Thursday NNP I
+Thursday NNP O
 he PRP O
 understood VBD O
 it PRP O
@@ -31378,7 +31378,7 @@ Abdel-Rahman NNP I
 had VBD O
 said VBD O
 on IN O
-Thursday NNP I
+Thursday NNP O
 he PRP O
 did VBD O
 not RB O
@@ -31672,12 +31672,12 @@ conflict NN O
 Three CD O
 dead JJ O
 in IN O
-Kurd NNP I
+Kurd NNP O
 militia NN O
 blood NN O
 feud NN O
 in IN O
-Turkey NNP I
+Turkey NNP O
 . . O
 
 DIYARBAKIR NN O
@@ -31690,7 +31690,7 @@ people NNS O
 were VBD O
 killed VBN O
 on IN O
-Friday NNP I
+Friday NNP O
 in IN O
 a DT O
 gun JJ O
@@ -31858,10 +31858,10 @@ or CC O
 independence NN O
 . . O
 
-Texas NNP I
+Texas NNP O
 / SYM O
 w IN O
-Okla NNP I
+Okla NNP O
 fed VBN O
 cattle NNS O
 roundup VBP O
@@ -31879,7 +31879,7 @@ in IN O
 the DT O
 Panhandle NNP I
 area NN O
-Thursday NNP I
+Thursday NNP O
 . . O
 
 Slaughter NNP I
@@ -31891,7 +31891,7 @@ well RB O
 tested VBN O
 . . O
 
-Feedlots NNS O
+Feedlots NNS I
 reporting VBG O
 light JJ O
 inquiry NN O
@@ -31902,13 +31902,13 @@ buyers NNS O
 - : O
 USDA NNP I
 
-Thursday NNP I
+Thursday NNP O
 200 CD O
 Week NNP I
 Ago NNP O
 Holiday NNP I
 Year NNP I
-Ago NNP I
+Ago NNP O
 10,900 CD O
 
 Wk VB O
@@ -31951,7 +31951,7 @@ this DT O
 week NN O
 . . O
 
-Slaughter NNP I
+Slaughter NNP O
 Steers NNP I
 : : O
 Pen NNP I
@@ -31988,7 +31988,7 @@ DODGE NN O
 CITY VBZ I
 1996-12-06 CD O
 
-Trade NNP I
+Trade NNP O
 slow VB O
 . . O
 
@@ -32010,7 +32010,7 @@ test NN O
 - : O
 USDA NNP I
 
-Thursday NNP I
+Thursday NNP O
 600 CD O
 week NN O
 ago RB O
@@ -32047,7 +32047,7 @@ and CC O
 100 CD O
 slaughter NN O
 heifers VBZ O
-Thursday NNP I
+Thursday NNP O
 . . O
 
 For IN O
@@ -32107,7 +32107,7 @@ muni JJ O
 bond NN O
 yields NNS O
 calculated VBN O
-Dec NNP I
+Dec NNP O
 5 CD O
 
 Aaa JJ O
@@ -32226,7 +32226,7 @@ light NN O
 NYMEX NNP I
 ACCESS NNS I
 trade NN O
-Thursday NNP I
+Thursday NNP O
 , , O
 as IN O
 forecasts NNS O
@@ -32449,7 +32449,7 @@ sense NN O
 " " O
 
 " " O
-All DT O
+All DT I
 of IN O
 us PRP O
 who WP O
@@ -32531,7 +32531,7 @@ his PRP$ O
 just RB O
 sentence NN O
 ... : O
-This DT I
+This DT O
 is VBZ O
 an DT O
 incomprehensible NN O
@@ -32615,7 +32615,7 @@ he PRP O
 boarded JJ O
 a DT O
 regular JJ O
-Olympic NNP I
+Olympic NNP O
 Airways NNPS I
 flight NN O
 to TO O
@@ -32629,7 +32629,7 @@ Tunis NNP I
 and CC O
 the DT O
 former JJ O
-Palestine NNP I
+Palestine NNP O
 Liberation NNP I
 Organisation NNP I
 headquarters NN O
@@ -32724,7 +32724,7 @@ United NNP I
 States NNP I
 accuses VBZ O
 Rashid NNP I
-of IN O
+of IN I
 belonging VBG O
 to TO O
 the DT O
@@ -32775,7 +32775,7 @@ bomb NN O
 planted VBN O
 on IN O
 a DT O
-Pan NNP I
+Pan NNP O
 American NNP I
 plane NN O
 in IN O
@@ -32811,7 +32811,7 @@ slashing VBG O
 opponents NNS O
 . . O
 
-ALBUQUERQUE RB O
+ALBUQUERQUE RB I
 , , O
 N.M. NNP I
 1996-12-05 CD O
@@ -32840,7 +32840,7 @@ from IN O
 high JJ O
 school NN O
 banned VBD O
-Thursday NNP I
+Thursday NNP O
 from IN O
 competition NN O
 for IN O
@@ -32858,14 +32858,14 @@ expelled VBN O
 from IN O
 St NNP I
 Pius NNP I
-X NNP O
+X NNP I
 High NNP I
 School NNP I
 in IN O
 Albuquerque NNP I
 after IN O
 an DT O
-October NNP I
+October NNP O
 game NN O
 in IN O
 which WDT O
@@ -32901,7 +32901,7 @@ his PRP$ O
 forearm NN O
 . . O
 
-Officials NNS O
+Officials NNS I
 said VBD O
 the DT O
 New NNP I
@@ -32918,7 +32918,7 @@ inter-scholastic JJ O
 competition NN O
 until IN O
 next JJ O
-October NNP I
+October NNP O
 , , O
 regardless RB O
 of IN O
@@ -32971,7 +32971,7 @@ previous JJ O
 game NN O
 . . O
 
-Cyberspace NN O
+Cyberspace NN I
 squabbles NNS O
 overshadow NN O
 copyright NN O
@@ -33007,7 +33007,7 @@ a DT O
 first JJ O
 stab NN O
 on IN O
-Friday NNP I
+Friday NNP O
 at IN O
 rewriting VBG O
 copyright NN O
@@ -33152,7 +33152,7 @@ week NN O
 . . O
 " " O
 
-Attempts NNS O
+Attempts NNS I
 by IN O
 copyright-based JJ O
 industries NNS O
@@ -33254,12 +33254,12 @@ the DT O
 Washington-based JJ I
 Consumer NNP I
 Project NNP I
-on IN O
-Technology NN I
+on IN I
+Technology NN O
 . . O
 
 " " O
-None NN I
+None NN O
 of IN O
 the DT O
 treaties NNS O
@@ -33384,7 +33384,7 @@ had VBD O
 actually RB O
 surfed VBD O
 the DT O
-Internet NN I
+Internet NN O
 . . O
 
 Mongolia NNP I
@@ -33509,7 +33509,7 @@ the DT O
 computer NN O
 centre RB O
 offering VBG O
-Internet NN I
+Internet NN O
 services NNS O
 found VBD O
 a DT O
@@ -33579,16 +33579,16 @@ dinosaurs NNS O
 here RB O
 . . O
 
-People NNS O
+People NNS I
 here RB O
 do VBP O
 n't RB O
 understand VB O
-Internet NN I
+Internet NN O
 technology NN O
 . . O
 
-Because IN O
+Because IN I
 they PRP O
 do VBP O
 n't RB O
@@ -33695,7 +33695,7 @@ liabilities NNS O
 . . O
 
 " " O
-There EX I
+There EX O
 are VBP O
 500 CD O
 million CD O
@@ -33710,7 +33710,7 @@ everyday JJ O
 said VBD O
 Tim NNP I
 Casey NNP I
-of IN O
+of IN I
 the DT O
 U.S.-based JJ I
 MCI NNP I
@@ -33738,13 +33738,13 @@ from IN O
 Zaire NNP I
 . . O
 
-ROME VB O
+ROME VB I
 1996-12-06 CD O
 
 Italy NNP I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 it PRP O
 had VBD O
 evacuated VBN O
@@ -33918,16 +33918,16 @@ Moroccan NNP I
 embassy NN O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
-Benchaou NN O
+Benchaou NN I
 died VBD O
 of IN O
 his PRP$ O
 injuries NNS O
 on IN O
-Thursday NNP I
+Thursday NNP O
 night NN O
 , , O
 two CD O
@@ -33993,7 +33993,7 @@ a DT O
 teacher NN O
 . . O
 
-Investigators NNS O
+Investigators NNS I
 have VBP O
 said VBN O
 the DT O
@@ -34041,7 +34041,7 @@ Italy NNP I
 Italian JJ O
 President NNP I
 Oscar NNP I
-Luigi NNP I
+Luigi NNP O
 Scalfaro NNP I
 visited VBD O
 the DT O
@@ -34053,7 +34053,7 @@ separatist JJ O
 Northern NNP I
 League NNP I
 on IN O
-Friday NNP I
+Friday NNP O
 and CC O
 appealed VBD O
 to TO O
@@ -34343,7 +34343,7 @@ badly RB O
 Denmark NNP I
 's POS O
 Radiometer NNP I
-H1 NNP I
+H1 NNP O
 result NN O
 seen VBN O
 flat JJ O
@@ -34437,7 +34437,7 @@ far RB O
 
 -- : O
 Soeren NNP I
-Linding NNP I
+Linding NNP O
 Jakobsen NNP I
 , , O
 Copenhagen NNP I
@@ -34449,7 +34449,7 @@ Moslem NNP I
 fundamentalists NNS O
 kill VBP O
 19 CD O
-Algerians NNPS I
+Algerians NNPS O
 - : O
 agency NN O
 . . O
@@ -34522,7 +34522,7 @@ arrested VBN O
 BRUSSELS NNP I
 1996-12-06 CD O
 
-Police NNS O
+Police NNS I
 smashed VBD O
 two CD O
 drugs NNS O
@@ -34553,10 +34553,10 @@ Belgian JJ I
 police NNS O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
-Police NNS O
+Police NNS I
 seized VBD O
 dozens NNS O
 of IN O
@@ -34612,7 +34612,7 @@ in IN O
 a DT O
 taxi NN O
 in IN O
-Barcelona NNP I
+Barcelona NNP O
 . . O
 
 The DT O
@@ -34657,7 +34657,7 @@ man NN O
 smuggled VBN O
 heroin NN O
 from IN O
-Turkey NNP I
+Turkey NNP O
 to TO O
 Antwerp NNP I
 from IN O
@@ -34668,7 +34668,7 @@ taken VBN O
 to TO O
 Spain NNP I
 , , O
-France NNP I
+France NNP O
 and CC O
 Germany NNP I
 by IN O
@@ -34815,7 +34815,7 @@ from IN O
 992,860 CD O
 bags NNS O
 in IN O
-July NNP I
+July NNP O
 1996 CD O
 . . O
 
@@ -34828,7 +34828,7 @@ August NNP I
 after IN O
 164,185 CD O
 in IN O
-July NNP I
+July NNP O
 , , O
 El NNP I
 Salvador NNP I
@@ -34875,7 +34875,7 @@ newsroom NN O
 +49-40-41903275 CD O
 
 Munich NNP I
-Re NNP I
+Re NNP O
 says VBZ O
 to TO O
 split VB O
@@ -34888,7 +34888,7 @@ Germany NNP I
 1996-12-06 CD O
 
 Muenchener NNP I
-Rueckversicherungs NNP I
+Rueckversicherungs NNP O
 AG NNP I
 , , O
 the DT O
@@ -34899,7 +34899,7 @@ reinsurer NN O
 , , O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 it PRP O
 expected VBD O
 to TO O
@@ -35010,7 +35010,7 @@ at IN O
 3,710 CD O
 marks NNS O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 -- : O
@@ -35039,7 +35039,7 @@ Union NNP I
 rice NN O
 experts NNS O
 on IN O
-Thursday NNP I
+Thursday NNP O
 postponed VBD O
 discussion NN O
 on IN O
@@ -35108,7 +35108,7 @@ offcial JJ O
 said VBD O
 . . O
 
-European JJ O
+European JJ I
 rice NN O
 producers NNS O
 are VBP O
@@ -35168,7 +35168,7 @@ after IN O
 1.5607 CD O
 marks NNS O
 on IN O
-Thursday NNP I
+Thursday NNP O
 . . O
 
 There EX O
@@ -35180,7 +35180,7 @@ intervention NN O
 
 John NNP I
 Lewis NNP I
-UK NNP I
+UK NNP O
 store NN O
 sales NNS O
 up RB O
@@ -35282,13 +35282,13 @@ in IN O
 London NNP I
 at IN O
 0931 CD O
-GMT RB O
+GMT RB I
 . . O
 
 LONDON NNP I
 1996-12-06 CD O
 
-PT PRP O
+PT PRP I
 Tambang NNP I
 Timah NNP I
 was VBD O
@@ -35305,7 +35305,7 @@ Friday NNP I
 at IN O
 around IN O
 0931 CD O
-GMT RB O
+GMT RB I
 . . O
 
 It PRP O
@@ -35327,7 +35327,7 @@ Its PRP$ O
 previous JJ O
 close NN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 was VBD O
 $ $ O
 15.80 CD O
@@ -35335,7 +35335,7 @@ $ $ O
 
 One CD O
 Global NNP I
-Depository NNP I
+Depository NNP O
 Receipt NNP I
 represents VBZ O
 10 CD O
@@ -35458,7 +35458,7 @@ television NN O
 Newsnight NNP I
 programme NN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 . . O
 " " O
 
@@ -35541,7 +35541,7 @@ Parliament NNP I
 Clarke NNP I
 denied VBD O
 on IN O
-Thursday NNP I
+Thursday NNP O
 he PRP O
 had VBD O
 threatened VBN O
@@ -35571,7 +35571,7 @@ Major NNP I
 told VBD O
 parliament NN O
 on IN O
-Thursday NNP I
+Thursday NNP O
 he PRP O
 would MD O
 keep VB O
@@ -35641,7 +35641,7 @@ The DT O
 Australian JJ I
 opposition NN O
 on IN O
-Friday NNP I
+Friday NNP O
 demanded VBD O
 a DT O
 high-powered JJ O
@@ -35711,7 +35711,7 @@ him PRP O
 . . O
 
 " " O
-Today NN I
+Today NN O
 we PRP O
 are VBP O
 left VBN O
@@ -35805,7 +35805,7 @@ service NN O
 whitewash NN O
 . . O
 
-Accordingly RB O
+Accordingly RB I
 , , O
 they PRP O
 demand VBP O
@@ -35853,7 +35853,7 @@ report NN O
 is VBZ O
 due JJ O
 in IN O
-May NNP I
+May NNP O
 next JJ O
 year NN O
 . . O
@@ -35910,7 +35910,7 @@ with IN O
 children NNS O
 . . O
 
-Australian JJ O
+Australian JJ I
 hitman NN O
 killed VBN O
 wrong JJ O
@@ -35993,7 +35993,7 @@ told VBN O
 
 But CC O
 in IN O
-February NNP I
+February NNP O
 1993 CD O
 Leszic NNP I
 Betcher NNP I
@@ -36134,7 +36134,7 @@ to TO O
 meet VB O
 NZ NNP I
 First NNP I
-on IN O
+on IN I
 Sunday NNP I
 . . O
 
@@ -36145,7 +36145,7 @@ New NNP I
 Zealand NNP I
 Prime NNP I
 Minister NNP I
-Jim NNP O
+Jim NNP I
 Bolger NNP I
 , , O
 emerging VBG O
@@ -36160,7 +36160,7 @@ Zealand NNP I
 First NNP I
 party NN O
 on IN O
-Friday NNP I
+Friday NNP O
 afternoon NN O
 , , O
 said VBD O
@@ -36185,7 +36185,7 @@ to TO O
 be VB O
 formed VBN O
 by IN O
-Thursday NNP I
+Thursday NNP O
 . . O
 
 NZ NNP I
@@ -36211,7 +36211,7 @@ leader NN O
 Winston NNP I
 Peters NNP I
 on IN O
-Friday NNP I
+Friday NNP O
 said VBD O
 coalition NN O
 talks NNS O
@@ -36296,7 +36296,7 @@ good JJ O
 " " O
 . . O
 
-RTRS NNS O
+RTRS NNS I
 - : O
 Australian JJ I
 MP NNP I
@@ -36326,14 +36326,14 @@ the DT O
 office NN O
 of IN O
 House NNP I
-of IN O
+of IN I
 Representatives NNPS I
 speaker NN O
 Bob NNP I
 Halverson NNP I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 " " O
@@ -36360,7 +36360,7 @@ member NN O
 of IN O
 the DT O
 House NNP I
-of IN O
+of IN I
 Representatives NNPS I
 for IN O
 the DT O
@@ -36383,7 +36383,7 @@ a DT O
 statement NN O
 . . O
 
-Halverson NN O
+Halverson NN I
 was VBD O
 considering VBG O
 possible JJ O
@@ -36417,7 +36417,7 @@ up RP O
 a DT O
 position NN O
 as IN O
-Australia NNP I
+Australia NNP O
 's POS O
 senior JJ O
 representative NN O
@@ -36521,7 +36521,7 @@ planning NN O
 office NN O
 of IN O
 Papua NNP I
-New NNP O
+New NNP I
 Guinea NNP I
 from IN O
 1969 CD O
@@ -36535,7 +36535,7 @@ Bureau NNP I
 61-6 CD O
 273-2730 CD O
 
-Burmese NN O
+Burmese NN I
 students NNS O
 march VBP O
 out IN O
@@ -36553,7 +36553,7 @@ of IN O
 Burmese NNP I
 students NNS O
 on IN O
-Friday NNP I
+Friday NNP O
 marched VBD O
 out IN O
 of IN O
@@ -36561,7 +36561,7 @@ the DT O
 Yangon NNP I
 Institute NNP I
 of IN O
-Technology NN I
+Technology NN O
 ( ( O
 YIT NNP I
 ) ) O
@@ -36615,7 +36615,7 @@ immediately RB O
 On IN O
 Monday NNP I
 and CC O
-Tuesday NNP I
+Tuesday NNP O
 , , O
 students NNS O
 from IN O
@@ -36647,7 +36647,7 @@ and CC O
 restaurant NN O
 owners NNS O
 in IN O
-October NNP I
+October NNP O
 . . O
 
 The DT O
@@ -36656,7 +36656,7 @@ culminated VBN O
 at IN O
 dawn NN O
 on IN O
-Tuesday NNP I
+Tuesday NNP O
 with IN O
 several JJ O
 hundred CD O
@@ -36679,14 +36679,14 @@ in IN O
 Rangoon NNP I
 . . O
 
-They PRP O
+They PRP I
 were VBD O
 later JJ O
 released VBN O
 . . O
 
 On IN O
-Friday NNP I
+Friday NNP O
 , , O
 some DT O
 students NNS O
@@ -36743,7 +36743,7 @@ some DT O
 students NNS O
 at IN O
 the DT O
-October NNP I
+October NNP O
 brawl NN O
 be VB O
 published VBN O
@@ -36751,14 +36751,14 @@ in IN O
 newspapers NNS O
 . . O
 
-Thai NNP I
+Thai NNP O
 rice NN O
 vessels NNS O
 loading NN O
 and CC O
 movements NNS O
 at IN O
-Dec NNP I
+Dec NNP O
 06 CD O
 . . O
 
@@ -36787,7 +36787,7 @@ Vessel NNP I
 Date NNP I
 of IN O
 Arrival NNP I
-Quantity NNP I
+Quantity NNP O
 Destination NNP I
 
 Iran NNP I
@@ -36803,7 +36803,7 @@ Loine NNP I
 10,000 CD O
 Philippines NNP I
 
-Deligst NN O
+Deligst NN I
 20/11/96 CD O
 5,500 CD O
 Indonesia NNP I
@@ -36815,7 +36815,7 @@ ace NN O
 Japan NNP I
 
 Lucky JJ O
-Emdldm NNP I
+Emdldm NNP O
 20/11/96 CD O
 5,000 CD O
 Japan NNP I
@@ -36824,7 +36824,7 @@ Algoa NNP I
 Day NNP I
 21/11/96 CD O
 6,000 CD O
-Africa NNP I
+Africa NNP O
 
 Sangthai NNP I
 Glory NN O
@@ -36870,7 +36870,7 @@ newsroom NN O
 ) ) O
 652-0642 CD O
 
-Chinese JJ O
+Chinese JJ I
 girl NN O
 nearly RB O
 dies VBZ O
@@ -36891,7 +36891,7 @@ east JJ O
 China NNP I
 city NN O
 of IN O
-Tianjin NNP I
+Tianjin NNP O
 choked VBD O
 and CC O
 almost RB O
@@ -36916,7 +36916,7 @@ room NN O
 , , O
 the DT O
 Wen NNP I
-Hui NNP O
+Hui NNP I
 Bao NNP I
 newspaper NN O
 said VBD O
@@ -36968,7 +36968,7 @@ up RP O
 smoking NN O
 . . O
 
-South JJ O
+South JJ I
 Korean JJ I
 won VBD O
 closes NNS O
@@ -36978,7 +36978,7 @@ import NN O
 settlements NNS O
 . . O
 
-SEOUL VB O
+SEOUL VB I
 1996-12-06 CD O
 
 The DT O
@@ -37131,7 +37131,7 @@ news NN O
 agency NN O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 An DT O
@@ -37234,13 +37234,13 @@ tourist NN O
 destinations NNS O
 . . O
 
-EPA NNP I
+EPA NNP O
 says VBZ O
 economic JJ O
 assessment NN O
 unchanged JJ O
 by IN O
-GDP NNP I
+GDP NNP O
 data NNS O
 . . O
 
@@ -37273,7 +37273,7 @@ product NN O
 figures NNS O
 released VBN O
 on IN O
-Tuesday NNP I
+Tuesday NNP O
 , , O
 EPA NNP I
 Vice NNP I
@@ -37283,7 +37283,7 @@ Nukaya NNP I
 told VBD O
 reporters NNS O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 He PRP O
@@ -37300,7 +37300,7 @@ reflected VBD O
 the DT O
 economy NN O
 between IN O
-July NNP I
+July NNP O
 and CC O
 September NNP I
 and CC O
@@ -37405,10 +37405,10 @@ LATEST NNS O
 ACTUAL NNP I
 
 ( ( O
-Parent NNP I
+Parent NNP O
 ) ) O
-FORECAST NNP I
-YEAR-AGO NNP I
+FORECAST NNP O
+YEAR-AGO NNP O
 
 Sales NNS O
 128.00 CD O
@@ -37422,13 +37422,13 @@ Net JJ O
 6.20 CD O
 5.36 CD O
 
-EPS NNP I
+EPS NNP O
 143.56 CD O
 yen NNS O
 127.64 CD O
 yen NNS O
 
-Ord NNP I
+Ord NNP O
 div NN O
 30.00 CD O
 yen NNS O
@@ -37438,7 +37438,7 @@ yen NNS O
 NOTE NN O
 - : O
 Sangetsu NNP I
-Co NNP O
+Co NNP I
 Ltd NNP I
 is VBZ O
 a DT O
@@ -37458,7 +37458,7 @@ Busang NNP I
 talks NNS O
 . . O
 
-K.T. NNP I
+K.T. NNP O
 Arasu NNP I
 
 JAKARTA NNP I
@@ -37500,7 +37500,7 @@ the DT O
 talks NNS O
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 . . O
 
 " " O
@@ -37511,7 +37511,7 @@ be VB O
 held VBN O
 both DT O
 in IN O
-Toronto NNP I
+Toronto NNP O
 and CC O
 in IN O
 Jakarta NNP I
@@ -37530,7 +37530,7 @@ told VBD O
 Reuters NNP I
 . . O
 
-Another DT O
+Another DT I
 source NN O
 said VBD O
 most JJS O
@@ -37546,7 +37546,7 @@ Barrick NNP I
 had VBD O
 returned VBN O
 to TO O
-Toronto NNP I
+Toronto NNP O
 , , O
 but CC O
 declined VBD O
@@ -37574,15 +37574,15 @@ not RB O
 hold VB O
 talks NNS O
 on IN O
-Thursday NNP I
+Thursday NNP O
 with IN O
 Mines NNP I
 and CC O
 Energy NNP I
 Ministry NNP I
-Secretary-General NNP I
+Secretary-General NNP O
 Umar NNP I
-Said VBD I
+Said VBD O
 , , O
 who WP O
 is VBZ O
@@ -37751,7 +37751,7 @@ Barrick NNP I
 . . O
 
 " " O
-This DT I
+This DT O
 is VBZ O
 a DT O
 huge JJ O
@@ -37899,7 +37899,7 @@ Ministry NNP I
 Umar NNP I
 said VBD O
 on IN O
-Thursday NNP I
+Thursday NNP O
 that WDT O
 both DT O
 Bre-X NNP I
@@ -37996,7 +37996,7 @@ Panutan NNP I
 Group NNP I
 run VBP O
 by IN O
-President NNP I
+President NNP O
 Suharto NNP I
 's POS O
 eldest JJS O
@@ -38071,7 +38071,7 @@ project NN O
 . . O
 
 Honda NNP I
-RV NN O
+RV NN I
 exceeds VBZ O
 sales NNS O
 target NN O
@@ -38082,11 +38082,11 @@ TOKYO TO O
 
 Honda NNP I
 Motor NNP I
-Co NNP O
+Co NNP I
 Ltd NNP I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 that IN O
 it PRP O
 had VBD O
@@ -38160,13 +38160,13 @@ sees VBZ O
 prestige NN O
 in IN O
 hosting VBG O
-WTO NNP I
+WTO NNP O
 . . O
 
 Ramthan NNP I
 Hussain NNP I
 
-SINGAPORE JJR O
+SINGAPORE JJR I
 1996-12-06 CD O
 
 Singapore NNP I
@@ -38222,7 +38222,7 @@ externally RB O
 oriented VBN O
 economies NNS O
 , , O
-Singapore NNP I
+Singapore NNP O
 has VBZ O
 a DT O
 disproportionately NN O
@@ -38245,7 +38245,7 @@ I.D.E.A NNP I
 . . O
 
 " " O
-Singapore NNP I
+Singapore NNP O
 stands VBZ O
 to TO O
 benefit VB O
@@ -38355,7 +38355,7 @@ That DT O
 would MD O
 have VB O
 meant VBD O
-Geneva NNP I
+Geneva NNP O
 . . O
 
 But CC O
@@ -38365,7 +38365,7 @@ the DT O
 support NN O
 of IN O
 other JJ O
-WTO NNP I
+WTO NNP O
 members NNS O
 . . O
 
@@ -38378,7 +38378,7 @@ fellow NN O
 at IN O
 the DT O
 Institute NNP I
-of IN O
+of IN I
 Policy NNP I
 Studies NNP I
 ( ( O
@@ -38424,7 +38424,7 @@ is VBZ O
 the DT O
 international JJ O
 prestige NN O
-Singapore NNP I
+Singapore NNP O
 would MD O
 enjoy VB O
 , , O
@@ -38464,7 +38464,7 @@ the DT O
 National NNP I
 University NNP I
 of IN O
-Singapore NNP I
+Singapore NNP O
 . . O
 
 At IN O
@@ -38498,7 +38498,7 @@ the DT O
 General NNP I
 Agreement NNP I
 on IN O
-Tariffs NNP I
+Tariffs NNP O
 and CC O
 Trade NNP I
 ( ( O
@@ -38507,12 +38507,12 @@ GATT NNP I
 . . O
 
 In IN O
-June NNP I
+June NNP O
 , , O
 the DT O
 WTO NNP I
 hailed VBD O
-Singapore NNP I
+Singapore NNP O
 for IN O
 its PRP$ O
 open JJ O
@@ -38528,7 +38528,7 @@ trading NN O
 powers NNS O
 called VBD O
 on IN O
-Singapore NNP I
+Singapore NNP O
 to TO O
 speed VB O
 up RP O
@@ -38545,7 +38545,7 @@ said VBD O
 the DT O
 struggle NN O
 that IN O
-Singapore NNP I
+Singapore NNP O
 had VBD O
 to TO O
 wage VB O
@@ -38564,7 +38564,7 @@ talks NNS O
 . . O
 
 " " O
-There EX I
+There EX O
 is VBZ O
 tension NN O
 at IN O
@@ -38654,7 +38654,7 @@ would MD O
 be VB O
 good JJ O
 for IN O
-Singapore NNP I
+Singapore NNP O
 's POS O
 tourism NN O
 industry NN O
@@ -38667,7 +38667,7 @@ A DT O
 large JJ O
 part NN O
 of IN O
-Singapore NNP I
+Singapore NNP O
 's POS O
 workforce NN O
 would MD O
@@ -38705,7 +38705,7 @@ said VBD O
 . . O
 
 " " O
-But CC O
+But CC I
 the DT O
 more RBR O
 educated VBN O
@@ -38728,7 +38728,7 @@ economy NN O
 . . O
 " " O
 
-Supple NNS O
+Supple NNS I
 said VBD O
 any DT O
 political JJ O
@@ -38935,7 +38935,7 @@ phone NN O
 business NN O
 . . O
 
-Earlier RBR O
+Earlier RBR I
 , , O
 Posts NNPS I
 and CC O
@@ -39073,7 +39073,7 @@ Ahold NNP I
 NV NNP I
 said VBD O
 on IN O
-Friday NNP I
+Friday NNP O
 it PRP O
 had VBD O
 launched VBN O
@@ -39220,7 +39220,7 @@ annualised VBN O
 sales NNS O
 of IN O
 approximately RB O
-US$ $ O
+US$ $ I
 24 CD O
 billion CD O
 , , O
@@ -39239,16 +39239,16 @@ newsroom NN O
 504 CD O
 5000 CD O
 , , O
-Fax NNP I
+Fax NNP O
 +31 CD O
 20 CD O
 504 CD O
 504 CD O
 
 ALPINE NNP I
-SKIING-WOMEN JJ I
+SKIING-WOMEN JJ O
 'S VBZ O
-WORLD NN I
+WORLD NN O
 CUP RP O
 SUPER NNP I
 G NNP O
@@ -39273,16 +39273,16 @@ women NNS O
 World NNP I
 Cup NNP I
 super JJ O
-G NNP I
+G NNP O
 race NN O
 : : O
 
-Name NN O
+Name NN I
 : : O
 Svetlana NNP I
 Gladishiva NNP I
 
-Age NNP I
+Age NNP O
 : : O
 25 CD O
 
@@ -39295,10 +39295,10 @@ World NNP I
 Cup NNP I
 victories NNS O
 : : O
-None NN I
+None NN O
 
 Other JJ O
-Facts NNS I
+Facts NNS O
 : : O
 Gladishiva NNP I
 won VBD O
@@ -39328,13 +39328,13 @@ Championships NNPS I
 . . O
 
 ALPINE NNP I
-SKIING-WOMEN JJ I
+SKIING-WOMEN JJ O
 'S VBZ O
-WORLD NN I
+WORLD NN O
 CUP RP O
 SUPER NNP I
-G NNP I
-RESULTS NNS I
+G NNP O
+RESULTS NNS O
 . . O
 
 VAIL NNP I
@@ -39346,14 +39346,14 @@ Provisional JJ O
 results NNS O
 from IN O
 
-Saturday NNP I
+Saturday NNP O
 's POS O
 women NNS O
 's POS O
 World NNP I
 Cup NNP I
 super JJ O
-G NNP I
+G NNP O
 race NN O
 : : O
 
@@ -39612,9 +39612,9 @@ ALPINE NNP I
 SKIING-GLADISHIVA NNP I
 WINS VBZ I
 WORLD NN I
-CUP RP O
+CUP RP I
 SUPER NNP I
-G NNP I
+G NNP O
 . . O
 
 VAIL NNP I
@@ -39631,9 +39631,9 @@ the DT O
 women NNS O
 's POS O
 World NNP I
-Cup NNP O
+Cup NNP I
 Super NNP I
-G NNP I
+G NNP O
 race NN O
 on IN O
 Saturday NNP I
@@ -39667,7 +39667,7 @@ ROUND NNP I
 OF IN O
 JCPENNEY NNP I
 CLASSIC NNP I
-WASHED VBD I
+WASHED VBD O
 OUT NNP I
 . . O
 
@@ -39677,7 +39677,7 @@ SPRINGS NNP I
 Florida NNP I
 1996-12-07 CD O
 
-Heavy JJ O
+Heavy JJ I
 rains NNS O
 on IN O
 Saturday NNP I
@@ -39833,7 +39833,7 @@ VAIL NNP I
 Colorado NNP I
 1996-12-07 CD O
 
-Profile NN O
+Profile NN I
 of IN O
 the DT O
 winner NN O
@@ -39848,12 +39848,12 @@ downhill RB O
 race NN O
 : : O
 
-Name NN O
+Name NN I
 : : O
 Renate VB I
-Goetschl NN I
+Goetschl NN O
 
-Age NNP I
+Age NNP O
 : : O
 20 CD O
 
@@ -39875,9 +39875,9 @@ Norway NNP I
 1993 CD O
 ; : O
 super JJ O
-G NNP I
+G NNP O
 , , O
-Flachau NNP I
+Flachau NNP O
 , , O
 Austria NNP I
 , , O
@@ -39887,7 +39887,7 @@ Austria NNP I
 Other JJ O
 facts NNS O
 : : O
-As IN O
+As IN I
 a DT O
 qualifier NN O
 for IN O
@@ -39919,7 +39919,7 @@ victor NN O
 ALPINE NNP I
 SKIING-WOMEN JJ I
 'S VBZ O
-WORLD NN I
+WORLD NN O
 CUP RP O
 STANDINGS NNS I
 . . O
@@ -40116,11 +40116,11 @@ France NNP I
 ) ) O
 23 CD O
 
-Overall JJ O
+Overall JJ I
 women NNS O
 's POS O
 World NNP I
-Cup NNP I
+Cup NNP O
 standings NNS O
 leaders NNS O
 after IN O
@@ -40295,7 +40295,7 @@ Germany NNP I
 76 CD O
 
 Super NNP I
-G NNP I
+G NNP O
 standings VBZ O
 : : O
 
@@ -40316,7 +40316,7 @@ Germany NNP I
 130 CD O
 
 3. NNP O
-Svetland NNP I
+Svetland NNP O
 Gladishiva NNP I
 ( ( O
 Russia NNP I
@@ -40460,7 +40460,7 @@ Austria NNP I
 27 CD O
 
 Nation NNP I
-'s POS O
+'s POS I
 Cup NNP I
 standings VBZ O
 : : O
@@ -40483,7 +40483,7 @@ Italy NNP I
 887 CD O
 
 5. NNP O
-France NNP I
+France NNP O
 853 CD O
 
 6. CD O
@@ -40525,7 +40525,7 @@ Provisional JJ O
 results NNS O
 from IN O
 
-Saturday NNP I
+Saturday NNP O
 's POS O
 women NNS O
 's POS O
@@ -40792,7 +40792,7 @@ NORDIC NNP I
 SKIING-WORLD NNP I
 CUP NNP O
 BIATHLON NNP I
-RESULTS NNS I
+RESULTS NNS O
 . . O
 
 OESTERSUND NNP I
@@ -40909,7 +40909,7 @@ Women NNS O
 kms NNS O
 
 1. CD O
-Olga NNP I
+Olga NNP O
 Melnik NNP I
 ( ( O
 Russia NNP I
@@ -40932,7 +40932,7 @@ Belorus NNP I
 
 3. NNP O
 Gunn NNP I
-Margit NNP I
+Margit NNP O
 Andreassen NNP I
 ( ( O
 Norway NNP I
@@ -40983,7 +40983,7 @@ Greiner-Petter-Memm NNP I
 ALPINE NNP I
 SKIING-GOETCHL NNP I
 WINS VBZ I
-WORLD NN I
+WORLD NN O
 CUP RP O
 DOWNHILL NNS I
 . . O
@@ -41000,7 +41000,7 @@ Austria NNP I
 won VBD O
 the DT O
 women NNS O
-'s POS O
+'s POS I
 World NNP I
 Cup NNP I
 downhill RB O
@@ -41032,10 +41032,10 @@ third JJ O
 BOBSLEIGH-SHIMER NNP I
 PILOTS NNP I
 USA NNP O
-III NNP I
+III NNP O
 TO TO O
 SURPRISE NNP I
-WIN NNP I
+WIN NNP O
 . . O
 
 IGLS NNP I
@@ -41063,7 +41063,7 @@ on IN O
 Saturday NNP I
 . . O
 
-Lying VBG O
+Lying VBG I
 fifth JJ O
 after IN O
 the DT O
@@ -41163,7 +41163,7 @@ opening NN O
 two CD O
 events NNS O
 in IN O
-Altenberg NNP I
+Altenberg NNP O
 , , O
 Germany NNP I
 , , O
@@ -41171,7 +41171,7 @@ and CC O
 La NNP I
 Plagne NNP I
 , , O
-France NNP I
+France NNP O
 , , O
 increased VBD O
 their PRP$ O
@@ -41209,9 +41209,9 @@ on IN O
 Saturday NNP I
 . . O
 
-SKIING-CHINESE JJ O
+SKIING-CHINESE JJ I
 MAKE VB I
-PROMISING NN I
+PROMISING NN O
 FREESTYLE NNP I
 SKIING NNP I
 DEBUT NN O
@@ -41341,7 +41341,7 @@ points NNS O
 , , O
 easily RB O
 beating VBG O
-Foucras NNP I
+Foucras NNP O
 , , O
 the DT O
 overall JJ O
@@ -41394,7 +41394,7 @@ of IN O
 209.96 CD O
 . . O
 
-Veronica NN O
+Veronica NN I
 Brenner NNP I
 of IN O
 Canada NNP I
@@ -41436,7 +41436,7 @@ of IN O
 170.42 CD O
 . . O
 
-Swiss JJ O
+Swiss JJ I
 skiers NNS O
 occupied VBD O
 the DT O
@@ -41463,7 +41463,7 @@ with IN O
 . . O
 
 BOBSLEIGH-WORLD NNP I
-CUP NNP O
+CUP NNP I
 TWO-MAN NNP I
 RESULTS NNS I
 . . O
@@ -41677,7 +41677,7 @@ Austria NNP I
 III NNP I
 
 ( ( O
-Hannes NNS I
+Hannes NNS O
 Conti NNP I
 , , O
 Georg NNP I
@@ -41689,7 +41689,7 @@ Kuttner NNP I
 
 53.04). CD O
 
-CRICKET NNP I
+CRICKET NNP O
 - : O
 WOOLMER NN I
 MAKES NN I
@@ -41735,7 +41735,7 @@ his PRP$ O
 birthplace NN O
 . . O
 
-Woolmer NN O
+Woolmer NN I
 was VBD O
 born VBN O
 in IN O
@@ -41872,7 +41872,7 @@ Cape NNP I
 Town NNP I
 . . O
 
-Woolmer NNP I
+Woolmer NNP O
 's POS O
 memories NNS O
 of IN O
@@ -41996,7 +41996,7 @@ FREESTYLE NNP I
 SKIING-WORLD NNP I
 CUP NNP O
 AERIALS NNP I
-RESULTS NNS I
+RESULTS NNS O
 . . O
 
 TIGNES NNP I
@@ -42071,7 +42071,7 @@ Russia NNP I
 202.59 CD O
 
 7. CD O
-Ales NNPS I
+Ales NNPS O
 Valenta NNP I
 ( ( O
 Czech NNP I
@@ -42088,7 +42088,7 @@ Canada NNP I
 193.82 CD O
 
 9. CD O
-Trace NNP I
+Trace NNP O
 Worthington NNP I
 ( ( O
 U.S. NNP I
@@ -42098,11 +42098,11 @@ U.S. NNP I
 10. CD O
 Dmitri NNP I
 Dashinski NNP I
-Belarus NNPS I
+Belarus NNPS O
 ) ) O
 190.70 CD O
 
-Women NNS O
+Women NNS I
 : : O
 
 1. CD O
@@ -42123,7 +42123,7 @@ Switzerland NNP I
 
 3. NNP O
 Evelyne NNP I
-Leu NNP I
+Leu NNP O
 ( ( O
 Switzerland NNP I
 ) ) O
@@ -42154,8 +42154,8 @@ Sweden NNP I
 154.82 CD O
 
 7. NNP O
-Dan NNP O
-Cuo NNP I
+Dan NNP I
+Cuo NNP O
 ( ( O
 China NNP I
 ) ) O
@@ -42180,22 +42180,22 @@ China NNP I
 10. CD O
 Hilde NNP I
 Synnove NNP I
-Lid NNP I
+Lid NNP O
 ( ( O
 Norway NNP I
 ) ) O
 148.20 CD O
 
 SKI NNS O
-JUMPING-LEADING NN I
+JUMPING-LEADING NN O
 WORLD NN I
 CUP RP O
 RESULTS NNS I
 / SYM O
-STANDINGS NNS I
+STANDINGS NNS O
 . . O
 
-KUUSAMO RB O
+KUUSAMO RB I
 , , O
 Finland NNP I
 1996-12-07 CD O
@@ -42240,7 +42240,7 @@ jump NN O
 
 2. CD O
 Kazuyoshi NNP I
-Funaki NNP I
+Funaki NNP O
 ( ( O
 Japan NNP I
 ) ) O
@@ -42380,11 +42380,11 @@ Goldberger NNP I
 160 CD O
 
 4. CD O
-Okabe NNP I
+Okabe NNP O
 146 CD O
 
 5. CD O
-Funaki NNP I
+Funaki NNP O
 143 CD O
 
 6. CD O
@@ -42421,11 +42421,11 @@ WORLD NN I
 GRAND NNP I
 PRIX NNP I
 SEMIFINAL NNP I
-RESULTS NNS I
+RESULTS NNS O
 . . O
 
-TEMBAU NN O
-DENPASAR NNP I
+TEMBAU NN I
+DENPASAR NNP O
 , , O
 Bali NNP I
 1996-12-07 CD O
@@ -42437,7 +42437,7 @@ semifinals NNS O
 at IN O
 the DT O
 World NNP I
-Grand NNP I
+Grand NNP O
 Prix NNP I
 finals NNS O
 on IN O
@@ -42510,13 +42510,13 @@ China NNP I
 11-8 CD O
 11-3 CD O
 
-SPEED JJ O
+SPEED JJ I
 SKATING-RESULTS NNS I
-OF IN O
-WORLD NN I
+OF IN I
+WORLD NN O
 CUP RP O
 SPEED NNP I
-SKATING NNP I
+SKATING NNP O
 RACES NNP I
 . . O
 
@@ -42605,7 +42605,7 @@ Russia NNP I
 6 LS O
 . . O
 
-Yamakage NN O
+Yamakage NN I
 Hiroaki NNP I
 ( ( O
 Japan NNP I
@@ -42654,7 +42654,7 @@ Japan NNP I
 38.08 CD O
 . . O
 
-Women NNS O
+Women NNS I
 's POS O
 500 CD O
 metres NNS O
@@ -42790,8 +42790,8 @@ Russia NNP I
 1:16.31 CD O
 
 3. NNP O
-Jan NNP O
-Bos NNP I
+Jan NNP I
+Bos NNP O
 ( ( O
 Netherlands NNP I
 ) ) O
@@ -42824,7 +42824,7 @@ Japan NNP I
 
 7. NNP O
 Gerard NNP I
-Van NNP O
+Van NNP I
 Velde NNP I
 ( ( O
 Netherlands NNP I
@@ -42832,7 +42832,7 @@ Netherlands NNP I
 1:16.63 CD O
 
 8. NNP O
-Kim NNP O
+Kim NNP I
 Yoon-man NNP I
 ( ( O
 South NNP I
@@ -42856,7 +42856,7 @@ Japan NNP I
 ) ) O
 1:16.86 CD O
 
-Women NNS O
+Women NNS I
 's POS O
 1,000 CD O
 metres NNS O
@@ -42881,7 +42881,7 @@ Japan NNP I
 1:24.77 CD O
 
 3. NNP O
-Marianne NNP I
+Marianne NNP O
 Timmer NNP I
 ( ( O
 Netherlands NNP I
@@ -42945,12 +42945,12 @@ China NNP I
 1:25.89 CD O
 
 ALPINE NNP I
-SKIING-OFFICIALS NNP I
+SKIING-OFFICIALS NNP O
 HOPE NNP I
 TO TO O
 SALVAGE NN I
-WORLD NN I
-CUP RP O
+WORLD NN O
+CUP RP I
 WEEKEND VBN I
 . . O
 
@@ -42998,7 +42998,7 @@ third JJ O
 consecutive JJ O
 day NN O
 , , O
-Friday NNP I
+Friday NNP O
 's POS O
 scheduled VBN O
 training NN O
@@ -43026,7 +43026,7 @@ in IN O
 jeopardy NN O
 . . O
 
-Rules NNS O
+Rules NNS I
 call VBP O
 for IN O
 at IN O
@@ -43048,7 +43048,7 @@ be VB O
 staged VBN O
 . . O
 
-Organisers NNS O
+Organisers NNS I
 hope VBP O
 to TO O
 get VB O
@@ -43076,7 +43076,7 @@ Sunday NNP I
 . . O
 
 " " O
-There EX I
+There EX O
 was VBD O
 no DT O
 possibility NN O
@@ -43136,10 +43136,10 @@ abandoned VBN O
 SOCCER NN O
 - : O
 LEADING NNP I
-SCOTTISH JJ I
+SCOTTISH JJ O
 PREMIER NNPS I
 DIVISION NNP I
-SCORERS NNS I
+SCORERS NNS O
 . . O
 
 GLASGOW NNP I
@@ -43150,7 +43150,7 @@ goalscorers NNS O
 in IN O
 the DT O
 
-Scottish JJ O
+Scottish JJ I
 premier JJ O
 division NN O
 after IN O
@@ -43168,7 +43168,7 @@ Aberdeen NNP I
 ) ) O
 , , O
 Pierre NNP I
-Van NNP O
+Van NNP I
 Hooydonk NNP I
 ( ( O
 Celtic NNP I
@@ -43255,7 +43255,7 @@ United NNP I
 ) ) O
 , , O
 Paolo NNP I
-Di NNP O
+Di NNP I
 Canio NNP I
 ( ( O
 Celtic NNP I
@@ -43265,7 +43265,7 @@ Celtic NNP I
 SOCCER NN O
 - : O
 LEADING NNP I
-ENGLISH JJ I
+ENGLISH JJ O
 GOALSCORERS NNS I
 . . O
 
@@ -43312,7 +43312,7 @@ Newcastle NNP I
 8 CD O
 - : O
 Matthew NNP I
-Le NNP O
+Le NNP I
 Tissier NNP I
 ( ( O
 Southampton NNP I
@@ -43407,11 +43407,11 @@ SOCCER NN O
 - : O
 NORTHERN NNP I
 IRELAND NNP I
-PREMIER NNPS I
+PREMIER NNPS O
 DIVISION NNP I
 RESULTS NNS I
 / SYM O
-STANDINGS NNS I
+STANDINGS NNS O
 . . O
 
 LONDON NNP I
@@ -43426,20 +43426,20 @@ premier NN O
 division NN O
 matches NNS O
 on IN O
-Saturday NNP I
+Saturday NNP O
 : : O
 
-Ards RB O
+Ards RB I
 0 CD O
 Crusaders NNPS I
 0 CD O
 
-Cliftonville VB O
+Cliftonville VB I
 1 CD O
 Portadown NNP I
 1 CD O
 
-Glenavon NN O
+Glenavon NN I
 2 CD O
 Linfield NNP I
 1 CD O
@@ -43481,7 +43481,7 @@ Coleraine NNP I
 11 CD O
 22 CD O
 
-Linfield RB O
+Linfield RB I
 10 CD O
 4 CD O
 3 CD O
@@ -43490,7 +43490,7 @@ Linfield RB O
 10 CD O
 15 CD O
 
-Crusaders NNPS O
+Crusaders NNPS I
 10 CD O
 3 CD O
 4 CD O
@@ -43499,7 +43499,7 @@ Crusaders NNPS O
 9 CD O
 13 CD O
 
-Glenavon NN O
+Glenavon NN I
 10 CD O
 3 CD O
 4 CD O
@@ -43526,7 +43526,7 @@ Portadown NNP I
 12 CD O
 12 CD O
 
-Ards RB O
+Ards RB I
 10 CD O
 3 CD O
 2 CD O
@@ -43535,7 +43535,7 @@ Ards RB O
 17 CD O
 11 CD O
 
-Cliftonville VB O
+Cliftonville VB I
 9 CD O
 1 CD O
 4 CD O
@@ -43579,7 +43579,7 @@ English JJ O
 division NN O
 one CD O
 
-Bath IN O
+Bath IN I
 35 CD O
 Harlequins NNP I
 20 CD O
@@ -43590,7 +43590,7 @@ London NNP I
 Irish NNP I
 19 CD O
 
-Orrell NNP I
+Orrell NNP O
 22 CD O
 West NNP I
 Hartlepool NNP I
@@ -43605,12 +43605,12 @@ Welsh NNP I
 division NN O
 one CD O
 
-Caerphilly RB O
+Caerphilly RB I
 20 CD O
 Cardiff NNP I
 34 CD O
 
-Llanelli RB O
+Llanelli RB I
 97 CD O
 Newbridge NNP I
 10 CD O
@@ -43625,14 +43625,14 @@ Pontypridd NNP I
 Bridgend NNP I
 9 CD O
 
-Swansea NN O
+Swansea NN I
 49 CD O
 Neath NNP I
 10 CD O
 
-Treorchy NN O
+Treorchy NN I
 13 CD O
-Ebbw VBG I
+Ebbw VBG O
 Vale NNP I
 17 CD O
 
@@ -43667,7 +43667,7 @@ on IN O
 Saturday NNP I
 : : O
 
-Dunfermline NN O
+Dunfermline NN I
 2 CD O
 ( ( O
 Millar JJ I
@@ -43694,7 +43694,7 @@ Halftime VB O
 1-1 NNP O
 . . O
 
-Attendance NNP I
+Attendance NNP O
 : : O
 5,465 CD O
 
@@ -43706,13 +43706,13 @@ Raith NNP I
 
 10,719 CD O
 
-Kilmarnock NN O
+Kilmarnock NN I
 0 CD O
 Dundee NNP I
 United NNP I
 2 CD O
 ( ( O
-Olafsson NNP I
+Olafsson NNP O
 22 CD O
 , , O
 51 CD O
@@ -43736,7 +43736,7 @@ Ross NNP I
 Celtic NNP I
 1 CD O
 ( ( O
-Hay NN O
+Hay NN I
 83 CD O
 ) ) O
 . . O
@@ -43749,17 +43749,17 @@ Hay NN O
 Rangers NNPS O
 4 CD O
 ( ( O
-Ferguson NNP I
+Ferguson NNP O
 34 CD O
 , , O
-McCoist NN I
+McCoist NN O
 71 CD O
 74 CD O
 , , O
 Laudrup NNP I
 83 CD O
 ) ) O
-Hibernian NNP I
+Hibernian NNP O
 3 CD O
 ( ( O
 Wright NNP I
@@ -43780,13 +43780,13 @@ McGinlay NNP I
 . . O
 
 RUGBY NNP I
-UNION NN O
+UNION NN I
 - : O
 RETIRING NNP I
-CAMPESE NNP I
+CAMPESE NNP O
 WEIGHS NNP I
 UP RP O
-OPTIONS NNS I
+OPTIONS NNS O
 . . O
 
 LONDON NNP I
@@ -43816,7 +43816,7 @@ chasing NN O
 business NN O
 opportunities NNS O
 in IN O
-Australia NNP I
+Australia NNP O
 . . O
 
 The DT O
@@ -43975,7 +43975,7 @@ said VBD O
 SOCCER NN O
 - : O
 ENGLISH JJ I
-PREMIER NNPS I
+PREMIER NNPS O
 LEAGUE NNP I
 SUMMARIES NNP I
 . . O
@@ -43983,7 +43983,7 @@ SUMMARIES NNP I
 LONDON NNP I
 1996-12-07 CD O
 
-Summaries NNS O
+Summaries NNS I
 of IN O
 English JJ I
 premier NN O
@@ -43991,7 +43991,7 @@ premier NN O
 lealgue NN O
 matches NNS O
 on IN O
-Saturday NNP I
+Saturday NNP O
 : : O
 
 Arsenal JJ O
@@ -44019,14 +44019,14 @@ Halftime VB O
 1-0 NNP O
 . . O
 
-Attendance NNP I
+Attendance NNP O
 : : O
 38,018 CD O
 
 Chelsea NNP I
 2 CD O
 ( ( O
-Zola NNP I
+Zola NNP O
 12 CD O
 , , O
 Vialli NNP I
@@ -44039,7 +44039,7 @@ Branch NNP I
 17 CD O
 , , O
 
-Kanchelskis NNS O
+Kanchelskis NNS I
 28 CD O
 ) ) O
 . . O
@@ -44055,7 +44055,7 @@ Coventry NNP I
 Whelan NNP I
 60 CD O
 ) ) O
-Tottenham NN I
+Tottenham NN O
 2 CD O
 ( ( O
 Sheringham NNP I
@@ -44090,13 +44090,13 @@ Sutton NNP I
 
 19,306 CD O
 
-Liverpool NNP I
+Liverpool NNP O
 0 CD O
 Sheffield NNP I
 Wednesday NNP I
 1 CD O
 ( ( O
-Whittingham UH I
+Whittingham UH O
 22 CD O
 ) ) O
 . . O
@@ -44106,7 +44106,7 @@ Whittingham UH I
 
 39,507 CD O
 
-Middlesbrough JJ O
+Middlesbrough JJ I
 0 CD O
 Leeds NNPS I
 0 CD O
@@ -44120,7 +44120,7 @@ Aston NNP I
 Villa NNP I
 1 CD O
 ( ( O
-Townsend NNP I
+Townsend NNP O
 34 CD O
 ) ) O
 . . O
@@ -44166,7 +44166,7 @@ STANDINGS NNP I
 GLASGOW NNP I
 1996-12-07 CD O
 
-Scottish JJ O
+Scottish JJ I
 league NN O
 standings NNS O
 after IN O
@@ -44199,7 +44199,7 @@ points VBZ O
 Premier NNP I
 division NN O
 
-Rangers NNPS O
+Rangers NNPS I
 14 CD O
 11 CD O
 2 CD O
@@ -44226,7 +44226,7 @@ Aberdeen NNP I
 19 CD O
 25 CD O
 
-Hearts NNPS O
+Hearts NNPS I
 15 CD O
 5 CD O
 6 CD O
@@ -44235,7 +44235,7 @@ Hearts NNPS O
 19 CD O
 21 CD O
 
-Hibernian NN O
+Hibernian NN I
 15 CD O
 5 CD O
 3 CD O
@@ -44263,7 +44263,7 @@ Motherwell NNP I
 23 CD O
 17 CD O
 
-Dunfermline NN O
+Dunfermline NN I
 14 CD O
 4 CD O
 5 CD O
@@ -44272,7 +44272,7 @@ Dunfermline NN O
 27 CD O
 17 CD O
 
-Raith NNS O
+Raith NNS I
 15 CD O
 3 CD O
 3 CD O
@@ -44281,7 +44281,7 @@ Raith NNS O
 27 CD O
 12 CD O
 
-Kilmarnock NN O
+Kilmarnock NN I
 14 CD O
 3 CD O
 2 CD O
@@ -44312,7 +44312,7 @@ Falkirk NN O
 15 CD O
 29 CD O
 
-Airdrieonians NNPS O
+Airdrieonians NNPS I
 16 CD O
 6 CD O
 8 CD O
@@ -44427,7 +44427,7 @@ Clyde NNP I
 22 CD O
 
 Queen NNP I
-of IN O
+of IN I
 South NNP I
 16 CD O
 6 CD O
@@ -44455,7 +44455,7 @@ Stranraer NNP I
 21 CD O
 17 CD O
 
-Dumbarton NN O
+Dumbarton NN I
 16 CD O
 4 CD O
 4 CD O
@@ -44464,7 +44464,7 @@ Dumbarton NN O
 29 CD O
 16 CD O
 
-Brechin NN O
+Brechin NN I
 16 CD O
 3 CD O
 6 CD O
@@ -44483,9 +44483,9 @@ Berwick NNP I
 6 CD O
 
 Division NN O
-Three CD I
+Three CD O
 
-Montrose VB O
+Montrose VB I
 17 CD O
 9 CD O
 3 CD O
@@ -44514,7 +44514,7 @@ County NNP I
 23 CD O
 27 CD O
 
-Alloa NN O
+Alloa NN I
 16 CD O
 7 CD O
 4 CD O
@@ -44523,7 +44523,7 @@ Alloa NN O
 21 CD O
 25 CD O
 
-Cowdenbeath VB O
+Cowdenbeath VB I
 15 CD O
 7 CD O
 3 CD O
@@ -44561,7 +44561,7 @@ Park NNP I
 30 CD O
 14 CD O
 
-Arbroath NN O
+Arbroath NN I
 16 CD O
 2 CD O
 6 CD O
@@ -44583,14 +44583,14 @@ Stirling NNP I
 SOCCER NN O
 - : O
 ENGLISH JJ I
-LEAGUE NN I
-STANDINGS NNS I
+LEAGUE NN O
+STANDINGS NNS O
 . . O
 
 LONDON NNP I
 1996-12-07 CD O
 
-Standings NNS O
+Standings NNS I
 in IN O
 English JJ I
 league NN O
@@ -44625,7 +44625,7 @@ points VBZ O
 Premier NNP I
 league NN O
 
-Arsenal JJ O
+Arsenal JJ I
 17 CD O
 10 CD O
 5 CD O
@@ -44634,7 +44634,7 @@ Arsenal JJ O
 16 CD O
 35 CD O
 
-Wimbledon NN O
+Wimbledon NN I
 16 CD O
 9 CD O
 4 CD O
@@ -44690,7 +44690,7 @@ Chelsea NNP I
 23 CD O
 25 CD O
 
-Everton NN O
+Everton NN I
 16 CD O
 6 CD O
 6 CD O
@@ -44736,7 +44736,7 @@ Leicester NNP I
 22 CD O
 21 CD O
 
-Leeds NNS O
+Leeds NNS I
 16 CD O
 6 CD O
 2 CD O
@@ -44764,7 +44764,7 @@ Ham NNP I
 20 CD O
 17 CD O
 
-Middlesbrough JJ O
+Middlesbrough JJ I
 17 CD O
 3 CD O
 6 CD O
@@ -44773,7 +44773,7 @@ Middlesbrough JJ O
 28 CD O
 15 CD O
 
-Blackburn VBN O
+Blackburn VBN I
 16 CD O
 2 CD O
 7 CD O
@@ -44782,7 +44782,7 @@ Blackburn VBN O
 21 CD O
 13 CD O
 
-Southampton NN O
+Southampton NN I
 17 CD O
 3 CD O
 4 CD O
@@ -44851,7 +44851,7 @@ Palace NNP I
 22 CD O
 35 CD O
 
-Wolverhampton NN O
+Wolverhampton NN I
 21 CD O
 9 CD O
 6 CD O
@@ -44860,7 +44860,7 @@ Wolverhampton NN O
 21 CD O
 33 CD O
 
-Tranmere NN O
+Tranmere NN I
 22 CD O
 9 CD O
 5 CD O
@@ -44896,7 +44896,7 @@ Oxford NNP I
 21 CD O
 30 CD O
 
-Stoke VB O
+Stoke VB I
 20 CD O
 8 CD O
 6 CD O
@@ -44905,7 +44905,7 @@ Stoke VB O
 30 CD O
 30 CD O
 
-Swindon NN O
+Swindon NN I
 22 CD O
 9 CD O
 2 CD O
@@ -44923,7 +44923,7 @@ Charlton NNP I
 29 CD O
 29 CD O
 
-Huddersfield VBN O
+Huddersfield VBN I
 22 CD O
 7 CD O
 7 CD O
@@ -44981,7 +44981,7 @@ Portsmouth NNP I
 29 CD O
 26 CD O
 
-Reading VBG O
+Reading VBG I
 22 CD O
 7 CD O
 5 CD O
@@ -45009,7 +45009,7 @@ Southend NNP I
 36 CD O
 24 CD O
 
-Grimsby RB O
+Grimsby RB I
 22 CD O
 5 CD O
 6 CD O
@@ -45057,7 +45057,7 @@ Millwall NNP I
 22 CD O
 40 CD O
 
-Bury VB O
+Bury VB I
 21 CD O
 11 CD O
 6 CD O
@@ -45066,7 +45066,7 @@ Bury VB O
 20 CD O
 39 CD O
 
-Luton NN O
+Luton NN I
 21 CD O
 11 CD O
 4 CD O
@@ -45075,7 +45075,7 @@ Luton NN O
 25 CD O
 37 CD O
 
-Burnley RB O
+Burnley RB I
 22 CD O
 11 CD O
 4 CD O
@@ -45093,7 +45093,7 @@ Chesterfield NNP I
 16 CD O
 37 CD O
 
-Stockport VB O
+Stockport VB I
 22 CD O
 10 CD O
 6 CD O
@@ -45111,7 +45111,7 @@ Watford NNP I
 18 CD O
 36 CD O
 
-Wrexham UH O
+Wrexham UH I
 20 CD O
 9 CD O
 8 CD O
@@ -45120,7 +45120,7 @@ Wrexham UH O
 22 CD O
 35 CD O
 
-Crewe VB O
+Crewe VB I
 21 CD O
 11 CD O
 1 CD O
@@ -45149,7 +45149,7 @@ Rovers NNP I
 23 CD O
 28 CD O
 
-Shrewsbury RB O
+Shrewsbury RB I
 22 CD O
 7 CD O
 6 CD O
@@ -45212,7 +45212,7 @@ Bournemouth NNP I
 27 CD O
 25 CD O
 
-Plymouth NN O
+Plymouth NN I
 22 CD O
 5 CD O
 8 CD O
@@ -45259,7 +45259,7 @@ Rotherham NNP I
 15 CD O
 
 Division NN O
-Three CD I
+Three CD O
 
 Fulham NNP I
 22 CD O
@@ -45279,7 +45279,7 @@ Cambridge NNP I
 27 CD O
 42 CD O
 
-Wigan NN O
+Wigan NN I
 21 CD O
 12 CD O
 4 CD O
@@ -45306,7 +45306,7 @@ Cardiff NNP I
 22 CD O
 34 CD O
 
-Swansea NN O
+Swansea NN I
 22 CD O
 9 CD O
 5 CD O
@@ -45342,7 +45342,7 @@ Scunthorpe NNP I
 30 CD O
 31 CD O
 
-Northampton NN O
+Northampton NN I
 22 CD O
 8 CD O
 6 CD O
@@ -45387,7 +45387,7 @@ Hull NNP I
 22 CD O
 29 CD O
 
-Torquay RB O
+Torquay RB I
 22 CD O
 8 CD O
 4 CD O
@@ -45442,7 +45442,7 @@ Orient NNP I
 19 CD O
 24 CD O
 
-Hereford VBN O
+Hereford VBN I
 22 CD O
 6 CD O
 5 CD O
@@ -45469,7 +45469,7 @@ Hartlepool NNP I
 28 CD O
 22 CD O
 
-Brighton NN O
+Brighton NN I
 22 CD O
 3 CD O
 4 CD O
@@ -45480,11 +45480,11 @@ Brighton NN O
 
 SOCCER NN O
 - : O
-VIEIRA NNP I
+VIEIRA NNP O
 SAVES NNP I
 ARSENAL NNP I
 WITH IN O
-LAST-MINUTE NN I
+LAST-MINUTE NN O
 EQUALISER NNP I
 . . O
 
@@ -45588,7 +45588,7 @@ Wednesday NNP I
 Wimbledon NNP I
 leap-frogged VBD O
 over IN O
-Liverpool NNP I
+Liverpool NNP O
 into IN O
 second JJ O
 place NN O
@@ -45646,15 +45646,15 @@ SOCCER NN O
 - : O
 SCOTTISH NNP I
 LEAGUE NNP I
-AND CC O
-CUP NNP I
-RESULTS NNS I
+AND CC I
+CUP NNP O
+RESULTS NNS O
 . . O
 
 GLASGOW NNP I
 1996-12-07 CD O
 
-Results NNS O
+Results NNS I
 of IN O
 Scottish JJ I
 league NN O
@@ -45664,7 +45664,7 @@ cup NN O
 matches NNS O
 played VBN O
 on IN O
-Saturday NNP I
+Saturday NNP O
 : : O
 
 Premier NNP I
@@ -45680,7 +45680,7 @@ Hearts NNPS O
 Raith NNP I
 0 CD O
 
-Kilmarnock NN O
+Kilmarnock NN I
 0 CD O
 Dundee NNP I
 United NNP I
@@ -45755,12 +45755,12 @@ three CD O
 Ross NNP I
 County NNP I
 4 CD O
-Montrose NNP I
+Montrose NNP O
 4 CD O
 
-Postponed VBN O
+Postponed VBN I
 : : O
-Forfar JJ I
+Forfar JJ O
 v NNP O
 Alloa NNP I
 , , O
@@ -45771,12 +45771,12 @@ Queen NNP I
 's POS O
 Park NNP I
 
-Scottish NNP I
+Scottish NNP O
 Cup NNP I
 first RB O
 round NN O
 
-Alloa NN O
+Alloa NN I
 3 CD O
 Hawick NNP I
 1 CD O
@@ -45790,7 +45790,7 @@ Whitehill NNP I
 Postponed VBN O
 : : O
 Albion NNP I
-v NNP I
+v NNP O
 Forfar NNP I
 , , O
 Huntly NNP I
@@ -45818,7 +45818,7 @@ RESULTS NNS I
 LONDON NNP I
 1996-12-07 CD O
 
-Results NNS O
+Results NNS I
 of IN O
 English JJ I
 league NN O
@@ -45859,7 +45859,7 @@ Sheffield NNP I
 Wednesday NNP I
 1 CD O
 
-Middlesbrough JJ O
+Middlesbrough JJ I
 0 CD O
 Leeds NNPS I
 0 CD O
@@ -45872,7 +45872,7 @@ Villa NNP I
 
 Sunderland NNP I
 1 CD O
-Wimbledon NN I
+Wimbledon NN O
 3 CD O
 
 Division NN O
@@ -45896,10 +45896,10 @@ Swindon NNP I
 Crystal NNP I
 Palace NNP I
 2 CD O
-Oxford NNP I
+Oxford NNP O
 2 CD O
 
-Huddersfield VBN O
+Huddersfield VBN I
 2 CD O
 Norwich NNP I
 0 CD O
@@ -45912,14 +45912,14 @@ Wolverhampton NNP I
 Manchester NNP I
 City NNP I
 3 CD O
-Bradford NNP I
+Bradford NNP O
 2 CD O
 
 Oldham NNP I
 0 CD O
 Queens NNP I
 Park NNP I
-Rangers NNPS I
+Rangers NNPS O
 2 CD O
 
 Reading VBG O
@@ -46007,7 +46007,7 @@ Orient NNP I
 Stevenage NNP I
 2 CD O
 
-Luton NN O
+Luton NN I
 2 CD O
 Boreham NNP I
 Wood NNP I
@@ -46021,7 +46021,7 @@ Stockport NNP I
 Notts NNP I
 County NNP I
 3 CD O
-Rochdale NNP I
+Rochdale NNP O
 1 CD O
 
 Preston NNP I
@@ -46057,13 +46057,13 @@ Gillingham NNP I
 2 CD O
 
 RUGBY NNP I
-UNION NN O
+UNION NN I
 - : O
-CAMPESE NN I
+CAMPESE NN O
 SIGNS NNS I
 OFF VBN O
-WITH IN I
-TRY NNP I
+WITH IN O
+TRY NNP O
 IN IN O
 WALLABY JJ I
 ROMP NNS I
@@ -46248,7 +46248,7 @@ Scorers NNS O
 
 Australia NNP I
 - : O
-Tries NNS I
+Tries NNS O
 : : O
 Matthew NNP I
 Burke NNP I
@@ -46284,7 +46284,7 @@ Burke NNP I
 
 Barbarians NNP I
 - : O
-Tries NNS I
+Tries NNS O
 : : O
 Alan NNP I
 Bateman NNP I
@@ -46303,15 +46303,15 @@ GOLF NN O
 - : O
 ZIMBABWE NNP I
 OPEN NNP I
-THIRD NNP I
+THIRD NNP O
 ROUND NNP I
 SCORES NNP I
 . . O
 
-HARARE VB O
+HARARE VB I
 1996-12-07 CD O
 
-Leading JJ O
+Leading JJ I
 third JJ O
 round JJ O
 scores NNS O
@@ -46320,7 +46320,7 @@ the DT O
 
 Zimbabwe NNP I
 Open NNP I
-on IN O
+on IN I
 Saturday NNP I
 ( ( O
 South NNP I
@@ -46374,7 +46374,7 @@ Zimbabwe NNP I
 69 CD O
 69 CD O
 , , O
-Justin NNP I
+Justin NNP O
 Hobday NNP I
 71 CD O
 65 CD O
@@ -46426,7 +46426,7 @@ Namibia NNP I
 71 CD O
 , , O
 Schalk NNP I
-van NNP O
+van NNP I
 der FW O
 
 Merwe RB O
@@ -46517,17 +46517,17 @@ SOCCER NN O
 - : O
 REINSTATED VBN I
 ALBANIA NNP I
-NAMES NNP I
+NAMES NNP O
 SQUAD NNP I
 TO TO O
-PLAY VB I
+PLAY VB O
 N.IRELAND NNP I
 . . O
 
 TIRANA NNP I
 1996-12-07 CD O
 
-Albanian JJ O
+Albanian JJ I
 coach NN O
 Astrit NNP I
 Hafizi NNP I
@@ -46573,7 +46573,7 @@ body NN O
 reinstated VBN O
 Albania NNP I
 last JJ O
-Tuesday NNP I
+Tuesday NNP O
 after IN O
 the DT O
 Balkan NNP I
@@ -46630,11 +46630,11 @@ Belfast NNP I
 , , O
 " " O
 said VBD O
-Hafizi NN I
+Hafizi NN O
 . . O
 " " O
 
-Especially RB O
+Especially RB I
 if IN O
 one NN O
 takes VBZ O
@@ -46681,7 +46681,7 @@ Belfast NNP I
 match VBP O
 . . O
 
-Squad VB O
+Squad VB I
 : : O
 
 Goalkeepers NNS O
@@ -46744,12 +46744,12 @@ Erjon NNP I
 Bogdani NNP I
 . . O
 
-CRICKET NNP I
+CRICKET NNP O
 - : O
 JONES NNP I
-HITS VBZ I
+HITS VBZ O
 CENTURY NNP I
-AS NNP O
+AS NNP I
 VICTORIA NNP I
 FIGHT NN O
 BACK NNP I
@@ -46760,7 +46760,7 @@ HOBART NNP I
 Australia NNP I
 1996-12-07 CD O
 
-Former NNP I
+Former NNP O
 Australia NNP I
 test NN O
 batsman NN O
@@ -46777,16 +46777,16 @@ Victoria NNP I
 fightback RB O
 in IN O
 their PRP$ O
-Sheffield NNP I
+Sheffield NNP O
 Shield NNP I
 match NN O
 against IN O
-Tasmania NNP I
+Tasmania NNP O
 on IN O
 Saturday NNP I
 . . O
 
-Replying VBG O
+Replying VBG I
 to TO O
 the DT O
 home NN O
@@ -46820,7 +46820,7 @@ at IN O
 Hobart NNP I
 's POS O
 Bellerive NNP I
-Oval JJ I
+Oval JJ O
 . . O
 
 Jones NNP I
@@ -46862,7 +46862,7 @@ in IN O
 the DT O
 absence NN O
 of IN O
-Australia NNP I
+Australia NNP O
 test NN O
 leg-spinner NN O
 Shane NNP I
@@ -46953,7 +46953,7 @@ HOBART NNP I
 Australia NNP I
 1996-12-07 CD O
 
-Close JJ O
+Close JJ I
 of IN O
 play NN O
 score NN O
@@ -46964,17 +46964,17 @@ day NN O
 of IN O
 the DT O
 four-day JJ O
-Sheffield NNP I
+Sheffield NNP O
 Shield NNP I
 cricket NN O
 match NN O
 between IN O
-Tasmania NNP I
+Tasmania NNP O
 and CC O
 Victoria NNP I
 at IN O
 Bellerive NNP I
-Oval JJ I
+Oval JJ O
 on IN O
 Saturday NNP I
 : : O
@@ -47014,15 +47014,15 @@ out RP O
 SOCCER NN O
 - : O
 SOUTH NNP I
-KOREA NN O
-MOVE RB I
-CLOSE NN I
+KOREA NN I
+MOVE RB O
+CLOSE NN O
 TO TO O
 QUARTER-FINAL NNP I
 BERTH NNP I
 . . O
 
-ABU NNP I
+ABU NNP O
 DHABI NNPS I
 1996-12-07 CD O
 
@@ -47046,7 +47046,7 @@ Indonesia NNP I
 in IN O
 a DT O
 Group NNP I
-A NNP I
+A NNP O
 match NN O
 on IN O
 Saturday NNP I
@@ -47063,8 +47063,8 @@ first JJ O
 minutes NNS O
 South NNP I
 Korea NNP I
-allowed VBD O
-Indonesia NNP I
+allowed VBD I
+Indonesia NNP O
 , , O
 newcomers NNS O
 to TO O
@@ -47126,7 +47126,7 @@ a DT O
 rout NN O
 as IN O
 Hwang NNP I
-Sun NNP O
+Sun NNP I
 Hong NNP I
 rapidly RB O
 added VBD O
@@ -47216,7 +47216,7 @@ Ronny NNP I
 Wabia NNP I
 scored VBD O
 for IN O
-Indonesia NNP I
+Indonesia NNP O
 three CD O
 minutes NNS O
 later RB O
@@ -47357,7 +47357,7 @@ Yarangga NNP I
 ( ( O
 15 CD O
 - : O
-Francis NNP I
+Francis NNP O
 Wewengken NNP I
 36 CD O
 ) ) O
@@ -47380,13 +47380,13 @@ Ji NNP I
 2 CD O
 - : O
 Kim NNP I
-Pan NNP O
+Pan NNP I
 Keun NNP I
 ; : O
 5 CD O
 - : O
 Huh NNP I
-Ki NNP O
+Ki NNP I
 Tae NNP I
 ; : O
 8 CD O
@@ -47398,7 +47398,7 @@ Rae NNP I
 7 CD O
 - : O
 Sin NNP I
-Tae NNP O
+Tae NNP I
 Yong NNP I
 33 CD O
 ) ) O
@@ -47424,7 +47424,7 @@ Ju NNP I
 18 CD O
 - : O
 Hwang NNP I
-Sun NNP O
+Sun NNP I
 Hong NNP I
 ; : O
 22 CD O
@@ -47442,21 +47442,21 @@ Chul NNP I
 24 CD O
 - : O
 Kim NNP I
-Joo NNP O
+Joo NNP I
 Sung NNP I
 . . O
 
 SOCCER NN O
 - : O
 ISRAELI NNP I
-FIRST NNP I
+FIRST NNP O
 DIVISION NNP I
-RESULTS NNS I
+RESULTS NNS O
 / SYM O
-STANDINGS NNS I
+STANDINGS NNS O
 . . O
 
-JERUSALEM VBN O
+JERUSALEM VBN I
 1996-12-07 CD O
 
 Results NNS O
@@ -47496,7 +47496,7 @@ Yehuda NNP I
 0 CD O
 
 Hapoel NNP I
-Tel NNP O
+Tel NNP I
 Aviv NNP I
 1 CD O
 Betar NNP I
@@ -47507,7 +47507,7 @@ Hapoel NNP I
 Jerusalem NNP I
 0 CD O
 Maccabi NNP I
-Tel NNP O
+Tel NNP I
 Aviv NNP I
 4 CD O
 
@@ -47568,8 +47568,8 @@ Jerusalem NNP I
 32 CD O
 
 Hapoel NNP I
-Petah NNP I
-Tikva NNP I
+Petah NNP O
+Tikva NNP O
 12 CD O
 9 CD O
 2 CD O
@@ -47600,8 +47600,8 @@ Aviv NNP I
 22 CD O
 
 Maccabi NNP I
-Petah NNP I
-Tikva NNP I
+Petah NNP O
+Tikva NNP O
 12 CD O
 6 CD O
 2 CD O
@@ -47728,10 +47728,10 @@ SOCCER NN O
 - : O
 ASIAN NNP I
 CUP NNP I
-RESULTS NNS I
+RESULTS NNS O
 . . O
 
-ABU NNP I
+ABU NNP O
 DHABI NNPS I
 1996-12-07 CD O
 
@@ -47740,7 +47740,7 @@ of IN O
 Asian NNP I
 Cup NNP I
 group NN O
-A NNP I
+A NNP O
 matches VBZ O
 on IN O
 Saturday NNP I
@@ -47748,7 +47748,7 @@ Saturday NNP I
 
 United NNP I
 Arab NNP I
-Emirates NNPS I
+Emirates NNPS O
 3 CD O
 Kuwait NNP I
 2 CD O
@@ -47767,7 +47767,7 @@ Ahmed NNP I
 53 CD O
 , , O
 Adnan NNP I
-Al NNP O
+Al NNP I
 Talyani NNP I
 55 CD O
 , , O
@@ -47808,7 +47808,7 @@ Hoon NNP I
 5 CD O
 , , O
 Hwang NNP I
-Sun NNP O
+Sun NNP I
 Hong NNP I
 7 CD O
 and CC O
@@ -47816,7 +47816,7 @@ and CC O
 , , O
 Koo NNP I
 
-Jeon NNP I
+Jeon NNP O
 Woon NNP I
 55 CD O
 
@@ -47830,12 +47830,12 @@ Widodo NNP I
 Putra NNP I
 65 CD O
 
-Attendance NNP I
+Attendance NNP O
 : : O
 2,000 CD O
 
 Group NNP I
-A NNP I
+A NNP O
 standings VBZ O
 ( ( O
 tabulate NN O
@@ -47940,13 +47940,13 @@ behind IN O
 EASTERN NNP I
 CONFERENCE NNP I
 
-ATLANTIC NN O
+ATLANTIC NN I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 PCT NNP O
-GB NNP I
+GB NNP O
 
 MIAMI NNP I
 14 CD O
@@ -47997,10 +47997,10 @@ BOSTON NNP I
 CENTRAL NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 PCT NNP O
-GB NNP I
+GB NNP O
 
 CHICAGO NNP I
 17 CD O
@@ -48008,7 +48008,7 @@ CHICAGO NNP I
 .944 CD O
 - : O
 
-DETROIT VBG O
+DETROIT VBG I
 14 CD O
 3 CD O
 .824 CD O
@@ -48060,10 +48060,10 @@ CONFERENCE NNP I
 MIDWEST JJS O
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 PCT NNP O
-GB NNP I
+GB NNP O
 
 HOUSTON NNP I
 16 CD O
@@ -48115,10 +48115,10 @@ VANCOUVER NNP I
 PACIFIC NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 PCT NNP O
-GB NNP I
+GB NNP O
 
 SEATTLE NNP I
 15 CD O
@@ -48126,7 +48126,7 @@ SEATTLE NNP I
 .750 CD O
 - : O
 
-LA NNP I
+LA NNP O
 LAKERS NNS I
 14 CD O
 7 CD O
@@ -48162,7 +48162,7 @@ SACRAMENTO NNP I
 8 CD O
 1/2 CD O
 
-PHOENIX NNS O
+PHOENIX NNS I
 3 CD O
 14 CD O
 .176 CD O
@@ -48171,18 +48171,18 @@ PHOENIX NNS O
 
 SATURDAY NNP I
 , , O
-DECEMBER NN I
+DECEMBER NN O
 7 CD O
-SCHEDULE NNP I
+SCHEDULE NNP O
 
-TORONTO TO O
-AT VB O
+TORONTO TO I
+AT VB I
 ATLANTA NN I
 
 LA NNP I
 CLIPPERS NNP I
-AT NNP I
-NEW JJ O
+AT NNP O
+NEW JJ I
 YORK NNP I
 
 MILWAUKEE NNP I
@@ -48190,8 +48190,8 @@ AT NNP O
 WASHINGTON NNP I
 
 DETROIT NNP I
-AT NNP I
-NEW JJ O
+AT NNP O
+NEW JJ I
 JERSEY NNP I
 
 MIAMI NNP I
@@ -48207,8 +48207,8 @@ AT NNP O
 HOUSTON NNP I
 
 UTAH NNP I
-AT NNP I
-DENVER NN O
+AT NNP O
+DENVER NN I
 
 CHARLOTTE NNP I
 AT NNP O
@@ -48231,10 +48231,10 @@ of IN O
 National NNP I
 Basketball NNP I
 
-Association NNP I
+Association NNP O
 games NNS O
 on IN O
-Friday NNP I
+Friday NNP O
 ( ( O
 home NN O
 team NN O
@@ -48301,17 +48301,17 @@ ICE NNP O
 HOCKEY NNP I
 - : O
 STANDINGS NNP I
-AFTER NNP I
+AFTER NNP O
 FRIDAY NNP I
 'S POS O
-GAMES NNS I
+GAMES NNS O
 . . O
 
 NEW NNP I
 YORK NNP I
 1996-12-07 CD O
 
-Standings NNS O
+Standings NNS I
 of IN O
 National NNP I
 Hockey NNP I
@@ -48322,7 +48322,7 @@ after IN O
 games NNS O
 played VBN O
 on IN O
-Friday NNP I
+Friday NNP O
 ( ( O
 tabulate NN O
 under IN O
@@ -48346,14 +48346,14 @@ points VBZ O
 EASTERN NNP I
 CONFERENCE NNP I
 
-NORTHEAST NN O
+NORTHEAST NN I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
-GF NNP O
-GA NNP O
+GF NNP I
+GA NNP I
 PTS NNP I
 
 HARTFORD NNP I
@@ -48404,14 +48404,14 @@ OTTAWA NNP I
 77 CD O
 20 CD O
 
-ATLANTIC NN O
+ATLANTIC NN I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
-GF NNP O
-GA NNP O
+GF NNP I
+GA NNP I
 PTS NNP I
 
 FLORIDA NNP I
@@ -48457,7 +48457,7 @@ RANGERS NNS I
 27 CD O
 
 NY DT O
-ISLANDERS NNS I
+ISLANDERS NNS O
 7 CD O
 11 CD O
 8 CD O
@@ -48466,7 +48466,7 @@ ISLANDERS NNS I
 22 CD O
 
 TAMPA NNP I
-BAY NNP I
+BAY NNP O
 8 CD O
 15 CD O
 2 CD O
@@ -48480,11 +48480,11 @@ CONFERENCE NNP I
 CENTRAL NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
-GF NNP O
-GA NNP O
+GF NNP I
+GA NNP I
 PTS NNP I
 
 DETROIT VBG O
@@ -48539,11 +48539,11 @@ PHOENIX NNS O
 PACIFIC NNP I
 DIVISION NNP I
 
-W NNP I
+W NNP O
 L NNP O
 T NNP O
-GF NNP O
-GA NNP O
+GF NNP I
+GA NNP I
 PTS NNP I
 
 COLORADO NNP I
@@ -48580,7 +48580,7 @@ ANGELES NNP I
 25 CD O
 
 SAN NNP I
-JOSE NNP I
+JOSE NNP O
 10 CD O
 13 CD O
 4 CD O
@@ -48606,13 +48606,13 @@ CALGARY NNP I
 
 SATURDAY NNP I
 , , O
-DECEMBER NN I
+DECEMBER NN O
 7 CD O
-SCHEDULE NNP I
+SCHEDULE NNP O
 
 PHOENIX NNP I
-AT NNP I
-NEW JJ O
+AT NNP O
+NEW JJ I
 JERSEY NNP I
 
 CALGARY VB O
@@ -48626,7 +48626,7 @@ HARTFORD NNP I
 WASHINGTON NNP I
 AT NNP O
 NY NNP O
-ISLANDERS NNP I
+ISLANDERS NNP O
 
 CHICAGO NNP I
 AT NNP O
@@ -48635,21 +48635,21 @@ MONTREAL NNP I
 NY NNP I
 RANGERS NNP I
 AT NNP O
-TORONTO NNP I
+TORONTO NNP O
 
 ANAHEIM NNP I
 AT NNP O
 PITTSBURGH NNP I
 
-COLORADO NNP I
+COLORADO NNP O
 AT NNP O
 LOS NNP O
 ANGELES NNP I
 
 TAMPA NNP I
-BAY NNP O
+BAY NNP I
 AT NNP O
-SAN NNP O
+SAN NNP I
 JOSE NNP I
 
 OTTAWA NNP I
@@ -48677,7 +48677,7 @@ Hockey NNP I
 League NNP I
 games NNS O
 on IN O
-Friday NNP I
+Friday NNP O
 ( ( O
 home NN O
 team NN O
@@ -48718,16 +48718,16 @@ DALLAS NNP I
 St NNP I
 Louis NNP I
 4 CD O
-COLORADO NNP I
+COLORADO NNP O
 3 CD O
 
-EDMONTON NN O
+EDMONTON NN I
 5 CD O
 Ottawa NNP I
 2 CD O
 
 NHL NNP I
-ICE NNP O
+ICE NNP I
 HOCKEY NNP I
 - : O
 CANUCKS NNS I
@@ -48775,7 +48775,7 @@ defenceman NN O
 Garry NNP I
 Galley NNP I
 on IN O
-Wednesday NNP I
+Wednesday NNP O
 . . O
 
 Bure JJ O
@@ -48793,7 +48793,7 @@ the DT O
 first JJ O
 period NN O
 of IN O
-Wednesday NNP I
+Wednesday NNP O
 's POS O
 7-6 CD O
 overtime NN O
@@ -48931,18 +48931,18 @@ Saturday NNP I
 home NN O
 game NN O
 against IN O
-Ottawa NNP I
+Ottawa NNP O
 . . O
 
 BOXING VBG O
 - : O
 SCHULZ NNP I
-DEFEATS NNP I
+DEFEATS NNP O
 RIBALTA NNP I
 IN IN O
 IBF NNP I
 HEAVYWEIGHT NNP I
-FIGHT NNP I
+FIGHT NNP O
 . . O
 
 VIENNA NNP I
@@ -48972,8 +48972,8 @@ Saturday NNP I
 SOCCER NN O
 - : O
 SPANISH NNP I
-FIRST NNP I
-DIVISION NNP I
+FIRST NNP O
+DIVISION NNP O
 SUMMARY NNP I
 . . O
 
@@ -48990,12 +48990,12 @@ division NN O
 match NN O
 : : O
 
-Real JJ O
+Real JJ I
 Madrid NNP I
 2 CD O
 ( ( O
-Davor NN I
-Suker NN I
+Davor NN O
+Suker NN O
 24 CD O
 , , O
 Predrag NNP I
@@ -49010,7 +49010,7 @@ Halftime VB O
 1-0 NNP O
 . . O
 
-Attendance NNP I
+Attendance NNP O
 106,000 CD O
 . . O
 
@@ -49018,10 +49018,10 @@ SOCCER NN O
 - : O
 BALKAN NNP I
 STRIKE NNP I
-FORCE VBP I
+FORCE VBP O
 WIN NNP I
 OLD NNP O
-FIRM NNP I
+FIRM NNP O
 GAME NNP I
 FOR IN O
 REAL NNP I
@@ -49050,7 +49050,7 @@ a DT O
 2-0 CD O
 win VBP O
 over RP O
-Barcelona NNP I
+Barcelona NNP O
 in IN O
 Spain NNP I
 's POS O
@@ -49064,7 +49064,7 @@ Saturday NNP I
 The DT O
 result NN O
 leaves VBZ O
-Real JJ I
+Real JJ O
 on IN O
 38 CD O
 points NNS O
@@ -49096,7 +49096,7 @@ also RB O
 assured VBN O
 of IN O
 spending VBG O
-Christmas NNP I
+Christmas NNP O
 ahead RB O
 of IN O
 their PRP$ O
@@ -49107,7 +49107,7 @@ A DT O
 mix-up NN O
 in IN O
 the DT O
-Barcelona NNP I
+Barcelona NNP O
 defence VBP O
 let VBD O
 Croatian NNP I
@@ -49123,7 +49123,7 @@ half NN O
 and CC O
 Montenegrin NNP I
 striker NN O
-Mijatovic NNP I
+Mijatovic NNP O
 made VBD O
 it PRP O
 2-0 CD O
@@ -49163,14 +49163,14 @@ Ronaldo NNP I
 
 SOCCER NN O
 - : O
-PSV NNP I
-HIT PRP$ O
+PSV NNP O
+HIT PRP$ I
 VOLENDAM NNP I
 FOR IN O
-SIX NNP I
+SIX NNP O
 . . O
 
-AMSTERDAM NN O
+AMSTERDAM NN I
 1996-12-07 CD O
 
 Brazilian JJ O
@@ -49304,7 +49304,7 @@ aggregate NN O
 to TO O
 Tenerife NN I
 on IN O
-Tuesday NNP I
+Tuesday NNP O
 , , O
 travel VBP O
 to TO O
@@ -49335,7 +49335,7 @@ the DT O
 season NN O
 . . O
 
-They PRP O
+They PRP I
 are VBP O
 fourth JJ O
 in IN O
@@ -49346,11 +49346,11 @@ table NN O
 SOCCER NN O
 - : O
 SPANISH NNP I
-FIRST NNP I
-DIVISION NNP I
+FIRST NNP O
+DIVISION NNP O
 RESULT NNP I
 / SYM O
-STANDINGS NNS I
+STANDINGS NNS O
 . . O
 
 MADRID NNP I
@@ -49369,7 +49369,7 @@ match NN O
 : : O
 
 Real JJ O
-Madrid NNP I
+Madrid NNP O
 2 CD O
 Barcelona NNP I
 0 CD O
@@ -49514,7 +49514,7 @@ Vigo NNP I
 17 CD O
 20 CD O
 
-Tenerife NNP I
+Tenerife NNP O
 15 CD O
 5 CD O
 4 CD O
@@ -49523,7 +49523,7 @@ Tenerife NNP I
 17 CD O
 19 CD O
 
-Espanyol NN O
+Espanyol NN I
 15 CD O
 4 CD O
 4 CD O
@@ -49551,7 +49551,7 @@ Gijon NNP I
 22 CD O
 16 CD O
 
-Logrones NNS O
+Logrones NNS I
 15 CD O
 4 CD O
 3 CD O
@@ -49578,7 +49578,7 @@ Sevilla NNP I
 20 CD O
 14 CD O
 
-Compostela RB O
+Compostela RB I
 15 CD O
 3 CD O
 4 CD O
@@ -49610,10 +49610,10 @@ SOCCER NN O
 ENGLISHMAN NNP I
 CHARLTON NNP I
 IS VBZ O
-MADE VB I
+MADE VB O
 AN DT O
 HONORARY JJ I
-IRISHMAN NN I
+IRISHMAN NN O
 . . O
 
 DUBLIN NNP I
@@ -49834,7 +49834,7 @@ the DT O
 Irish JJ I
 beat NN O
 a DT O
-well-fancied JJ O
+well-fancied JJ I
 England NNP I
 team NN O
 1-0 CD O

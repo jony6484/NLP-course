@@ -5,6 +5,12 @@ from os import path
 
 
 def write_pred(file, pred):
+    """
+    The function creating the prediction file - competitive.txt
+    :param file: test file name
+    :param pred: our model prediction
+    :return: None.
+    """
     pred_i = 0
     org_path = path.join('.', 'data', f'{file}.txt')
     pred_path = path.join('.', 'data', 'competitive.txt')
@@ -16,6 +22,7 @@ def write_pred(file, pred):
                     pred_i += 1
                 else:
                     pred_file.write(line)
+    return None
 
 
 def main():
