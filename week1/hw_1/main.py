@@ -13,7 +13,7 @@ def write_pred(file, pred):
     """
     pred_i = 0
     org_path = path.join('.', 'data', f'{file}.txt')
-    pred_path = path.join('.', 'data', 'competitive.txt')
+    pred_path = path.join('.', 'competitive.txt')
     with open(org_path, 'r') as org_file:
         with open(pred_path, 'w') as pred_file:
             for i, line in enumerate(org_file.readlines()):
