@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (venv39)" project-jdk-type="Python SDK" />
+  <component name="UnattendedHostPersistenceState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="318" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/week2/hw_2/hw2.ipynb" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="303" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/week2/unit 3/Tutorial_3_word_embeddings.ipynb" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="141" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/week2/class_work1.ipynb" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1268" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/week2/unit 4/tutorial_04_sol.ipynb" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="339" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/week2/hw_2/hw2.py" />
+        </OpenedFileInfo>
+      </list>
+    </option>
+  </component>
 </project>

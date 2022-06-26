@@ -1,15 +1,12 @@
 /week1/hw_1/~$P assignment 1.docx
 /week1/hw_1/~WRL0005.tmp
 /week1/hw_1/Backup of NLP assignment 1.wbk
-<<<<<<< HEAD
-
 /*.ipynb_checkpoints/
 /*/.ipynb_checkpoints/
 /*/*/.ipynb_checkpoints/
 /*/*/*/.ipynb_checkpoints/
-=======
 /week1/hw_1/.ipynb_checkpoints/
 /week1/hw_1/data/.ipynb_checkpoints/
 /week1/hw_1/__pycache__/
-/.idea/
->>>>>>> 30a9e2a30267d2b848e3dca77e42e1481f083c24
+/.idea/*
+/*/*/*.model*
