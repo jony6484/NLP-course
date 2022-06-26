@@ -50,6 +50,7 @@ class ReviewDataset(Dataset):
             tokens.append(self.tokenizer[word])
         feat_array = np.concatenate(tokens, axis=0).reshape(-1, self.tokenizer.vector_size)
         X_i = feat_array.mean(0)
+        # X_i = np.median(feat_array, axis=0)
         return X_i
 
     def __getitem__(self, ii):
@@ -67,9 +68,10 @@ class GloveClassifier(nn.Module):
     def __init__(self, input_dim, num_classes, hidden_dim):
         super().__init__()
         self.input_layer = nn.Linear(input_dim, hidden_dim)
-        self.hidden_layer1 = nn.Linear(hidden_dim, hidden_dim)
-        self.hidden_layer2 = nn.Linear(hidden_dim, hidden_dim)
+        self.hidden_layer1 = nn.Linear(hidden_dim, hidden_dim*2)
+        self.hidden_layer2 = nn.Linear(hidden_dim*2, hidden_dim)
         self.output_layer = nn.Linear(hidden_dim, num_classes)
+        self.dropout = nn.Dropout(0.25)
 
     def forward(self, X):
         X = self.input_layer(X)
@@ -87,7 +89,7 @@ def make_model(input_dim, num_classes, hidden_dim):
                             hidden_dim=hidden_dim,
                             num_classes=num_classes)
     loss_fun = nn.CrossEntropyLoss()
-    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.1)
+    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.001)
     return model, loss_fun, optimizer
 
 
@@ -148,14 +150,14 @@ def main():
     dataset_train = ReviewDataset(data_train, tokenizer)
     dataset_test = ReviewDataset(data_test, tokenizer, dataset_train.label_2_idx)
     print('done loading')
-    batch_size = 64
-    train_loader = DataLoader(dataset_train, shuffle=True, batch_size=batch_size, num_workers=2, persistent_workers=True)
-    test_loader = DataLoader(dataset_test, shuffle=False, batch_size=2*batch_size, num_workers=2, persistent_workers=True)
-    model, loss_fun, optimizer = make_model(input_dim=dataset_train.tokenizer.vector_size, hidden_dim=250,
+    batch_size = 128
+    train_loader = DataLoader(dataset_train, shuffle=True, batch_size=batch_size)#, num_workers=2, persistent_workers=True)
+    test_loader = DataLoader(dataset_test, shuffle=False, batch_size=2*batch_size)#, num_workers=2, persistent_workers=True)
+    model, loss_fun, optimizer = make_model(input_dim=dataset_train.tokenizer.vector_size, hidden_dim=512,
                                             num_classes=len(dataset_train.label_2_idx))
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     train_loss, test_loss, train_acc, test_acc, model = train_model(
-        train_loader, test_loader, model, loss_fun, optimizer, device, num_epochs=50)
+        train_loader, test_loader, model, loss_fun, optimizer, device, num_epochs=100)
     return
 
 
