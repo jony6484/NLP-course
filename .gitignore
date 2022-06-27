@@ -10,3 +10,4 @@
 /week1/hw_1/__pycache__/
 /.idea/*
 /*/*/*.model*
+*/*/model_data/
