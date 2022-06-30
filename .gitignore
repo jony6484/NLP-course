@@ -11,3 +11,5 @@
 /.idea/*
 /*/*/*.model*
 */*/model_data/
+*/*/__pycache__/
+*/*/.~lock.*
