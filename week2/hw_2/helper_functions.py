@@ -41,7 +41,7 @@ def make_model(input_dim, num_classes, hidden_dim):
     """
     model = GloveClassifier(input_dim=input_dim, hidden_dim=hidden_dim, num_classes=num_classes)
     loss_fun = nn.CrossEntropyLoss()
-    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.001)
+    optimizer = torch.optim.AdamW(params=model.parameters(), lr=0.00003)
     return model, loss_fun, optimizer
 
 
@@ -83,6 +83,8 @@ def train_model(train_loader, test_loader, model, loss_fun, optimizer, device, n
         train_acc.append((np.mean(batch_acc)))
         model.eval()
         with torch.no_grad():
+            batch_loss = []
+            batch_acc = []
             for batch in test_loader:
                 X = batch['input_vectors'].to(device)
                 y = batch['labels'].to(device)

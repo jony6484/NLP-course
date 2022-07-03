@@ -75,14 +75,17 @@ class GloveClassifier(nn.Module):
         self.hidden_layer1 = nn.Linear(hidden_dim, hidden_dim*2)
         self.hidden_layer2 = nn.Linear(hidden_dim*2, hidden_dim)
         self.output_layer = nn.Linear(hidden_dim, num_classes)
-        # self.dropout = nn.Dropout(0.25)
+        self.dropout = nn.Dropout(0.25)
 
     def forward(self, X):
         X = self.input_layer(X)
         X = F.relu(X)
+        X = self.dropout(X)
         X = self.hidden_layer1(X)
         X = F.relu(X)
+        X = self.dropout(X)
         X = self.hidden_layer2(X)
         X = F.relu(X)
+        X = self.dropout(X)
         X = self.output_layer(X)
         return X
