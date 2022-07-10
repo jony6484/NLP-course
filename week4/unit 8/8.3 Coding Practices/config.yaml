@@ -1,0 +1,31 @@
+seed: 42  # Random seed for reproducibility
+num_epochs: 10
+learning_rate: 0.001
+experiment_name: debug_2  # Experiment name to save in the logger
+do_train: true
+do_eval_on_train: true  # Run evaluation on train set in the end of every epoch
+do_eval: true  # Evaluate on dev set at the end of every epoch
+do_test: false  # Evaluate on test set at the end of training
+
+data_args:
+  dev_frac: 0.2  # Fraction of train set to set aside for dev
+  from_checkpoint: ./data/datasets_checkpoint.pickle  # Path to datasets checkpoint to load from
+  to_checkpoint: ./data/datasets_checkpoint.pickle  # Path to save datasets to
+  max_seq_length: 64
+  batch_size: 32
+  shuffle: True
+  eval_batch_size: 64  # Batch size for evaluation
+
+model_args:
+  embedding_model: glove-wiki-gigaword-50
+  output_size: 2  # Should correspond to the number of classes
+  dropout: 0.5  # Dropout of the final classifier in the model
+  lstm_args:
+    input_size: 50  # Must be the dimension of the embedding model
+    hidden_size : 256
+    num_layers: 3
+    bias: true
+    batch_first: true
+    dropout: 0.2
+    bidirectional: true
+    proj_size: 0
