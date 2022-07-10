@@ -2,8 +2,8 @@ from pathlib import Path
 
 PROJECT_NAME = "HW3"
 
-PROJECT_DIR = Path.home() / "hw3"
-DATA_DIR = PROJECT_DIR / "data"
+PROJECT_DIR = "./"
+DATA_DIR = PROJECT_DIR + "data"
 
 TRAIN = 'train'
 DEV = 'dev'
