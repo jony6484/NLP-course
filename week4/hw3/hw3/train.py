@@ -12,14 +12,14 @@ from torch.utils.data import DataLoader
 import wandb
 
 from dataloading import TweetDataset
-from modeling import TweetNet
+#from modeling import TweetNet
 from utils import *
 from consts import *
 
 
 def train(training_args):
     # Setting up logging
-    wandb.init(project=PROJECT_NAME, name=training_args.name, config=training_args)
+    #wandb.init(project=PROJECT_NAME, name=training_args.name, config=training_args)
 
     pprint(training_args)
 
@@ -31,13 +31,13 @@ def train(training_args):
     set_seed(training_args.seed)
 
     print("Loading datasets")
-    train_dataset = TweetDataset(data_args, DATA_DIR / (TRAIN + CSV))
+    train_dataset = TweetDataset(data_args, DATA_DIR + '/' + (TRAIN + CSV))
     train_dataloader = DataLoader(train_dataset, data_args.batch_size, shuffle=data_args.shuffle)
     if training_args.do_eval:
-        dev_dataset = TweetDataset(data_args, DATA_DIR / (DEV + CSV), train_dataset.vocab)
+        dev_dataset = TweetDataset(data_args, DATA_DIR + '/' + (DEV + CSV), train_dataset.vocab)
         dev_dataloader = DataLoader(dev_dataset, data_args.eval_batch_size)
     if training_args.do_test:
-        test_dataset = TweetDataset(data_args, DATA_DIR / (TEST + CSV), train_dataset.vocab)
+        test_dataset = TweetDataset(data_args, DATA_DIR + '/' + (TEST + CSV), train_dataset.vocab)
         test_dataloader = DataLoader(test_dataset, data_args.eval_batch_size)
 
     print("Initializing model")
