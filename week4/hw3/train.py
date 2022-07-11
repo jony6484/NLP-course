@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader
 import wandb
 
 from dataloading import TweetDataset
-#from modeling import TweetNet
+from modeling import TweetNet
 from utils import *
 from consts import *
 

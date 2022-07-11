@@ -15,6 +15,7 @@ data_args:
   eval_batch_size: 1  # Batch size for evaluation
 
 model_args:
+  embedding_model: glove-wiki-gigaword-50
   output_size: 5  # Should correspond to the number of classes
   dropout: 0.5  # Dropout of the final classifier in the model
   lstm_args:
