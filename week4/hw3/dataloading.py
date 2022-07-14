@@ -39,12 +39,12 @@ class TweetDataset(Dataset):
 
     def __len__(self):
         # Return the length of the dataset
-        return self.df.size
+        return len(self.df)
 
     def __getitem__(self, idx):
         # Get the row at idx
         input_ids = self.df.iloc[idx][INPUT_IDS]
-        label     = self.df.iloc[idx][label]
+        label     = self.df.iloc[idx][LABEL]
         # return the input_ids and the label as tensors, make sure to convert the label type to a long
         return torch.tensor(input_ids), torch.tensor(label, dtype=torch.long)
 
