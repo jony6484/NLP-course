@@ -19,7 +19,7 @@ from consts import *
 
 def train(training_args):
     # Setting up logging
-    #wandb.init(project=PROJECT_NAME, name=training_args.name, config=training_args)
+    wandb.init(project=PROJECT_NAME, name=training_args.name, config=training_args)
 
     pprint(training_args)
 
@@ -75,7 +75,9 @@ def train_loop(dataloader, model, loss_fn, optimizer, device, epoch):
         optimizer.zero_grad()
         loss.backward()
 
+
         # accumulate gradients: preform a optimization step every training_args.accumulate_grad_batches iterations, or when you reach the end of the epoch
+        optimizer.step()
         # Remember: iter_num starts at 0. If you set training_args.accumulate_grad_batches to 3, you want to preform your first optimization at the third iteration.
 
 
