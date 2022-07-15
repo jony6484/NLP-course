@@ -1,16 +1,62 @@
 program: train.py
-project: IMDB_Tutorial
-method: bayes
+project: HW3
+method: random
 metric:
   name: dev_accuracy
   goal: maximize
 parameters:
+  name:
+    value: lstm_sweep  # Experiment name to save in the logger
+  seed:
+    value:  42  # Random seed for reproducibility
+  num_epochs:
+    value: 50  # Number of epochs to train the model
   learning_rate:
-    min: 0.00001
-    max: 0.1
+    distribution: log_uniform
+    min: -11
+    max: -7
   accumulation_steps:
-    values: [1, 2, 4, 8, 16]
-  hidden_size:
-    values: [32, 64, 128, 256, 512]
-  num_layers:
-    values: [1, 2, 3, 4, 5]
+    values: [ 1, 2, 4, 8, 16 ]
+  do_train:
+    value: true
+  do_eval_on_train:
+    value: false  # Run evaluation on train set in the end of every epoch
+  do_eval:
+    value: true  # Evaluate on dev set at the end of every epoch
+  do_test:
+    value: false  # Evaluate on test set at the end of training
+
+  data_args:
+    max_seq_length:
+      values: [16, 32, 64]
+    batch_size:
+      values: [1, 2, 4]
+    shuffle:
+      value: True
+    eval_batch_size:
+      value: 1  # Batch size for evaluation
+
+  model_args:
+    embedding_model:
+      value: glove-wiki-gigaword-50
+    output_size:
+      value: 5  # Should correspond to the number of classes
+    dropout:
+      values: [0.2, 0.3, 0.5, 0.7]  # Dropout of the final classifier in the model
+    lstm_args:
+      input_size:
+        value: 50  # Size of the input to the LSTM
+      hidden_size :
+        values: [ 32, 64, 128, 256, 512 ] # Size of the hidden state of the LSTM
+      num_layers:
+        values: [1, 2, 3, 4, 5]
+      bias:
+        value: true
+      batch_first:
+        value: true
+      dropout:
+        value: 0.2
+      bidirectional:
+        value: true
+      proj_size:
+        value: 0

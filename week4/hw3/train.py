@@ -112,15 +112,32 @@ def eval_loop(dataloader, model, loss_fn, device, split, epoch):
     wandb.log({f"{split}_accuracy": accuracy, EPOCH: epoch})
 
 
-if __name__ == '__main__':
+def parse_args_for_sweep():
     parser = argparse.ArgumentParser(description='Train an LSTM model on the IMDB dataset.')
     parser.add_argument('--config', default='config.yaml', type=str,
                         help='Path to YAML config file. Defualt: config.yaml')
+    parser.add_argument('--learning_rate', default=None, type=float,
+                        help='learning_rate')
+    parser.add_argument('--accumulation_steps', default=None, type=int,
+                        help='learning_rate')
+    parser.add_argument('--hidden_size', default=None, type=int,
+                        help='learning_rate')
+    parser.add_argument('--num_layers', default=None, type=int,
+                        help='learning_rate')
     args = parser.parse_args()
-
     with open(args.config) as f:
         training_args = Box(yaml.load(f, Loader=yaml.FullLoader))
+    for arg, value in args._get_kwargs():
+        if value is not None:
+            if arg in training_args.keys():
+                training_args[arg] = value
+            elif arg in training_args.model_args.lstm_args.keys():
+                training_args.model_args.lstm_args[arg] = value
+    return training_args
 
+
+if __name__ == '__main__':
+    training_args = parse_args_for_sweep()
     train(training_args)
 
 
