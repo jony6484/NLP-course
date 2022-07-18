@@ -10,7 +10,7 @@ parameters:
     min: -11
     max: -7
   accumulation_steps:
-    values: [1, 2, 4,c 8, 16]
+    values: [1, 2, 4, 8, 16]
   hidden_size:
     values: [32, 64, 128, 256, 512]
   num_layers:
