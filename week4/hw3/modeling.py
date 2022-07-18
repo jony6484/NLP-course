@@ -25,22 +25,22 @@ class TweetNet(nn.Module):
             nn.Sigmoid()
         )
 
-    def forward(self, input_ids):
+    def forward(self, input_ids, lengths):
         # Embed
         embeds = self.embedding(input_ids)   # (1, seq_length) -> (1, seq_length, input_size)
 
-        # packed_embeds = torch.nn.utils.rnn.pack_padded_sequence(embeds, lengths=lengths, batch_first=True,
-        #                                                         enforce_sorted=False)
+        packed_embeds = torch.nn.utils.rnn.pack_padded_sequence(embeds, lengths=lengths, batch_first=True,
+                                                                enforce_sorted=False)
         # Run through LSTM and take the final layer's output
           # (1, seq_length, input_size) -> (1, max_seq_length, hidden_size)
-        lstm_out, _ = self.lstm(embeds)
+        lstm_packed_out, _ = self.lstm(packed_embeds)
+        lstm_out, _ = torch.nn.utils.rnn.pad_packed_sequence(lstm_packed_out, batch_first=True)
 
         # Take the mean of all the output vectors
-        seq_embeddings = (lstm_out.sum(dim=1).t() / torch.tensor(lstm_out.size(dim=1)).to(lstm_out.device)).t()  # (1, max_seq_length, hidden_size) -> (1, hidden_size)
+        seq_embeddings = (lstm_out.sum(dim=1).t() / lengths.to(lstm_out.device)).t()  # (1, max_seq_length, hidden_size) -> (1, hidden_size)
 
         # Classifier
         logits = self.classifier(seq_embeddings) # (1, hidden_size) -> (1, n_classes)
-        #logits = logits[:, 5]
         logits = logits.float()
         return logits
 
