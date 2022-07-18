@@ -37,7 +37,7 @@ def train(training_args):
         dev_dataset = TweetDataset(data_args, DATA_DIR + '/' + (DEV + CSV), train_dataset.vocab)
         dev_dataloader = DataLoader(dev_dataset, data_args.eval_batch_size)
     if training_args.do_test:
-        test_dataset = TweetDataset(data_args, DATA_DIR + '/' + (TEST + CSV), train_dataset.vocab)
+        test_dataset = TweetDataset(data_args, DATA_DIR + '/' + (TEST + CSV), train_dataset.vocab, training_args.do_test)
         test_dataloader = DataLoader(test_dataset, data_args.eval_batch_size)
 
     print("Initializing model")
@@ -56,7 +56,7 @@ def train(training_args):
             eval_loop(dev_dataloader, model, loss_fn, device, DEV, epoch)
 
     if training_args.do_test:
-        eval_loop(test_dataloader, model, loss_fn, device, TEST, epoch)
+        test_loop(test_dataloader, model, device, TEST)
 
     return
 
@@ -64,11 +64,11 @@ def train(training_args):
 def train_loop(dataloader, model, loss_fn, optimizer, device, epoch):
     model.train()
 
-    for iter_num, (input_ids, labels) in enumerate(tqdm(dataloader, desc="Train Loop")):
+    for iter_num, (input_ids, lengths, labels) in enumerate(tqdm(dataloader, desc="Train Loop")):
         input_ids, labels = input_ids.to(device), labels.to(device)
 
         # Compute prediction and loss
-        logits = model(input_ids)
+        logits = model(input_ids, lengths)
         loss = loss_fn(logits, labels)
         loss = loss / training_args.accumulation_steps
 
@@ -94,10 +94,10 @@ def eval_loop(dataloader, model, loss_fn, device, split, epoch):
     average_loss, correct = 0, 0
 
     with torch.no_grad():
-        for iter_num, (input_ids, labels) in enumerate(tqdm(dataloader, desc=f"Eval loop on {split}")):
+        for iter_num, (input_ids, lengths, labels) in enumerate(tqdm(dataloader, desc=f"Eval loop on {split}")):
             input_ids, labels = input_ids.to(device), labels.to(device)
 
-            logits = model(input_ids)
+            logits = model(input_ids, lengths)
 
             # Compute metrics
             average_loss += loss_fn(logits, labels).item()
@@ -110,6 +110,19 @@ def eval_loop(dataloader, model, loss_fn, device, split, epoch):
     # Log metrics, report everything twice for cross-model comparison too
     wandb.log({f"{split}_average_loss": average_loss, EPOCH: epoch})
     wandb.log({f"{split}_accuracy": accuracy, EPOCH: epoch})
+
+
+def test_loop(dataloader, model, device, split):
+    # Change model to eval mode
+    model.eval()
+
+    prediction = []
+    with torch.no_grad():
+        for iter_num, (input_ids, lengths) in enumerate(tqdm(dataloader, desc=f"Eval loop on {split}")):
+            input_ids = input_ids.to(device)
+            logits = model(input_ids, lengths)
+            prediction += (logits.argmax(dim=1).tolist())
+    save_competitive(DATA_DIR + '/' + (TEST + CSV), DATA_DIR + '/' + (COMPETITIVE + CSV), prediction)
 
 
 def parse_args_for_sweep():
