@@ -1,0 +1,101 @@
+2022-07-15 23:16:45 INFO Running runs: []
+2022-07-15 23:16:46 INFO Agent received command: run
+2022-07-15 23:16:46 INFO Agent starting run with config:
+	accumulation_steps: 2
+	hidden_size: 512
+	learning_rate: 0.00037503164428598465
+	num_layers: 1
+2022-07-15 23:16:46 INFO About to run command: python train.py --accumulation_steps=2 --hidden_size=512 --learning_rate=0.00037503164428598465 --num_layers=1
+2022-07-15 23:16:51 INFO Running runs: ['cy8l80xh']
+2022-07-15 23:16:51 INFO Cleaning up finished run: cy8l80xh
+2022-07-15 23:16:51 INFO Agent received command: run
+2022-07-15 23:16:51 INFO Agent starting run with config:
+	accumulation_steps: 8
+	hidden_size: 128
+	learning_rate: 6.827944075201236e-05
+	num_layers: 2
+2022-07-15 23:16:51 INFO About to run command: python train.py --accumulation_steps=8 --hidden_size=128 --learning_rate=6.827944075201236e-05 --num_layers=2
+2022-07-15 23:20:33 INFO Running runs: []
+2022-07-15 23:20:33 INFO Agent received command: run
+2022-07-15 23:20:33 INFO Agent starting run with config:
+	accumulation_steps: 16
+	hidden_size: 512
+	learning_rate: 0.00021154088101640344
+	num_layers: 3
+2022-07-15 23:20:33 INFO About to run command: python train.py --accumulation_steps=16 --hidden_size=512 --learning_rate=0.00021154088101640344 --num_layers=3
+2022-07-15 23:20:38 INFO Running runs: ['vc5nh6f7']
+2022-07-15 23:20:38 INFO Cleaning up finished run: vc5nh6f7
+2022-07-15 23:20:39 INFO Agent received command: run
+2022-07-15 23:20:39 INFO Agent starting run with config:
+	accumulation_steps: 8
+	hidden_size: 32
+	learning_rate: 0.0004812407114700948
+	num_layers: 4
+2022-07-15 23:20:39 INFO About to run command: python train.py --accumulation_steps=8 --hidden_size=32 --learning_rate=0.0004812407114700948 --num_layers=4
+2022-07-15 23:20:44 INFO Running runs: ['rl7q4pvd']
+2022-07-15 23:20:44 INFO Cleaning up finished run: rl7q4pvd
+2022-07-15 23:20:44 INFO Agent received command: run
+2022-07-15 23:20:44 INFO Agent starting run with config:
+	accumulation_steps: 1
+	hidden_size: 512
+	learning_rate: 0.0001818720164501174
+	num_layers: 5
+2022-07-15 23:20:44 INFO About to run command: python train.py --accumulation_steps=1 --hidden_size=512 --learning_rate=0.0001818720164501174 --num_layers=5
+2022-07-15 23:24:19 INFO Running runs: []
+2022-07-15 23:24:20 INFO Agent received command: run
+2022-07-15 23:24:20 INFO Agent starting run with config:
+	accumulation_steps: 4
+	hidden_size: 128
+	learning_rate: 0.00015040319887535533
+	num_layers: 5
+2022-07-15 23:24:20 INFO About to run command: python train.py --accumulation_steps=4 --hidden_size=128 --learning_rate=0.00015040319887535533 --num_layers=5
+2022-07-15 23:24:25 INFO Running runs: ['res0km49']
+2022-07-15 23:24:25 INFO Cleaning up finished run: res0km49
+2022-07-15 23:24:26 INFO Agent received command: run
+2022-07-15 23:24:26 INFO Agent starting run with config:
+	accumulation_steps: 16
+	hidden_size: 256
+	learning_rate: 0.00015735190416074144
+	num_layers: 5
+2022-07-15 23:24:26 INFO About to run command: python train.py --accumulation_steps=16 --hidden_size=256 --learning_rate=0.00015735190416074144 --num_layers=5
+2022-07-15 23:24:31 INFO Running runs: ['0of1almt']
+2022-07-15 23:24:31 INFO Cleaning up finished run: 0of1almt
+2022-07-15 23:24:31 INFO Agent received command: run
+2022-07-15 23:24:31 INFO Agent starting run with config:
+	accumulation_steps: 2
+	hidden_size: 128
+	learning_rate: 6.016940282484911e-05
+	num_layers: 1
+2022-07-15 23:24:31 INFO About to run command: python train.py --accumulation_steps=2 --hidden_size=128 --learning_rate=6.016940282484911e-05 --num_layers=1
+2022-07-15 23:24:36 INFO Running runs: ['ir7k2juv']
+2022-07-15 23:24:36 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2022-07-15 23:24:36 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2022-07-15 23:27:52 INFO Running runs: []
+2022-07-15 23:27:52 INFO Agent received command: run
+2022-07-15 23:27:52 INFO Agent starting run with config:
+	accumulation_steps: 1
+	hidden_size: 256
+	learning_rate: 0.0007849028123429948
+	num_layers: 5
+2022-07-15 23:27:52 INFO About to run command: python train.py --accumulation_steps=1 --hidden_size=256 --learning_rate=0.0007849028123429948 --num_layers=5
+2022-07-15 23:27:57 INFO Running runs: ['zyqhxep4']
+2022-07-15 23:27:57 INFO Cleaning up finished run: zyqhxep4
+2022-07-15 23:27:58 INFO Agent received command: run
+2022-07-15 23:27:58 INFO Agent starting run with config:
+	accumulation_steps: 4
+	hidden_size: 256
+	learning_rate: 1.838271018182285e-05
+	num_layers: 1
+2022-07-15 23:27:58 INFO About to run command: python train.py --accumulation_steps=4 --hidden_size=256 --learning_rate=1.838271018182285e-05 --num_layers=1
+2022-07-15 23:28:03 INFO Running runs: ['sua6ccsj']
+2022-07-15 23:28:03 INFO Cleaning up finished run: sua6ccsj
+2022-07-15 23:28:03 INFO Agent received command: run
+2022-07-15 23:28:03 INFO Agent starting run with config:
+	accumulation_steps: 4
+	hidden_size: 64
+	learning_rate: 0.00034913542027468803
+	num_layers: 2
+2022-07-15 23:28:03 INFO About to run command: python train.py --accumulation_steps=4 --hidden_size=64 --learning_rate=0.00034913542027468803 --num_layers=2
+2022-07-15 23:28:08 INFO Running runs: ['iobtf119']
+2022-07-15 23:28:08 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2022-07-15 23:28:08 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true

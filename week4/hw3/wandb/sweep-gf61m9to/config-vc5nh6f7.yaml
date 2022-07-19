@@ -1,0 +1,10 @@
+wandb_version: 1
+
+accumulation_steps:
+  value: 16
+hidden_size:
+  value: 512
+learning_rate:
+  value: 0.00021154088101640344
+num_layers:
+  value: 3

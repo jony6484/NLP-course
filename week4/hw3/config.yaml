@@ -1,4 +1,4 @@
-name: debug  # Experiment name to save in the logger
+name: hw_3  # Experiment name to save in the logger
 seed: 42  # Random seed for reproducibility
 num_epochs: 50  # Number of epochs to train the model
 learning_rate: 0.000020600584778871495
